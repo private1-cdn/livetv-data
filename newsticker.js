@@ -1,14 +1,8 @@
-[
-  {
-    "title": "Breaking: New streaming feature added",
-    "link": "https://example.com/news/1"
-  },
-  {
-    "title": "Sports: Championship final tonight at 8 PM",
-    "link": "https://example.com/sports"
-  },
-  {
-    "title": "Weather alert: Heavy rain expected tomorrow",
-    "link": ""
-  }
-]
+{
+  "news": [
+    "ব্রেকিং নিউজ: নিওস্ট্রিমে আপনাকে স্বাগতম!",
+    "আজকের শীর্ষ সংবাদ: সারা দেশে আবহাওয়া শুষ্ক থাকতে পারে।",
+    "খেলাধুলা: আসন্ন সিরিজ নিয়ে প্রস্তুতি শুরু করেছে বাংলাদেশ দল।",
+    "বিনোদন: নতুন সিনেমা নিয়ে আসছেন জনপ্রিয় চিত্রনায়ক।"
+  ]
+}
