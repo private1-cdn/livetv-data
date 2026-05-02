@@ -53,7 +53,7 @@
 
       "Red Bull": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RedBull-logo.webp",
-        "category": "Other",
+        "category": "Sports",
         "servers": [
           { "name": "Server 1", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8" },
           { "name": "Server 2", "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8" }
