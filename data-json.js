@@ -51,6 +51,15 @@
         ]
       },
 
+      "Red Bull": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RedBull-logo.webp",
+        "category": "Other",
+        "servers": [
+          { "name": "Server 1", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8" },
+          { "name": "Server 2", "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8" }
+        ]
+      },
+
       "Bangla Waz": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Waz-logo.webp",
         "category": "Islamic",
@@ -61,7 +70,7 @@
 
       "Peace TV Bangla": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/PeaceTVBangla-logo.webp",
-        "category": "Other",
+        "category": "Islamic",
         "servers": [
           { "name": "Server 1", "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=-AAs2UnhiEq4c2OtWsbmhQ" }
         ]
@@ -531,7 +540,7 @@
       },
 
       "Zoom": {
-        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/",
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Zoom-logo.webp",
         "category": "Indian",
         "servers": [
           { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/zoomin.stream/tracks-v1a1/mono.m3u8" }
@@ -543,6 +552,38 @@
         "category": "Other",
         "servers": [
           { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8" }
+        ]
+      },
+
+"Cartoon Network": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/CartoonNetwork-logo.webp",
+        "category": "Other",
+        "servers": [
+          { "name": "Server 1", "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8" }
+        ]
+      },
+
+"Discovery Asia": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DiscoveryAsia-logo.webp",
+        "category": "Other",
+        "servers": [
+          { "name": "Server 1", "url": "https://cdn1.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_2499968=15-mp4a_256000_eng=12.m3u8" }
+        ]
+      },
+
+"Sony Cine": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SonyCine-logo.webp",
+        "category": "Other",
+        "servers": [
+          { "name": "Server 1", "url": "https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8" }
+        ]
+      },
+
+"Sony Movies": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SonyMovies-logo.webp",
+        "category": "Other",
+        "servers": [
+          { "name": "Server 1", "url": "https://a-cdn.klowdtv.com/live1/smc_720p/chunks.m3u8" }
         ]
       }
 
