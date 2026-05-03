@@ -524,7 +524,7 @@
 
       "Cartoon Network": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/CartoonNetwork-logo.webp",
-        "category": "Other",
+        "category": "Cartoon",
         "servers": [
           { "name": "Server 1", "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8" }
         ]
@@ -548,7 +548,7 @@
       
       "Islamic TV": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/IslamicTV-logo.webp",
-        "category": "Bangla",
+        "category": "Islamic",
         "servers": [
           { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8" }
         ]
