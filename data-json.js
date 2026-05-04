@@ -10,6 +10,30 @@
         ]
       },
 
+      "T Sports": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://padmaonline.duckdns.org:8088/T-S-HD/tracks-v1a1/mono.m3u8" }
+        ]
+      },
+
+      "Willow": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Willow-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://cdn1.ctgiptv.com/willow-cricket/tracks-v1/mono.ts.m3u8" }
+        ]
+      },
+
+      "Star Sports 1": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/StarSports1-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://starsportshindiii.pages.dev/720p.m3u8" }
+        ]
+      },
+
       "Bein Sports 1": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BeinSports1-logo.webp",
         "category": "Sports",
@@ -50,12 +74,100 @@
         ]
       },
 
+      "beIN SPORTS XTRA": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/beINSPORTSXTRA-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://bein-esp-xumo.amagi.tv/playlistR480p.m3u8" }
+        ]
+      },
+
+      "LaLiga TV": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/LaLigaTV-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1731/output/1731-audio_113612_eng=113200-video=3224800.m3u8" }
+        ]
+      },
+
+      "Real Madrid TV": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RealMadridTV-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8" }
+        ]
+      },
+
+      "Premier League": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/PremierLeague-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-240p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
+        ]
+      },
+
       "Red Bull": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RedBull-logo.webp",
         "category": "Sports",
         "servers": [
           { "name": "Server 1", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8" },
           { "name": "Server 2", "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8" }
+        ]
+      },
+
+      "A Spor": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ASpor-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8" }
+        ]
+      },
+
+      "Crazy EX": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/CrazyEx-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/chunks.m3u8" }
+        ]
+      },
+
+      "DD Sports": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DDSports-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8" }
+        ]
+      },
+
+      "Fighters": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Fighters.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/fighter/chunks.m3u8" }
+        ]
+      },
+
+      "Fubo TV": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/FuboTV-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://wurlfubo.global.transmit.live/us-east-1-a/manifest/67f42332d3dd98936978f581/78afd2eb-ed9b-493f-bd62-214402688ea6/v1/fubotv_fubo_sports_network_1/lg_us/latest/main/hls/video-avc1.640028-mp4a.40.2-0.m3u8?h=1080&playlistUri=https%253A%252F%252Fad993ce7.wurl.com%252Fv1%252Ffubotv_fubo_sports_network_1%252Flg_us%252FV00000001%252F0%252FHLS%252F1.m3u8&sessionStart=1777862492852&streamPath=v1%2Ffubotv_fubo_sports_network_1%2Flg_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8&uid=USER_ID&w=1920" }
+        ]
+      },
+
+      "Rally TV": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RallyTV-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master_20260422_8000.m3u8" }
+        ]
+      },
+
+      "Xtrem Sports": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/XtremSports-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://streams2.sofast.tv/ptnr-yupptv/title-XTREM-SPORTS-ENG_yupptv/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/688def10-3c68-463e-821b-1259b485edda/2.m3u8" }
         ]
       },
 
@@ -526,7 +638,8 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/CartoonNetwork-logo.webp",
         "category": "Cartoon",
         "servers": [
-          { "name": "Server 1", "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8" }
+          { "name": "Server 1", "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8" },
+          { "name": "Server 2", "url": "https://s3.ideationtec.live/Cartoon_Network/Cartoon_Network.m3u8" }
         ]
       },
 
@@ -583,6 +696,14 @@
         "category": "International News",
         "servers": [
           { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8" }
+        ]
+      },
+
+      "BBC News": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BBCNews-logo.webp",
+        "category": "International News",
+        "servers": [
+          { "name": "Server 1", "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8" }
         ]
       }
 
