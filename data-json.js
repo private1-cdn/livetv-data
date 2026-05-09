@@ -1,7 +1,7 @@
 {
       "Cricket": {
   "category": "Pin",
-  "status": "",
+  "status": "Pending",
   "time-date": "11:00 PM | 08-05-2026",
   "team": [
     { "name": "Bangladesh", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLHk4-GCXixRBHaFQZjDv1AD_3qEB8sZPR5zGsdapg8A&s=10" },
