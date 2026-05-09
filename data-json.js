@@ -2,7 +2,7 @@
       "Cricket": {
   "category": "Pin",
   "status": "",
-  "time-date": "11:00 PM | 10-05-2026",
+  "time-date": "11:00 PM | 08-05-2026",
   "team": [
     { "name": "Bangladesh", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLHk4-GCXixRBHaFQZjDv1AD_3qEB8sZPR5zGsdapg8A&s=10" },
     { "name": "Pakistan", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrxsCzk80koxNm-PEl2CgxoJ3vR_hnTLpBzmf1XRKp5A&s=10" }
