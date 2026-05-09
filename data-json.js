@@ -1,14 +1,16 @@
 {
-      "Football": {
-        "logo": "https://png.pngtree.com/thumb_back/fw800/background/20260422/pngtree-world-cup-fifa-2026-background-image_21742119.webp",
-        "category": "Pin",
-        "title": "FIFA World Cup 2026",
-        "time-date": "01:00 AM | 12-06-2026",
-        "status": "",
-        "servers": [
-          { "name": "Server 1", "url": "#" }
-        ]
-      },
+      "Cricket": {
+  "category": "Pin",
+  "status": "Coming",
+  "time-date": "01:00 AM | 12-06-2026",
+  "team": [
+    { "name": "Bangladesh", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLHk4-GCXixRBHaFQZjDv1AD_3qEB8sZPR5zGsdapg8A&s=10" },
+    { "name": "Pakistan", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrxsCzk80koxNm-PEl2CgxoJ3vR_hnTLpBzmf1XRKp5A&s=10" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "#" }
+  ]
+},
 
       "T Sports": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
