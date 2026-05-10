@@ -24,7 +24,7 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Willow-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://cdn1.ctgiptv.com/willow-cricket/tracks-v1/mono.ts.m3u8" }
+          { "name": "Server 1", "url": "https://cdn1.ctgiptv.com/willow-cricket/tracks-a1v1/mono.ts.m3u8" }
         ]
       },
 
