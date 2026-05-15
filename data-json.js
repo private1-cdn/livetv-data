@@ -12,7 +12,7 @@
   ]
 },
 
-      "Cricket": {
+      "Cricket | ICC World Test Championship": {
   "category": "Pin",
   "status": "",
   "time-date": "10:00 PM | 16-05-2026",
