@@ -114,6 +114,14 @@
         ]
       },
 
+      "Sports Legends": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SportsLegends-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/chunks.m3u8" }
+        ]
+      },
+
       "Premier League": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/PremierLeague-logo.webp",
         "category": "Sports",
@@ -175,7 +183,7 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RallyTV-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master_20260422_8000.m3u8" }
+          { "name": "Server 1", "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master_20260509_8000.m3u8" }
         ]
       },
 
@@ -354,11 +362,27 @@
         ]
       },
 
+"Asian TV": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/AsianTV-logo.webp",
+        "category": "Bangladeshi",
+        "servers": [
+          { "name": "Server 1", "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8" }
+        ]
+      },
+
       "Mohona TV": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MohonaTV-logo.webp",
         "category": "Bangladeshi",
         "servers": [
           { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8" }
+        ]
+      },
+
+"My TV": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MyTV-logo.webp",
+        "category": "Bangladeshi",
+        "servers": [
+          { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8" }
         ]
       },
 
@@ -631,6 +655,22 @@
         "category": "Cartoon",
         "servers": [
           { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8" }
+        ]
+      },
+
+"Motu Patlu": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MotuPatlu-logo.webp",
+        "category": "Cartoon",
+        "servers": [
+          { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8" }
+        ]
+      },
+
+"Doraemon": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Doraemon-logo.webp",
+        "category": "Cartoon",
+        "servers": [
+          { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8" }
         ]
       },
 
