@@ -682,6 +682,14 @@
         ]
       },
 
+"Nikky": {
+        "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Nikky-logo.webp",
+        "category": "Cartoon",
+        "servers": [
+          { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/nikky/chunks.m3u8" }
+        ]
+      },
+
       "ZB Cartoon": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ZBCartoon-logo.webp",
         "category": "Cartoon",
