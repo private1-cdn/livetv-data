@@ -350,7 +350,8 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BoishakhiTV-logo.webp",
         "category": "Bangladeshi",
         "servers": [
-          { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8" }
+          { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8" },
+          { "name": "Server 2", "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8" }
         ]
       },
 
@@ -566,7 +567,8 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GoldminesMovies-logo.webp",
         "category": "Indian",
         "servers": [
-          { "name": "Server 1", "url": "https://cdn-2.pishow.tv/live/1461/1461_1.m3u8" }
+          { "name": "Server 1", "url": "https://cdn-2.pishow.tv/live/1460/1460_1.m3u8" },
+          { "name": "Server 2", "url": "https://cdn-2.pishow.tv/live/1461/1461_1.m3u8" }
         ]
       },
 
@@ -630,7 +632,8 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BalleBalle-logo.webp",
         "category": "Indian",
         "servers": [
-          { "name": "Server 1", "url": "https://cdn-4.pishow.tv/live/987/master.m3u8" }
+          { "name": "Server 1", "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8" },
+          { "name": "Server 2", "url": "https://cdn-4.pishow.tv/live/987/master.m3u8" }
         ]
       },
 
