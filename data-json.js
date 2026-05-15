@@ -30,7 +30,7 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://padmaonline.duckdns.org:8088/T-S-HD/tracks-v1a1/mono.m3u8" }
+          { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" }
         ]
       },
 
@@ -38,7 +38,7 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Willow-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://cdn1.ctgiptv.com/willow-cricket/tracks-a1v1/mono.ts.m3u8" }
+          { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
         ]
       },
 
