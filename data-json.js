@@ -12,6 +12,19 @@
   ]
 },
 
+      "Cricket": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "10:00 PM | 16-05-2026",
+  "team": [
+    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
+    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "#" }
+  ]
+},
+
       "T Sports": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
         "category": "Sports",
