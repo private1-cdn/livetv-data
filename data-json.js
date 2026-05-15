@@ -8,7 +8,7 @@
     { "name": "Pakistan", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrxsCzk80koxNm-PEl2CgxoJ3vR_hnTLpBzmf1XRKp5A&s=10" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "#" }
+    { "name": "Server 1", "url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd" }
   ]
 },
 
