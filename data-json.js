@@ -1,16 +1,4 @@
 {     
-      "Cricket | Indian Premier League": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "08:00 PM | 15-05-2026",
-  "team": [
-    { "name": "LSG", "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png" },
-    { "name": "CSK", "logo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
-  ]
-},
 
       "Cricket | ICC World Test Championship": {
   "category": "Pin",
@@ -19,6 +7,19 @@
   "team": [
     { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
     { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "#" }
+  ]
+},
+
+      "Cricket | Indian Premier League": {
+  "category": "Pin",
+  "status": "End",
+  "time-date": "08:00 PM | 15-05-2026",
+  "team": [
+    { "name": "LSG", "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png" },
+    { "name": "CSK", "logo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png" }
   ],
   "servers": [
     { "name": "Server 1", "url": "#" }
