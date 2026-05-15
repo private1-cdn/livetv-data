@@ -8,8 +8,7 @@
     { "name": "CSK", "logo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-    { "name": "Server 2", "url": "https://starsportshindiii.pages.dev/720p.m3u8" }
+    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
   ]
 },
 
