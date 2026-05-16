@@ -2,18 +2,14 @@
 
       "Cricket | ICC World Test Championship": {
   "category": "Pin",
-  "status": "",
+  "status": "End",
   "time-date": "10:00 AM | 16-05-2026",
   "team": [
     { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
     { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-    { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-    { "name": "Server 3", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
-    { "name": "Server 4", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8" },
-    { "name": "Server 5", "url": "https://bd-mc-fblive.fancode.com/mumbai/142161_english_hls_e85dce235970990_1ta-di_h264/1080p.m3u8" }
+    { "name": "Server 1", "url": "#" }
   ]
 },
 
