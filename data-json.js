@@ -197,7 +197,7 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/XtremSports-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://streams2.sofast.tv/ptnr-yupptv/title-XTREM-SPORTS-ENG_yupptv/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/688def10-3c68-463e-821b-1259b485edda/2.m3u8" }
+          { "name": "Server 1", "url": "https://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1_HD&uid=999&pass=999" }
         ]
       },
 
