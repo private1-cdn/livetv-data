@@ -1,22 +1,5 @@
 {     
 
-      "Cricket | ICC World Test Championship": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "10:00 AM | 16-05-2026",
-  "team": [
-    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
-    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-        { "name": "Server 3", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
-        { "name": "Server 4", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8" },
-        { "name": "Server 5", "url": "https://bd-mc-plive.fancode.com/mumbai/142161_english_hls_e85dce235974353_1ta-di_h264/1080p.m3u8?hdntl=Expires=1779075843~_GO=Generated~acl=/mumbai/142161_english_hls_e85dce235974353_1ta-di_h264/*~Signature=AQoI29Ka5ySqdrfGHU3qUO4_lqZmWmQwjiFvHQmgoGbDVCl6RMcLS5LZZOHWhyZatULK8i-rATSnKTPavmJbOH1G-EcJ" }
-  ]
-},
-
       "Cricket | IPL 1": {
   "category": "Pin",
   "status": "",
@@ -118,6 +101,23 @@
   ],
   "servers": [
     { "name": "Server 1", "url": "https://d3bb58xoj568xi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/fb7ba5c6-15a0-4c2a-84d4-5f82390085c6/2.m3u8" }
+  ]
+},
+
+"Cricket | ICC World Test Championship": {
+  "category": "Pin",
+  "status": "End",
+  "time-date": "10:00 AM | 16-05-2026",
+  "team": [
+    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
+    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
+        { "name": "Server 3", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
+        { "name": "Server 4", "url": "#" },
+        { "name": "Server 5", "url": "#" }
   ]
 },
 
