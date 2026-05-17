@@ -1,18 +1,5 @@
 {     
 
-      "Cricket | IPL 1": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "04:00 PM | 17-05-2026",
-  "team": [
-    { "name": "PBKS", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/kings-xi-punjab.png?w=54" },
-    { "name": "RCB", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/royal-challengers-bangalore.png?w=54" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
-  ]
-},
-
        "Cricket | IPL 2": {
   "category": "Pin",
   "status": "",
