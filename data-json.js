@@ -30,6 +30,19 @@
   ]
 },
 
+       "Cricket | IPL 2": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "08:00 PM | 17-05-2026",
+  "team": [
+    { "name": "DC", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/delhi-daredevils.png?w=64" },
+    { "name": "RR", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/rajasthan-royals.png?w=64" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
+  ]
+},
+
       
       "T Sports": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
