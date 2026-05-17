@@ -30,6 +30,19 @@
   ]
 },
 
+      "Football | EPL 1": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "04:30 PM | 17-05-2026",
+  "team": [
+    { "name": "Man Utd", "logo": "https://img.sofascore.com/api/v1/team/35/image" },
+    { "name": "Forest", "logo": "https://img.sofascore.com/api/v1/team/14/image" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_STAR_SPORTS_SELECT_1_HD&uid=999&pass=999" }
+  ]
+},
+
        "Cricket | IPL 2": {
   "category": "Pin",
   "status": "",
