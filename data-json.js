@@ -95,6 +95,19 @@
   ]
 },
 
+      "La Liga | Sports 2": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "11:00 PM | 17-05-2026",
+  "team": [
+    { "name": "Sevilla", "logo": "https://img.sofascore.com/api/v1/team/2833/image" },
+    { "name": "Real Madrid", "logo": "https://img.sofascore.com/api/v1/team/2829/image" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8" }
+  ]
+},
+
       
       "T Sports": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
