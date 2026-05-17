@@ -9,20 +9,7 @@
     { "name": "RR", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/rajasthan-royals.png?w=64" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://edge2.roarzone.net:8447/roarzone/edge2/star-sports-2/tracks-v1a1/mono.m3u8?token=e3c5e07a4d8172ee73cfc48f3ffde9e30e031b36-0c4b8185fdc84667cdda746d97ae4e2f-1779037080-1779026280" }
-  ]
-},
-
-       "Football | EPL 2": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "08:00 PM | 17-05-2026",
-  "team": [
-    { "name": "Brentford", "logo": "https://resources.premierleague.com/premierleague25/badges-alt/94.svg" },
-    { "name": "Palace", "logo": "https://resources.premierleague.com/premierleague25/badges-alt/31.svg" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
+    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u88185fdc84667cdda746d97ae4e2f-1779037080-1779026280" }
   ]
 },
 
