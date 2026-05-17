@@ -17,16 +17,16 @@
   ]
 },
 
-      "Cricket | Indian Premier League": {
+      "Cricket | IPL 1": {
   "category": "Pin",
-  "status": "End",
-  "time-date": "08:00 PM | 15-05-2026",
+  "status": "",
+  "time-date": "04:00 PM | 17-05-2026",
   "team": [
-    { "name": "LSG", "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png" },
-    { "name": "CSK", "logo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png" }
+    { "name": "PBKS", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/kings-xi-punjab.png?w=54" },
+    { "name": "RCB", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/royal-challengers-bangalore.png?w=54" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "#" }
+    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
   ]
 },
 
