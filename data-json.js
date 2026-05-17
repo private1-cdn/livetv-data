@@ -106,8 +106,8 @@
 
 "Cricket | ICC World Test Championship": {
   "category": "Pin",
-  "status": "End",
-  "time-date": "10:00 AM | 16-05-2026",
+  "status": "",
+  "time-date": "10:00 AM | 18-05-2026",
   "team": [
     { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
     { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
