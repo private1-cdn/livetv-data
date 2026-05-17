@@ -65,7 +65,7 @@
     { "name": "Palace", "logo": "https://resources.premierleague.com/premierleague25/badges-alt/31.svg" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_STAR_SPORTS_SELECT_1_HD&uid=999&pass=999" }
+    { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
   ]
 },
 
@@ -78,7 +78,7 @@
     { "name": "West Ham", "logo": "https://resources.premierleague.com/premierleague25/badges-alt/21.svg" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_STAR_SPORTS_SELECT_1_HD&uid=999&pass=999" }
+    { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
   ]
 },
 
