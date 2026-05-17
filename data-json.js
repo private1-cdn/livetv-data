@@ -22,7 +22,7 @@
     { "name": "RR", "logo": "https://staticg.sportskeeda.com/skm/assets/team-logos/cricket/rajasthan-royals.png?w=64" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
+    { "name": "Server 1", "url": "https://edge2.roarzone.net:8447/roarzone/edge2/star-sports-2/tracks-v1a1/mono.m3u8?token=e3c5e07a4d8172ee73cfc48f3ffde9e30e031b36-0c4b8185fdc84667cdda746d97ae4e2f-1779037080-1779026280" }
   ]
 },
 
