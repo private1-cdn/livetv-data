@@ -11,7 +11,7 @@
   "servers": [
     { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
         { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-       { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" }
+       { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" },
         { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
         { "name": "Server 5", "url": "#" },
         { "name": "Server 6", "url": "#" }
@@ -33,7 +33,8 @@
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Willow-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
+          { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
+          { "name": "Server 2", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/willowhd.m3u8" }
         ]
       },
 
