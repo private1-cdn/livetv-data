@@ -23,8 +23,8 @@
   "status": "",
   "time-date": "05:30 PM | 19-05-2026",
   "team": [
-    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
-    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
+    { "name": "Bashundhara", "logo": "https://img.sofascore.com/api/v1/team/264278/image" },
+    { "name": "Mohammedan", "logo": "https://img.sofascore.com/api/v1/team/233643/image" }
   ],
   "servers": [
     { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
