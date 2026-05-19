@@ -33,6 +33,20 @@
   ]
 },
 
+  "Cricket | IPL": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "08:00 PM | 19-05-2026",
+  "team": [
+    { "name": "RR", "logo": "https://img.sofascore.com/api/v1/team/187842/image" },
+    { "name": "LSG", "logo": "https://img.sofascore.com/api/v1/team/410010/image" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
+    { "name": "Server 2", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/willowhd.m3u8" }
+  ]
+},
+
       
       "T Sports": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
