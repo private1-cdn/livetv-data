@@ -1,21 +1,5 @@
 {     
 
-"Cricket | ICC World Test Championship": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "10:00 AM | 19-05-2026",
-  "team": [
-    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
-    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-       { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" },
-        { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
-  ]
-},
-
   "Football | Federation Cup": {
   "category": "Pin",
   "status": "",
@@ -68,6 +52,22 @@
   ],
   "servers": [
     { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
+  ]
+},
+
+  "Cricket | ICC World Test Championship": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "10:00 AM | 20-05-2026",
+  "team": [
+    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
+    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
+       { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" },
+        { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
   ]
 },
 
