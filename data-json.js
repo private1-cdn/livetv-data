@@ -1,45 +1,5 @@
 {     
 
-  "Cricket | IPL": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "08:00 PM | 19-05-2026",
-  "team": [
-    { "name": "RR", "logo": "https://img.sofascore.com/api/v1/team/187842/image" },
-    { "name": "LSG", "logo": "https://img.sofascore.com/api/v1/team/410010/image" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-    { "name": "Server 2", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/willowhd.m3u8" }
-  ]
-},
-
-  "Football | EPL 1": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "12:30 AM | 20-05-2026",
-  "team": [
-    { "name": "Bournemouth", "logo": "https://img.sofascore.com/api/v1/team/60/image" },
-    { "name": "Man City", "logo": "https://img.sofascore.com/api/v1/team/17/image" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
-  ]
-},
-
-  "Football | EPL 2": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "01:15 AM | 20-05-2026",
-  "team": [
-    { "name": "Chelsea", "logo": "https://img.sofascore.com/api/v1/team/38/image" },
-    { "name": "Tottenham", "logo": "https://img.sofascore.com/api/v1/team/33/image" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
-  ]
-},
-
   "Cricket | ICC World Test Championship": {
   "category": "Pin",
   "status": "",
