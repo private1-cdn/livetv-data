@@ -1,20 +1,5 @@
 {     
 
-  "Football | Federation Cup": {
-  "category": "Pin",
-  "status": "",
-  "time-date": "05:30 PM | 19-05-2026",
-  "team": [
-    { "name": "Bashundhara", "logo": "https://img.sofascore.com/api/v1/team/264278/image" },
-    { "name": "Mohammedan", "logo": "https://img.sofascore.com/api/v1/team/233643/image" }
-  ],
-  "servers": [
-    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-       { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" }
-  ]
-},
-
   "Cricket | IPL": {
   "category": "Pin",
   "status": "",
