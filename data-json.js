@@ -47,6 +47,19 @@
   ]
 },
 
+  "Football | EPL": {
+  "category": "Pin",
+  "status": "",
+  "time-date": "12:30 PM | 20-05-2026",
+  "team": [
+    { "name": "Bournemouth", "logo": "https://img.sofascore.com/api/v1/team/60/image" },
+    { "name": "Man City", "logo": "https://img.sofascore.com/api/v1/team/17/image" }
+  ],
+  "servers": [
+    { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
+  ]
+},
+
       
       "T Sports": {
         "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
