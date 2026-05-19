@@ -12,9 +12,7 @@
     { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
         { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
        { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" },
-        { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
-        { "name": "Server 5", "url": "#" },
-        { "name": "Server 6", "url": "#" }
+        { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
   ]
 },
 
@@ -50,7 +48,7 @@
   "Football | EPL": {
   "category": "Pin",
   "status": "",
-  "time-date": "12:30 PM | 20-05-2026",
+  "time-date": "12:30 AM | 20-05-2026",
   "team": [
     { "name": "Bournemouth", "logo": "https://img.sofascore.com/api/v1/team/60/image" },
     { "name": "Man City", "logo": "https://img.sofascore.com/api/v1/team/17/image" }
