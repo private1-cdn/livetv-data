@@ -2,7 +2,7 @@
 
   "Cricket | ICC World Test Championship": {
   "category": "Pin",
-  "status": "",
+  "status": "End",
   "time-date": "10:00 AM | 20-05-2026",
   "team": [
     { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
