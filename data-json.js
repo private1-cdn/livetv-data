@@ -2,7 +2,7 @@
 
   "Cricket | IPL": {
   "category": "Pin",
-  "status": "",
+  "status": "End",
   "time-date": "08:00 PM | 23-05-2026",
   "team": [
     { "name": "LSG", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/415000/415032.png" },
