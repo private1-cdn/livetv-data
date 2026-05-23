@@ -1,18 +1,16 @@
 {     
 
-  "Cricket | ICC World Test Championship": {
+  "Cricket | IPL": {
   "category": "Pin",
-  "status": "End",
-  "time-date": "10:00 AM | 20-05-2026",
+  "status": "",
+  "time-date": "08:00 PM | 23-05-2026",
   "team": [
-    { "name": "BAN", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776210/bangladesh.jpg" },
-    { "name": "PAK", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776308/pakistan.jpg" }
+    { "name": "LSG", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/415000/415032.png" },
+    { "name": "PBKS", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414846.png" }
   ],
   "servers": [
-    { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-       { "name": "Server 3", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/tsports-hd.m3u8" },
-        { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
+    { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/willowhd.m3u8" }
   ]
 },
 
