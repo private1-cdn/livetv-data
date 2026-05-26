@@ -2,7 +2,7 @@
 
   "Cricket | IPL": {
   "category": "Pin",
-  "status": "",
+  "status": "End",
   "time-date": "08:00 PM | 26-05-2026",
   "team": [
     { "name": "RCB", "logo": "https://scores.iplt20.com/ipl/teamlogos/NVAlbtIyB81740555172aFPMviEPyJ1710927747rcb.png" },
