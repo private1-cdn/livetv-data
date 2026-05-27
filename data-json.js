@@ -2,7 +2,7 @@
 
   "Cricket | IPL": {
   "category": "Pin",
-  "status": "",
+  "status": "End",
   "time-date": "08:00 PM | 27-05-2026",
   "team": [
     { "name": "SRH", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414845.png" },
@@ -16,7 +16,7 @@
 
   "Football | Conference League": {
   "category": "Pin",
-  "status": "",
+  "status": "End",
   "time-date": "01:00 AM | 28-05-2026",
   "team": [
     { "name": "Palace", "logo": "https://img.sofascore.com/api/v1/team/7/image" },
