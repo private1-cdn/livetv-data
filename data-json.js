@@ -5,8 +5,8 @@
   "status": "End",
   "time-date": "08:00 PM | 26-05-2026",
   "team": [
-    { "name": "RCB", "logo": "https://scores.iplt20.com/ipl/teamlogos/NVAlbtIyB81740555172aFPMviEPyJ1710927747rcb.png" },
-    { "name": "GT", "logo": "https://scores.iplt20.com/ipl/teamlogos/Rwz7jmxIFN1774445093GT.png" }
+    { "name": "SRH", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414845.png" },
+    { "name": "RR", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/400400/400406.png" }
   ],
   "servers": [
     { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
