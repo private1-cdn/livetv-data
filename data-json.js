@@ -43,7 +43,7 @@
         "category": "Sports",
         "servers": [
           { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-          { "name": "Server 2", "url": "https://aynaott.sulfuricacid.workers.dev/Fallback/willowhd.m3u8" }
+          { "name": "Server 2", "url": "http://151.80.18.177:86/Canal+_sport_HD/tracks-v1a1/mono.m3u8" }
         ]
       },
 
