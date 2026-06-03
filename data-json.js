@@ -7,37 +7,7 @@ export const welcome = [
 
 
 
-export const pin = [
-  {
-    "Cricket | Testing": {
-      "category": "Pin",
-      "status": "",
-      "time-date": "08:00 PM | 04-06-2026",
-      "team": [
-        { "name": "SRH", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414845.png" },
-        { "name": "RR", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/400400/400406.png" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8" }
-      ]
-    }
-  },
-  {
-    "Football | Conference League": {
-      "category": "Pin",
-      "status": "End",
-      "time-date": "01:00 AM | 28-05-2026",
-      "team": [
-        { "name": "Palace", "logo": "https://img.sofascore.com/api/v1/team/7/image" },
-        { "name": "Rayo Vallecano", "logo": "https://img.sofascore.com/api/v1/team/2818/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "#" }
-      ]
-    }
-  }
-];
+
 
 
 
