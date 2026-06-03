@@ -33,7 +33,7 @@ export const pin = [
 
 
 
-[
+export const channels = [
   {
     "T Sports": {
       "logo": "TSports-logo.webp",
