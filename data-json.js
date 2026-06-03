@@ -891,7 +891,7 @@ export const channels = [
 export const radio = [
   {
     "96.4": {
-      "logo": "TSports-logo.webp",
+      "logo": "96.4-logo.webp",
       "servers": [
         { "name": "Server 1", "url": "https://stream.spicefmbd.com/stream.m3u8" }
       ]
