@@ -9,10 +9,10 @@ export const welcome = [
 
 export const pin = [
   {
-    "Cricket | IPL": {
+    "Cricket | Testing": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "08:00 PM | 27-05-2026",
+      "status": "",
+      "time-date": "08:00 PM | 04-06-2026",
       "team": [
         { "name": "SRH", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414845.png" },
         { "name": "RR", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/400400/400406.png" }
