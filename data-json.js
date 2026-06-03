@@ -33,10 +33,10 @@ export const pin = [
 
 
 
-export const channels = [
+[
   {
     "T Sports": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TSports-logo.webp",
+      "logo": "TSports-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
@@ -47,7 +47,7 @@ export const channels = [
   },
   {
     "Willow": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Willow-logo.webp",
+      "logo": "Willow-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
@@ -57,7 +57,7 @@ export const channels = [
   },
   {
     "Star Sports 1": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/StarSports1-logo.webp",
+      "logo": "StarSports1-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8" }
@@ -66,7 +66,7 @@ export const channels = [
   },
   {
     "Bein Sports 1": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BeinSports1-logo.webp",
+      "logo": "BeinSports1-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs1.m3u8" }
@@ -75,7 +75,7 @@ export const channels = [
   },
   {
     "Bein Sports 2": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BeinSports2-logo.webp",
+      "logo": "BeinSports2-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs2.m3u8" }
@@ -84,7 +84,7 @@ export const channels = [
   },
   {
     "Bein Sports 3": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BeinSports3-logo.webp",
+      "logo": "BeinSports3-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs3.m3u8" }
@@ -93,7 +93,7 @@ export const channels = [
   },
   {
     "Bein Sports 4": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BeinSports4-logo.webp",
+      "logo": "BeinSports4-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs4.m3u8" }
@@ -102,7 +102,7 @@ export const channels = [
   },
   {
     "Bein Sports 5": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BeinSports5-logo.webp",
+      "logo": "BeinSports5-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs5.m3u8" }
@@ -111,7 +111,7 @@ export const channels = [
   },
   {
     "beIN SPORTS XTRA": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/beINSPORTSXTRA-logo.webp",
+      "logo": "beINSPORTSXTRA-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://bein-esp-xumo.amagi.tv/playlistR480p.m3u8" }
@@ -120,7 +120,7 @@ export const channels = [
   },
   {
     "LaLiga TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/LaLigaTV-logo.webp",
+      "logo": "LaLigaTV-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://d3bb58xoj568xi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/fb7ba5c6-15a0-4c2a-84d4-5f82390085c6/2.m3u8" }
@@ -129,7 +129,7 @@ export const channels = [
   },
   {
     "Real Madrid TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RealMadridTV-logo.webp",
+      "logo": "RealMadridTV-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8" }
@@ -138,7 +138,7 @@ export const channels = [
   },
   {
     "Sports Legends": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SportsLegends-logo.webp",
+      "logo": "SportsLegends-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/chunks.m3u8" }
@@ -147,7 +147,7 @@ export const channels = [
   },
   {
     "Premier League": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/PremierLeague-logo.webp",
+      "logo": "PremierLeague-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
@@ -156,7 +156,7 @@ export const channels = [
   },
   {
     "Red Bull": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RedBull-logo.webp",
+      "logo": "RedBull-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8" },
@@ -166,7 +166,7 @@ export const channels = [
   },
   {
     "A Spor": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ASpor-logo.webp",
+      "logo": "ASpor-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8" }
@@ -175,7 +175,7 @@ export const channels = [
   },
   {
     "Crazy EX": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/CrazyEx-logo.webp",
+      "logo": "CrazyEx-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/chunks.m3u8" }
@@ -184,7 +184,7 @@ export const channels = [
   },
   {
     "DD Sports": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DDSports-logo.webp",
+      "logo": "DDSports-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8" }
@@ -193,7 +193,7 @@ export const channels = [
   },
   {
     "Fighters": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Fighters.webp",
+      "logo": "Fighters.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/fighter/chunks.m3u8" }
@@ -202,7 +202,7 @@ export const channels = [
   },
   {
     "Fubo TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/FuboTV-logo.webp",
+      "logo": "FuboTV-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://wurlfubo.global.transmit.live/us-east-1-a/manifest/67f42332d3dd98936978f581/78afd2eb-ed9b-493f-bd62-214402688ea6/v1/fubotv_fubo_sports_network_1/lg_us/latest/main/hls/video-avc1.640028-mp4a.40.2-0.m3u8?h=1080&playlistUri=https%253A%252F%252Fad993ce7.wurl.com%252Fv1%252Ffubotv_fubo_sports_network_1%252Flg_us%252FV00000001%252F0%252FHLS%252F1.m3u8&sessionStart=1777862492852&streamPath=v1%2Ffubotv_fubo_sports_network_1%2Flg_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8&uid=USER_ID&w=1920" }
@@ -211,7 +211,7 @@ export const channels = [
   },
   {
     "Rally TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/RallyTV-logo.webp",
+      "logo": "RallyTV-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master_20260509_8000.m3u8" }
@@ -220,7 +220,7 @@ export const channels = [
   },
   {
     "Xtrem Sports": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/XtremSports-logo.webp",
+      "logo": "XtremSports-logo.webp",
       "category": "Sports",
       "servers": [
         { "name": "Server 1", "url": "https://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1_HD&uid=999&pass=999" }
@@ -229,7 +229,7 @@ export const channels = [
   },
   {
     "BTV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BTV-logo.webp",
+      "logo": "BTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8" }
@@ -238,7 +238,7 @@ export const channels = [
   },
   {
     "Sangsad TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SangsadTV-logo.webp",
+      "logo": "SangsadTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8" }
@@ -247,7 +247,7 @@ export const channels = [
   },
   {
     "Somoy TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SomoyTV-logo.webp",
+      "logo": "SomoyTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8" },
@@ -257,7 +257,7 @@ export const channels = [
   },
   {
     "Jamuna TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/JamunaTV-logo.webp",
+      "logo": "JamunaTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8" }
@@ -266,7 +266,7 @@ export const channels = [
   },
   {
     "ATN News": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ATNNews-logo.webp",
+      "logo": "ATNNews-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8" }
@@ -275,7 +275,7 @@ export const channels = [
   },
   {
     "Channel 24": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Channel24-logo.webp",
+      "logo": "Channel24-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8" }
@@ -284,7 +284,7 @@ export const channels = [
   },
   {
     "DBC News": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DBCNews-logo.webp",
+      "logo": "DBCNews-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8" },
@@ -294,7 +294,7 @@ export const channels = [
   },
   {
     "Desh TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DeshTV-logo.webp",
+      "logo": "DeshTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8" }
@@ -303,7 +303,7 @@ export const channels = [
   },
   {
     "Ekattor TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/EkattorTV-logo.webp",
+      "logo": "EkattorTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8" }
@@ -312,7 +312,7 @@ export const channels = [
   },
   {
     "Independent TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/IndependentTV-logo.webp",
+      "logo": "IndependentTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8" }
@@ -321,7 +321,7 @@ export const channels = [
   },
   {
     "News 24": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/News24-logo.webp",
+      "logo": "News24-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8" },
@@ -331,7 +331,7 @@ export const channels = [
   },
   {
     "Deepto TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DeeptoTV-logo.webp",
+      "logo": "DeeptoTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8" },
@@ -341,7 +341,7 @@ export const channels = [
   },
   {
     "Channel i": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Channeli-logo.webp",
+      "logo": "Channeli-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8" },
@@ -351,7 +351,7 @@ export const channels = [
   },
   {
     "Channel 9": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Channel9-logo.webp",
+      "logo": "Channel9-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8" },
@@ -361,7 +361,7 @@ export const channels = [
   },
   {
     "GTV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GTV-logo.webp",
+      "logo": "GTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://tvsen1.aynaott.com/Ravc7gPCZpxk/tracks-v1a1/mono.ts.m3u8" },
@@ -371,7 +371,7 @@ export const channels = [
   },
   {
     "NTV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/NTV-logo.webp",
+      "logo": "NTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8" }
@@ -380,7 +380,7 @@ export const channels = [
   },
   {
     "Maasranga TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MaasrangaTV-logo.webp",
+      "logo": "MaasrangaTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8" }
@@ -389,7 +389,7 @@ export const channels = [
   },
   {
     "Bangla Vision": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BanglaVision-logo.webp",
+      "logo": "BanglaVision-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8" }
@@ -398,7 +398,7 @@ export const channels = [
   },
   {
     "Boishakhi TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BoishakhiTV-logo.webp",
+      "logo": "BoishakhiTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8" },
@@ -408,7 +408,7 @@ export const channels = [
   },
   {
     "SATV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SATV-logo.webp",
+      "logo": "SATV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8" }
@@ -417,7 +417,7 @@ export const channels = [
   },
   {
     "Asian TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/AsianTV-logo.webp",
+      "logo": "AsianTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8" }
@@ -426,7 +426,7 @@ export const channels = [
   },
   {
     "Mohona TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MohonaTV-logo.webp",
+      "logo": "MohonaTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8" }
@@ -435,7 +435,7 @@ export const channels = [
   },
   {
     "My TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MyTV-logo.webp",
+      "logo": "MyTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8" }
@@ -444,7 +444,7 @@ export const channels = [
   },
   {
     "G Series Drama": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GSeriesDrama-logo.webp",
+      "logo": "GSeriesDrama-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8" }
@@ -453,7 +453,7 @@ export const channels = [
   },
   {
     "Movie Bangla": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MovieBangla-logo.webp",
+      "logo": "MovieBangla-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8" }
@@ -462,7 +462,7 @@ export const channels = [
   },
   {
     "Channel S": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ChannelS-logo.webp",
+      "logo": "ChannelS-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app.ncare.live/live-orgin/channels.stream/live-orgin/channels.stream/chunks.m3u8" }
@@ -471,7 +471,7 @@ export const channels = [
   },
   {
     "Deshi TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DeshiTV-logo.webp",
+      "logo": "DeshiTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8" }
@@ -480,7 +480,7 @@ export const channels = [
   },
   {
     "Star News": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/StarNews-logo.webp",
+      "logo": "StarNews-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8" }
@@ -489,7 +489,7 @@ export const channels = [
   },
   {
     "Deshe Bideshe": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DesheBidesheTV-logo.webp",
+      "logo": "DesheBidesheTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8" }
@@ -498,7 +498,7 @@ export const channels = [
   },
   {
     "Galaxy TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GalaxyTV-logo.webp",
+      "logo": "GalaxyTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/galaxytvbd.stream/tracks-v1a1/mono.m3u8" }
@@ -507,7 +507,7 @@ export const channels = [
   },
   {
     "Nexus TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/NexusTV-logo.webp",
+      "logo": "NexusTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/nexustv.stream/tracks-v1a1/mono.m3u8" }
@@ -516,7 +516,7 @@ export const channels = [
   },
   {
     "SRK TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SRKTV-logo.webp",
+      "logo": "SRKTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8" }
@@ -525,7 +525,7 @@ export const channels = [
   },
   {
     "Star Plus": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/StarPlus-logo.webp",
+      "logo": "StarPlus-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://padmaonline.duckdns.org:8088/StarPlusHD/tracks-v1a1/mono.m3u8" }
@@ -534,7 +534,7 @@ export const channels = [
   },
   {
     "Zee Bangla": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ZeeBangla-logo.webp",
+      "logo": "ZeeBangla-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://padmaonline.duckdns.org:8088/ZeeBanglaHD/tracks-v1a1/mono.m3u8" }
@@ -543,7 +543,7 @@ export const channels = [
   },
   {
     "Sony Kal": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SonyKal-logo.webp",
+      "logo": "SonyKal-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8" }
@@ -552,7 +552,7 @@ export const channels = [
   },
   {
     "Enterr 10": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Enterr10-logo.webp",
+      "logo": "Enterr10-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8" }
@@ -561,7 +561,7 @@ export const channels = [
   },
   {
     "Aakash Aath": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/AakashAath-logo.webp",
+      "logo": "AakashAath-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://mumt03.tangotv.in/AAKASHAATH/tracks-v2a1/mono.m3u8" }
@@ -570,7 +570,7 @@ export const channels = [
   },
   {
     "Sananda TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SanandaTV-logo.webp",
+      "logo": "SanandaTV-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://live.sanandatelevision.in/sananda/tracks-v1a1/mono.ts.m3u8" }
@@ -579,7 +579,7 @@ export const channels = [
   },
   {
     "Bangla Plus": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BanglaPlus-logo.webp",
+      "logo": "BanglaPlus-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8" }
@@ -588,7 +588,7 @@ export const channels = [
   },
   {
     "Amar Bangla": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/AmarBangla-logo.webp",
+      "logo": "AmarBangla-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/amarbanglatv.stream/tracks-v1a1/mono.m3u8" }
@@ -597,7 +597,7 @@ export const channels = [
   },
   {
     "E24": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/E24-logo.webp",
+      "logo": "E24-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://mumt04.tangotv.in/E24/tracks-v2a1/mono.m3u8" }
@@ -606,7 +606,7 @@ export const channels = [
   },
   {
     "Tara TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/TaraTV-logo.webp",
+      "logo": "TaraTV-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://legitpro.co.in/taratv/taratv/index.m3u8" }
@@ -615,7 +615,7 @@ export const channels = [
   },
   {
     "Zoom": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Zoom-logo.webp",
+      "logo": "Zoom-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/zoomin.stream/tracks-v1a1/mono.m3u8" }
@@ -624,7 +624,7 @@ export const channels = [
   },
   {
     "Sony Max": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SonyMax-logo.webp",
+      "logo": "SonyMax-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://padmaonline.duckdns.org:8088/SonyMaxHD/tracks-v1a1/mono.m3u8" }
@@ -633,7 +633,7 @@ export const channels = [
   },
   {
     "Goldmines": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Goldmines-logo.webp",
+      "logo": "Goldmines-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://cdn-2.pishow.tv/live/1459/1459_1.m3u8" }
@@ -642,7 +642,7 @@ export const channels = [
   },
   {
     "Goldmines Movies": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GoldminesMovies-logo.webp",
+      "logo": "GoldminesMovies-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://cdn-2.pishow.tv/live/1460/1460_1.m3u8" },
@@ -652,7 +652,7 @@ export const channels = [
   },
   {
     "Goldmines Bollywood": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GoldminesBollywood-logo.webp",
+      "logo": "GoldminesBollywood-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://mumt03.tangotv.in/GOLDMINESBOLLYWOOD/tracks-v2a1/mono.m3u8" }
@@ -661,7 +661,7 @@ export const channels = [
   },
   {
     "Hindi Movie": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/HindiMovie-logo.webp",
+      "logo": "HindiMovie-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8" }
@@ -670,7 +670,7 @@ export const channels = [
   },
   {
     "Bhojpuri Cinema": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BhojpuriCinema-logo.webp",
+      "logo": "BhojpuriCinema-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://live-bhojpuri.akamaized.net/liveabr/pub-iobhojpuqbu6yj/live_720p/chunks.m3u8" }
@@ -679,7 +679,7 @@ export const channels = [
   },
   {
     "Rongeen": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Rongeen-logo.webp",
+      "logo": "Rongeen-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://cdn-4.pishow.tv/live/1029/master.m3u8" }
@@ -688,7 +688,7 @@ export const channels = [
   },
   {
     "YRF Music": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/YRFMusic-logo.webp",
+      "logo": "YRFMusic-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/ts-eu-w1-n2/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/cb573e1e796c6d8884c83d67cef44382847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a3e1862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7feb00c458d3ea8b8014c942b14fa83439fd501b3d485538312807ff847c8c7f08981188ae42e5293738aa19d71581fbba43bf9eb5cb8dd96683d99622034713f8482a08e85b81b253938d9ecc2be1f8f7b4b220cf30a14b3098c5b85378565ad4bd489de0e9cc9be603b5387cc527533a1e2af84fc7747d5e955939bbf222ce39c37704edd79d925243697b7ad7ee09747c6ef71c4dce17a49cabcd675aeb6d5cfc93e679e55f252c2b877286f700d03c979aa9b66da133f19c2c13e2e464448a19b1a91c8891e784e468895468f533ab7df998cd60a7b9b30401ac329997a157cc0315b79e706f08e7339da7144d6637db3731db46fd0f46cf9aed0e0461cb0ddcc4db62fccbd18ddfb07e63c6f094ce3bc7c11150c50dfec6f013539f044e2d2d8e8385c53bbb99ea8b23e52601819561e84ebe302f9df90537d1ca30b748015f3ed41abb006609cee250c7a8301ca48cc41e89652/82/1920x1080_5876488/index.m3u8" }
@@ -697,7 +697,7 @@ export const channels = [
   },
   {
     "Sangeet Bangla": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SangeetBangla-logo.webp",
+      "logo": "SangeetBangla-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://cdn-4.pishow.tv/live/1143/1143_1.m3u8" }
@@ -706,7 +706,7 @@ export const channels = [
   },
   {
     "7S Music": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/7SMusic-logo.webp",
+      "logo": "7SMusic-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://mumt03.tangotv.in/7SMUSIC/tracks-v2a1/mono.m3u8" }
@@ -715,7 +715,7 @@ export const channels = [
   },
   {
     "Balle Balle": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BalleBalle-logo.webp",
+      "logo": "BalleBalle-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8" },
@@ -725,7 +725,7 @@ export const channels = [
   },
   {
     "PTC Music": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/PTCMusic-logo.webp",
+      "logo": "PTCMusic-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index_4.m3u8" }
@@ -734,7 +734,7 @@ export const channels = [
   },
   {
     "Samay Kolkata": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SamayKolkata-logo.webp",
+      "logo": "SamayKolkata-logo.webp",
       "category": "Indian",
       "servers": [
         { "name": "Server 1", "url": "https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8" }
@@ -743,7 +743,7 @@ export const channels = [
   },
   {
     "Gopal Bhar": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/GopalBhar-logo.webp",
+      "logo": "GopalBhar-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8" }
@@ -752,7 +752,7 @@ export const channels = [
   },
   {
     "Motu Patlu": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/MotuPatlu-logo.webp",
+      "logo": "MotuPatlu-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8" }
@@ -761,7 +761,7 @@ export const channels = [
   },
   {
     "Doraemon": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Doraemon-logo.webp",
+      "logo": "Doraemon-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8" }
@@ -770,7 +770,7 @@ export const channels = [
   },
   {
     "Jungle Book": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/JungleBook-logo.webp",
+      "logo": "JungleBook-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8" }
@@ -779,7 +779,7 @@ export const channels = [
   },
   {
     "Nikky": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Nikky-logo.webp",
+      "logo": "Nikky-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://nomawnoijl.gpcdn.net/akash/nikky/chunks.m3u8" }
@@ -788,7 +788,7 @@ export const channels = [
   },
   {
     "ZB Cartoon": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/ZBCartoon-logo.webp",
+      "logo": "ZBCartoon-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://server.zillarbarta.com/zbcatun/tracks-v1a1/mono.m3u8" }
@@ -797,7 +797,7 @@ export const channels = [
   },
   {
     "Cartoon Network": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/CartoonNetwork-logo.webp",
+      "logo": "CartoonNetwork-logo.webp",
       "category": "Cartoon",
       "servers": [
         { "name": "Server 1", "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8" },
@@ -807,7 +807,7 @@ export const channels = [
   },
   {
     "Bangla Waz": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Waz-logo.webp",
+      "logo": "Waz-logo.webp",
       "category": "Islamic",
       "servers": [
         { "name": "Server 1", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209617/tracks-v1a1/mono.ts.m3u8" }
@@ -816,7 +816,7 @@ export const channels = [
   },
   {
     "Peace TV Bangla": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/PeaceTVBangla-logo.webp",
+      "logo": "PeaceTVBangla-logo.webp",
       "category": "Islamic",
       "servers": [
         { "name": "Server 1", "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=-AAs2UnhiEq4c2OtWsbmhQ" }
@@ -825,7 +825,7 @@ export const channels = [
   },
   {
     "Islamic TV": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/IslamicTV-logo.webp",
+      "logo": "IslamicTV-logo.webp",
       "category": "Islamic",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8" }
@@ -834,7 +834,7 @@ export const channels = [
   },
   {
     "Discovery Asia": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/DiscoveryAsia-logo.webp",
+      "logo": "DiscoveryAsia-logo.webp",
       "category": "Entertainment",
       "servers": [
         { "name": "Server 1", "url": "https://cdn1.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_2499968=15-mp4a_256000_eng=12.m3u8" }
@@ -843,7 +843,7 @@ export const channels = [
   },
   {
     "Sony Movies": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SonyMovies-logo.webp",
+      "logo": "SonyMovies-logo.webp",
       "category": "Entertainment",
       "servers": [
         { "name": "Server 1", "url": "https://a-cdn.klowdtv.com/live1/smc_720p/chunks.m3u8" }
@@ -852,7 +852,7 @@ export const channels = [
   },
   {
     "Sony Cine": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/SonyCine-logo.webp",
+      "logo": "SonyCine-logo.webp",
       "category": "Entertainment",
       "servers": [
         { "name": "Server 1", "url": "https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8" }
@@ -861,7 +861,7 @@ export const channels = [
   },
   {
     "Al Jazeera": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/AlJazeera-logo.webp",
+      "logo": "AlJazeera-logo.webp",
       "category": "International News",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8" }
@@ -870,11 +870,11 @@ export const channels = [
   },
   {
     "BBC News": {
-      "logo": "https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/BBCNews-logo.webp",
+      "logo": "BBCNews-logo.webp",
       "category": "International News",
       "servers": [
         { "name": "Server 1", "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8" }
       ]
     }
   }
-];
+]
