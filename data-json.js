@@ -12,7 +12,7 @@ export const pin = [
     "Cricket | Testing": {
       "category": "Pin",
       "status": "",
-      "time-date": "08:00 PM | 04-06-2026",
+      "time-date": "08:00 PM | 03-06-2026",
       "team": [
         { "name": "SRH", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414845.png" },
         { "name": "RR", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/400400/400406.png" }
