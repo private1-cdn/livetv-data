@@ -1,3 +1,12 @@
+export const welcome = [
+  {
+    "url": "https://flarefile.com/preview/33141185.mp4"
+  }
+];
+
+
+
+
 export const pin = [
   {
     "Cricket | IPL": {
