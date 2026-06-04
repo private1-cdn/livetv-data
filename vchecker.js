@@ -4,8 +4,8 @@ export const version = [
       "version": "1.0",
       "update": "04-06-2026",
       "icon": "https://img.magnific.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
-      "updateurl": "#",
-      "telegram": "#",
-      "web": "#"
+      "updateurl": "https://www.pinikbuzz.com/update",
+      "telegram": "https://t.me/PinikBuzz",
+      "web": "https://www.pinikbuzz.com"
     }
 ];
