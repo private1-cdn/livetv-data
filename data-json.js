@@ -23,21 +23,7 @@ export const pin = [
       ]
     }
   },
-  {
-    "Football | SAFF Women's Championship": {
-      "category": "Pin",
-      "status": "",
-      "time-date": "07:00 PM | 06-06-2026",
-      "team": [
-        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
-        { "name": "IND", "logo": "https://img.sofascore.com/api/v1/team/132938/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
-      ]
-    }
-  },
+  
   {
     "Football | International Friendlies 1": {
       "category": "Pin",
@@ -80,7 +66,23 @@ export const pin = [
         { "name": "Server 2", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
       ]
     }
-  }
+  },
+  {
+    "Football | SAFF Women's Championship": {
+      "category": "Pin",
+      "status": "End",
+      "time-date": "07:00 PM | 06-06-2026",
+      "team": [
+        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
+        { "name": "IND", "logo": "https://img.sofascore.com/api/v1/team/132938/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
+      ]
+    }
+  },
+  
 ];
 
 
