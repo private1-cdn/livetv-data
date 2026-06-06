@@ -65,6 +65,20 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "Football | International Friendlies": {
+      "category": "Pin",
+      "status": "",
+      "time-date": "11:45 PM | 06-06-2026",
+      "team": [
+        { "name": "ROU", "logo": "https://img.sofascore.com/api/v1/team/4477/image" },
+        { "name": "WAL", "logo": "https://img.sofascore.com/api/v1/team/4702/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
 ];
 
