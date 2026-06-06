@@ -9,13 +9,13 @@ export const welcome = [
 
 export const pin = [
   {
-    "Cricket | Testing": {
+    "Cricket": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "08:00 PM | 03-06-2026",
+      "status": "",
+      "time-date": "10:00 AM | 06-06-2026",
       "team": [
-        { "name": "SRH", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/414800/414845.png" },
-        { "name": "RR", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/400400/400406.png" }
+        { "name": "IND", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776162/india.jpg" },
+        { "name": "AFG", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776177/afghanistan.jpg" }
       ],
       "servers": [
         { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
