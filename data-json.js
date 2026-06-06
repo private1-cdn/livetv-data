@@ -18,7 +18,8 @@ export const pin = [
         { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
       ]
     }
   },
