@@ -36,6 +36,20 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "Football | SAFF Women's Championship": {
+      "category": "Pin",
+      "status": "",
+      "time-date": "07:00 PM | 06-06-2026",
+      "team": [
+        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
+        { "name": "IND", "logo": "https://img.sofascore.com/api/v1/team/132938/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
 ];
 
