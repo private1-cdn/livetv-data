@@ -1,6 +1,6 @@
 export const welcome = [
   {
-    "url": "https://flarefile.com/preview/33141185.mp4"
+    "url": "https://cdn.pixabay.com/video/2023/08/10/175446-853577055_large.mp4"
   }
 ];
 
