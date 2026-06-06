@@ -53,7 +53,7 @@ export const pin = [
     }
   },
   {
-    "Football | International Friendlies": {
+    "Football | International Friendlies 1": {
       "category": "Pin",
       "status": "",
       "time-date": "11:45 PM | 06-06-2026",
@@ -67,7 +67,7 @@ export const pin = [
     }
   },
   {
-    "Football | International Friendlies": {
+    "Football | International Friendlies 2": {
       "category": "Pin",
       "status": "",
       "time-date": "11:45 PM | 06-06-2026",
