@@ -23,13 +23,13 @@ export const pin = [
     }
   },
   {
-    "Football | Conference League": {
+    "Cricket | Conference League": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "01:00 AM | 28-05-2026",
+      "status": "",
+      "time-date": "04:00 PM | 06-06-2026",
       "team": [
-        { "name": "Palace", "logo": "https://img.sofascore.com/api/v1/team/7/image" },
-        { "name": "Rayo Vallecano", "logo": "https://img.sofascore.com/api/v1/team/2818/image" }
+        { "name": "ENG", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381894.png" },
+        { "name": "NZ", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
