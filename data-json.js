@@ -8,33 +8,19 @@ export const welcome = [
 
 
 export const pin = [
-  {
-    "Cricket | NZ Tour of ENG": {
-      "category": "Pin",
-      "status": "End",
-      "time-date": "04:00 PM | 06-06-2026",
-      "team": [
-        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
-        { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
-      ]
-    }
-  },
+  
   
   {
-    "Football | International Friendlies 1": {
+    "Football": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "11:45 PM | 06-06-2026",
+      "status": "",
+      "time-date": "04:00 AM | 07-06-2026",
       "team": [
-        { "name": "POR", "logo": "https://static.files.bbci.co.uk/core/website/assets/static/sport/country-flags/portugal.fe97143f6c.svg" },
-        { "name": "CHI", "logo": "https://static.files.bbci.co.uk/core/website/assets/static/sport/country-flags/chile.5f3052fbe0.svg" }
+        { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
+        { "name": "EGY", "logo": "https://img.sofascore.com/api/v1/team/4758/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://live05.msdht.app/live/87379114.m3u8" }
       ]
     }
   },
@@ -82,6 +68,21 @@ export const pin = [
       ]
     }
   },
+  {
+    "Cricket | NZ Tour of ENG": {
+      "category": "Pin",
+      "status": "End",
+      "time-date": "04:00 PM | 06-06-2026",
+      "team": [
+        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
+        { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
+      ]
+    }
+  }
   
 ];
 
