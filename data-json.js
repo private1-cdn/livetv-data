@@ -18,8 +18,7 @@ export const pin = [
         { "name": "AFG", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776177/afghanistan.jpg" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8" }
+        { "name": "Server 1", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/hdntl=exp=1780803928~acl=%2f*~data=hdntl~hmac=b871e08c50c2036ba64444b6c8b20100777bda5b9237c29e63a71bcb76817f6c/level_0.m3u8" }
       ]
     }
   },
