@@ -23,7 +23,7 @@ export const pin = [
     }
   },
   {
-    "Cricket | Conference League": {
+    "Cricket | NZ Tour of ENG": {
       "category": "Pin",
       "status": "",
       "time-date": "04:00 PM | 06-06-2026",
