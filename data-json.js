@@ -11,7 +11,7 @@ export const pin = [
   {
     "Cricket | NZ Tour of ENG": {
       "category": "Pin",
-      "status": "",
+      "status": "End",
       "time-date": "04:00 PM | 06-06-2026",
       "team": [
         { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
@@ -27,7 +27,7 @@ export const pin = [
   {
     "Football | International Friendlies 1": {
       "category": "Pin",
-      "status": "",
+      "status": "End",
       "time-date": "11:45 PM | 06-06-2026",
       "team": [
         { "name": "POR", "logo": "https://static.files.bbci.co.uk/core/website/assets/static/sport/country-flags/portugal.fe97143f6c.svg" },
@@ -41,7 +41,7 @@ export const pin = [
   {
     "Football | International Friendlies 2": {
       "category": "Pin",
-      "status": "",
+      "status": "End",
       "time-date": "11:45 PM | 06-06-2026",
       "team": [
         { "name": "ROU", "logo": "https://img.sofascore.com/api/v1/team/4477/image" },
