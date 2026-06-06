@@ -29,8 +29,8 @@ export const pin = [
       "status": "",
       "time-date": "04:00 PM | 06-06-2026",
       "team": [
-        { "name": "ENG", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381894.png" },
-        { "name": "NZ", "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png" }
+        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
+        { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
