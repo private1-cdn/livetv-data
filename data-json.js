@@ -51,6 +51,20 @@ export const pin = [
         { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
       ]
     }
+  },
+  {
+    "Football | International Friendlies": {
+      "category": "Pin",
+      "status": "",
+      "time-date": "11:45 PM | 06-06-2026",
+      "team": [
+        { "name": "POR", "logo": "https://static.files.bbci.co.uk/core/website/assets/static/sport/country-flags/portugal.fe97143f6c.svg" },
+        { "name": "CHI", "logo": "https://static.files.bbci.co.uk/core/website/assets/static/sport/country-flags/chile.5f3052fbe0.svg" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
 ];
 
