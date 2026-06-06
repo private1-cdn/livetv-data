@@ -9,7 +9,7 @@ export const welcome = [
 
 export const pin = [
   {
-    "Cricket": {
+    "Cricket | AFG Tour of IND": {
       "category": "Pin",
       "status": "",
       "time-date": "10:00 AM | 06-06-2026",
