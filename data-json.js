@@ -11,7 +11,7 @@ export const pin = [
   
   
   {
-    "Football": {
+    "Football | 1": {
       "category": "Pin",
       "status": "",
       "time-date": "04:00 AM | 07-06-2026",
@@ -25,16 +25,16 @@ export const pin = [
     }
   },
   {
-    "Football | International Friendlies 2": {
+    "Football | 2": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "11:45 PM | 06-06-2026",
+      "status": "",
+      "time-date": "06:00 AM | 07-06-2026",
       "team": [
-        { "name": "ROU", "logo": "https://img.sofascore.com/api/v1/team/4477/image" },
-        { "name": "WAL", "logo": "https://img.sofascore.com/api/v1/team/4702/image" }
+        { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4819/image" },
+        { "name": "HON", "logo": "https://img.sofascore.com/api/v1/team/4827/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://live05.msdht.app/live/87379114.m3u8" }
       ]
     }
   },
