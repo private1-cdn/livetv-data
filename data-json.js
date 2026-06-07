@@ -10,20 +10,6 @@ export const welcome = [
 export const pin = [
   
   {
-    "Football | DJIT 2026": {
-      "category": "Pin",
-      "status": "",
-      "time-date": "10:00 PM | 07-06-2026",
-      "team": [
-        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
-        { "name": "MDV", "logo": "https://img.sofascore.com/api/v1/team/214193/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://pull.niues.live/live/stream-611528_lsd.m3u8?auth_key=1780850060-0-0-ed3b2b6c760037810bd0203a297dadf6" }
-      ]
-    }
-  },
-  {
     "Football | Friendly International 1": {
       "category": "Pin",
       "status": "",
@@ -81,6 +67,20 @@ export const pin = [
       ]
     }
   },
+  {
+    "Football | DJIT 2026": {
+      "category": "Pin",
+      "status": "End",
+      "time-date": "10:00 PM | 07-06-2026",
+      "team": [
+        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
+        { "name": "MDV", "logo": "https://img.sofascore.com/api/v1/team/214193/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "https://pull.niues.live/live/stream-611528_lsd.m3u8?auth_key=1780850060-0-0-ed3b2b6c760037810bd0203a297dadf6" }
+      ]
+    }
+  }
   
 ];
 
