@@ -34,7 +34,7 @@ export const pin = [
         { "name": "HON", "logo": "https://img.sofascore.com/api/v1/team/4827/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://live05.msdht.app/live/87379114.m3u8" }
+        { "name": "Server 1", "url": "https://live05.msdht.app/live/02456966.m3u8" }
       ]
     }
   },
