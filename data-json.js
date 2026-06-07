@@ -25,13 +25,13 @@ export const pin = [
   },
   
   {
-    "Football | 1": {
+    "Football | Friendly International": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "04:00 AM | 07-06-2026",
+      "status": "",
+      "time-date": "12:45 AM | 08-06-2026",
       "team": [
-        { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
-        { "name": "EGY", "logo": "https://img.sofascore.com/api/v1/team/4758/image" }
+        { "name": "CRO", "logo": "https://img.sofascore.com/api/v1/team/4715/image" },
+        { "name": "SVN", "logo": "https://img.sofascore.com/api/v1/team/4484/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "https://live05.msdht.app/live/87379114.m3u8" }
