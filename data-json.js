@@ -11,7 +11,7 @@ export const pin = [
   {
     "Cricket | AFG Tour of IND": {
       "category": "Pin",
-      "status": "",
+      "status": "End",
       "time-date": "10:00 AM | 07-06-2026",
       "team": [
         { "name": "IND", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776162/india.jpg" },
