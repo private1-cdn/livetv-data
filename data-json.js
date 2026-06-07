@@ -23,7 +23,20 @@ export const pin = [
       ]
     }
   },
-  
+  {
+    "Football | ": {
+      "category": "Pin",
+      "status": "",
+      "time-date": "10:00 PM | 07-06-2026",
+      "team": [
+        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
+        { "name": "MLE", "logo": "https://img.sofascore.com/api/v1/team/214193/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
   {
     "Football | Friendly International 1": {
       "category": "Pin",
