@@ -35,7 +35,7 @@ export const pin = [
         { "name": "ITA", "logo": "https://img.sofascore.com/api/v1/team/4707/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd" }
+        { "name": "Server 1", "url": "https://daffodil.sandhost.qzz.io/fubo.m3u8" }
       ]
     }
   },
