@@ -19,7 +19,9 @@ export const pin = [
         { "name": "SVN", "logo": "https://img.sofascore.com/api/v1/team/4484/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://live.666666.zip/live/4541792.m3u8" },
+        { "name": "Server 2", "url": "https://live.ktooranb.cfd/livez2/index.m3u8" },
+        { "name": "Server 3", "url": "https://tvsen7.aynaott.com/foxsports2/tracks-v1a1/mono.ts.m3u8" }
       ]
     }
   },
