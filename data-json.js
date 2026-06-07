@@ -13,7 +13,7 @@ export const pin = [
   {
     "Football | 1": {
       "category": "Pin",
-      "status": "",
+      "status": "End",
       "time-date": "04:00 AM | 07-06-2026",
       "team": [
         { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
