@@ -27,7 +27,7 @@ export const pin = [
   {
     "Cricket | NZ Tour of ENG": {
       "category": "Pin",
-      "status": "End",
+      "status": "",
       "time-date": "04:00 PM | 06-06-2026",
       "team": [
         { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
