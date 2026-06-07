@@ -8,21 +8,7 @@ export const welcome = [
 
 
 export const pin = [
-  {
-    "Cricket | NZ Tour of ENG": {
-      "category": "Pin",
-      "status": "",
-      "time-date": "04:00 PM | 06-06-2026",
-      "team": [
-        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
-        { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
-      ]
-    }
-  },
+  
   {
     "Football | DJIT 2026": {
       "category": "Pin",
@@ -77,6 +63,21 @@ export const pin = [
       "servers": [
         { "name": "Server 1", "url": "https://saseries.akamaized.net/hls/live/2110097/T56A87p03/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" },
         { "name": "Server 2", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
+      ]
+    }
+  },
+  {
+    "Cricket | NZ Tour of ENG": {
+      "category": "Pin",
+      "status": "End",
+      "time-date": "04:00 PM | 06-06-2026",
+      "team": [
+        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
+        { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
       ]
     }
   },
