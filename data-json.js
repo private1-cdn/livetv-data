@@ -35,7 +35,8 @@ export const pin = [
         { "name": "ITA", "logo": "https://img.sofascore.com/api/v1/team/4707/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://daffodil.sandhost.qzz.io/fubo.m3u8" }
+        { "name": "Server 1", "url": "https://daffodil.sandhost.qzz.io/fubo.m3u8" },
+        { "name": "Server 2", "url": "https://daffodil.thelistener.pk/fubo.m3u8" },
       ]
     }
   },
@@ -259,7 +260,9 @@ export const channels = [
       "logo": "FuboTV-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://wurlfubo.global.transmit.live/us-east-1-a/manifest/67f42332d3dd98936978f581/78afd2eb-ed9b-493f-bd62-214402688ea6/v1/fubotv_fubo_sports_network_1/lg_us/latest/main/hls/video-avc1.640028-mp4a.40.2-0.m3u8?h=1080&playlistUri=https%253A%252F%252Fad993ce7.wurl.com%252Fv1%252Ffubotv_fubo_sports_network_1%252Flg_us%252FV00000001%252F0%252FHLS%252F1.m3u8&sessionStart=1777862492852&streamPath=v1%2Ffubotv_fubo_sports_network_1%2Flg_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8&uid=USER_ID&w=1920" }
+        { "name": "Server 1", "url": "https://wurlfubo.global.transmit.live/us-east-1-a/manifest/67f42332d3dd98936978f581/78afd2eb-ed9b-493f-bd62-214402688ea6/v1/fubotv_fubo_sports_network_1/lg_us/latest/main/hls/video-avc1.640028-mp4a.40.2-0.m3u8?h=1080&playlistUri=https%253A%252F%252Fad993ce7.wurl.com%252Fv1%252Ffubotv_fubo_sports_network_1%252Flg_us%252FV00000001%252F0%252FHLS%252F1.m3u8&sessionStart=1777862492852&streamPath=v1%2Ffubotv_fubo_sports_network_1%2Flg_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8&uid=USER_ID&w=1920" },
+        { "name": "Server 2", "url": "https://daffodil.sandhost.qzz.io/fubo.m3u8" },
+        { "name": "Server 3", "url": "https://daffodil.thelistener.pk/fubo.m3u8" }
       ]
     }
   },
