@@ -25,7 +25,7 @@ export const pin = [
   },
   
   {
-    "Football | Friendly International": {
+    "Football | Friendly International 1": {
       "category": "Pin",
       "status": "",
       "time-date": "12:45 AM | 08-06-2026",
@@ -34,37 +34,21 @@ export const pin = [
         { "name": "SVN", "logo": "https://img.sofascore.com/api/v1/team/4484/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://live05.msdht.app/live/87379114.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
   {
-    "Football | 2": {
+    "Football | Friendly International 2": {
       "category": "Pin",
-      "status": "End",
-      "time-date": "06:00 AM | 07-06-2026",
+      "status": "",
+      "time-date": "01:00 AM | 08-06-2026",
       "team": [
-        { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4819/image" },
-        { "name": "HON", "logo": "https://img.sofascore.com/api/v1/team/4827/image" }
+        { "name": "GRE", "logo": "https://img.sofascore.com/api/v1/team/4710/image" },
+        { "name": "ITA", "logo": "https://img.sofascore.com/api/v1/team/4707/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://live05.msdht.app/live/02456966.m3u8" }
-      ]
-    }
-  },
-  
-  {
-    "Football | SAFF Women's Championship": {
-      "category": "Pin",
-      "status": "End",
-      "time-date": "07:00 PM | 06-06-2026",
-      "team": [
-        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
-        { "name": "IND", "logo": "https://img.sofascore.com/api/v1/team/132938/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
