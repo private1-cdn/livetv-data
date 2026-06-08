@@ -28,7 +28,7 @@ export const pin = [
   {
     "Football | Friendly International 2": {
       "category": "Pin",
-      "status": "End",
+      "status": "Finished",
       "time-date": "01:00 AM | 08-06-2026",
       "team": [
         { "name": "GRE", "logo": "https://img.sofascore.com/api/v1/team/4710/image" },
@@ -43,7 +43,7 @@ export const pin = [
   {
     "Cricket | AFG Tour of IND": {
       "category": "Pin",
-      "status": "End",
+      "status": "Finished",
       "time-date": "10:00 AM | 07-06-2026",
       "team": [
         { "name": "IND", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776162/india.jpg" },
@@ -58,7 +58,7 @@ export const pin = [
   {
     "Cricket | NZ Tour of ENG": {
       "category": "Pin",
-      "status": "End",
+      "status": "Finished",
       "time-date": "04:00 PM | 06-06-2026",
       "team": [
         { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
