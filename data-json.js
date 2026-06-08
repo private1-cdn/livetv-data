@@ -13,7 +13,8 @@ export const pin = [
     "Football | Friendly International 1": {
       "category": "Pin",
       "status": "Finished",
-      "time-date": "12:45 AM | 08-06-2026",
+      "start-in": "12:45 AM | 08-06-2026",
+      "end-in": "",
       "team": [
         { "name": "CRO", "logo": "https://img.sofascore.com/api/v1/team/4715/image" },
         { "name": "SVN", "logo": "https://img.sofascore.com/api/v1/team/4484/image" }
@@ -29,7 +30,8 @@ export const pin = [
     "Football | Friendly International 2": {
       "category": "Pin",
       "status": "Finished",
-      "time-date": "01:00 AM | 08-06-2026",
+      "start-in": "01:00 AM | 08-06-2026",
+      "end-in": "",
       "team": [
         { "name": "GRE", "logo": "https://img.sofascore.com/api/v1/team/4710/image" },
         { "name": "ITA", "logo": "https://img.sofascore.com/api/v1/team/4707/image" }
@@ -44,7 +46,8 @@ export const pin = [
     "Cricket | AFG Tour of IND": {
       "category": "Pin",
       "status": "Finished",
-      "time-date": "10:00 AM | 07-06-2026",
+      "start-in": "10:00 AM | 07-06-2026",
+      "end-in": "",
       "team": [
         { "name": "IND", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776162/india.jpg" },
         { "name": "AFG", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776177/afghanistan.jpg" }
@@ -59,7 +62,8 @@ export const pin = [
     "Cricket | NZ Tour of ENG": {
       "category": "Pin",
       "status": "Finished",
-      "time-date": "04:00 PM | 06-06-2026",
+      "start-in": "04:00 PM | 06-06-2026",
+      "end-in": "",
       "team": [
         { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
         { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
@@ -74,7 +78,8 @@ export const pin = [
     "testing": {
       "category": "Pin",
       "status": "",
-      "start-in": "10:00 PM | 07-06-2026",
+      "start-in": "11:00 AM | 08-06-2026",
+      "end-in": "1:00 PM | 08-06-2026",
       "team": [
         { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
         { "name": "MDV", "logo": "https://img.sofascore.com/api/v1/team/214193/image" }
