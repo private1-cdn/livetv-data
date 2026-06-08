@@ -74,7 +74,7 @@ export const pin = [
     "testing": {
       "category": "Pin",
       "status": "",
-      "time-date": "10:00 PM | 07-06-2026",
+      "start-in": "10:00 PM | 07-06-2026",
       "team": [
         { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
         { "name": "MDV", "logo": "https://img.sofascore.com/api/v1/team/214193/image" }
