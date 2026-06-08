@@ -79,7 +79,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "11:00 AM | 08-06-2026",
-      "end-in": "11:20 AM | 08-06-2026",
+      "end-in": "",
       "team": [
         { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
         { "name": "MDV", "logo": "https://img.sofascore.com/api/v1/team/214193/image" }
