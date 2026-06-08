@@ -13,7 +13,7 @@ export const pin = [
     "Football | Friendly International 1": {
       "category": "Pin",
       "status": "Finished",
-      "start-in": "12:45 AM | 08-06-2026",
+      "start-in": "06:45 PM | 08-06-2026",
       "end-in": "",
       "team": [
         { "name": "CRO", "logo": "https://img.sofascore.com/api/v1/team/4715/image" },
