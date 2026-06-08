@@ -61,7 +61,7 @@ export const pin = [
   {
     "Cricket | NZ Tour of ENG": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "02:00 PM | 06-06-2026",
       "end-in": "",
       "team": [
@@ -77,7 +77,7 @@ export const pin = [
   {
     "testing": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "11:00 AM | 08-06-2026",
       "end-in": "",
       "team": [
