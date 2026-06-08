@@ -71,9 +71,9 @@ export const pin = [
     }
   },
   {
-    "Football | DJIT 2026": {
+    "testing": {
       "category": "Pin",
-      "status": "End",
+      "status": "",
       "time-date": "10:00 PM | 07-06-2026",
       "team": [
         { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/214194/image" },
