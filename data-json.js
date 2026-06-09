@@ -9,23 +9,22 @@ export const welcome = [
 
 export const pin = [
   {
-    "Cricket | 1st ODI": {
+    "Football | International Friendly 2": {
       "category": "Pin",
-      "status": "Finished",
-      "start-in": "11:00 AM | 09-06-2026",
+      "status": "",
+      "start-in": "07:00 AM | 10-06-2026",
       "end-in": "",
       "team": [
-        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/187744/image" },
-        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/187746/image" }
+        { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4819/image" },
+        { "name": "ISL", "logo": "https://img.sofascore.com/api/v1/team/4708/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
   {
-    "Football | International Friendly": {
+    "Football | International Friendly 1": {
       "category": "Pin",
       "status": "",
       "start-in": "12:00 AM | 10-06-2026",
