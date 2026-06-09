@@ -8,69 +8,19 @@ export const welcome = [
 
 
 export const pin = [
-  
   {
-    "Football | Friendly International 1": {
+    "Cricket | 1st ODI": {
       "category": "Pin",
-      "status": "Finished",
-      "start-in": "06:45 PM | 08-06-2026",
+      "status": "",
+      "start-in": "11:00 AM | 09-06-2026",
       "end-in": "",
       "team": [
-        { "name": "CRO", "logo": "https://img.sofascore.com/api/v1/team/4715/image" },
-        { "name": "SVN", "logo": "https://img.sofascore.com/api/v1/team/4484/image" }
+        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/187744/image" },
+        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/187746/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://live.666666.zip/live/4541792.m3u8" },
-        { "name": "Server 2", "url": "https://live.ktooranb.cfd/livez2/index.m3u8" },
-        { "name": "Server 3", "url": "https://tvsen7.aynaott.com/foxsports2/tracks-v1a1/mono.ts.m3u8" }
-      ]
-    }
-  },
-  {
-    "Football | Friendly International 2": {
-      "category": "Pin",
-      "status": "Finished",
-      "start-in": "01:00 AM | 08-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "GRE", "logo": "https://img.sofascore.com/api/v1/team/4710/image" },
-        { "name": "ITA", "logo": "https://img.sofascore.com/api/v1/team/4707/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://daffodil.sandhost.qzz.io/fubo.m3u8" },
-        { "name": "Server 2", "url": "https://daffodil.thelistener.pk/fubo.m3u8" },
-      ]
-    }
-  },
-  {
-    "Cricket | AFG Tour of IND": {
-      "category": "Pin",
-      "status": "Finished",
-      "start-in": "10:00 AM | 07-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "IND", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776162/india.jpg" },
-        { "name": "AFG", "logo": "https://static.cricbuzz.com/a/img/v1/0x0/i1/c776177/afghanistan.jpg" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://saseries.akamaized.net/hls/live/2110097/T56A87p03/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" },
-        { "name": "Server 2", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
-      ]
-    }
-  },
-  {
-    "Cricket | NZ Tour of ENG": {
-      "category": "Pin",
-      "status": "Finished",
-      "start-in": "02:00 PM | 06-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/187757/image" },
-        { "name": "NZ", "logo": "https://img.sofascore.com/api/v1/team/187755/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad/master.m3u8?hdnts=exp=1780743907~acl=/hls/*~hmac=6118cadab8dca5eb0b9f92750e2bedee87793a97ddae72f86447a46012dbd09b" }
+        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
       ]
     }
   },
