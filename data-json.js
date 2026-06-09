@@ -11,7 +11,7 @@ export const pin = [
   {
     "Cricket | 1st ODI": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "11:00 AM | 09-06-2026",
       "end-in": "",
       "team": [
