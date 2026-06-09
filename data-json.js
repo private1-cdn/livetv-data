@@ -28,7 +28,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "12:00 AM | 10-06-2026",
-      "end-in": "02:30 AM | 10-06-2026",
+      "end-in": "02:00 AM | 10-06-2026",
       "team": [
         { "name": "SMR", "logo": "https://img.sofascore.com/api/v1/team/4833/image" },
         { "name": "AZE", "logo": "https://img.sofascore.com/api/v1/team/4742/image" }
