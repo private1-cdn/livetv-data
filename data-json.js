@@ -34,7 +34,7 @@ export const pin = [
         { "name": "AZE", "logo": "https://img.sofascore.com/api/v1/team/4742/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/PSLE_tapmad2026-Backup/level_0.m3u8" }
       ]
     }
   }
