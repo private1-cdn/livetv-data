@@ -102,6 +102,21 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "⚽️ Fifa world cup 5": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "01:00 AM | 14-06-2026",
+      "end-in": "03:10 AM | 14-06-2026",
+      "team": [
+        { "name": "QAT", "logo": "https://img.sofascore.com/api/v1/team/4792/image" },
+        { "name": "SUI", "logo": "https://img.sofascore.com/api/v1/team/4699/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
   
 ];
