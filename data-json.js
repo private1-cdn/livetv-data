@@ -57,7 +57,7 @@ export const pin = [
         { "name": "Server 3", "url": "https://live05.msdht.app/live/97312754.m3u8" }
       ]
     }
-  }
+  },
 
 
 
