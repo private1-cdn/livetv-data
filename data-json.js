@@ -38,6 +38,11 @@ export const pin = [
       ]
     }
   },
+
+
+
+
+  
   {
     "⚽️ Fifa world cup 1": {
       "category": "Pin",
@@ -62,6 +67,21 @@ export const pin = [
       "team": [
         { "name": "KOR", "logo": "https://img.sofascore.com/api/v1/team/4735/image" },
         { "name": "CZE", "logo": "https://img.sofascore.com/api/v1/team/4714/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+  {
+    "⚽️ Fifa world cup 3": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "01:00 AM | 13-06-2026",
+      "end-in": "03:10 AM | 13-06-2026",
+      "team": [
+        { "name": "CAN", "logo": "https://img.sofascore.com/api/v1/team/4752/image" },
+        { "name": "BIH", "logo": "https://img.sofascore.com/api/v1/team/4479/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
