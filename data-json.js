@@ -39,6 +39,21 @@ export const pin = [
       ]
     }
   },
+  {
+    "⚽️ International Friendly": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "01:45 AM | 11-06-2026",
+      "end-in": "03:55 AM | 11-06-2026",
+      "team": [
+        { "name": "POR", "logo": "https://img.sofascore.com/api/v1/team/4704/image" },
+        { "name": "NGA", "logo": "https://img.sofascore.com/api/v1/team/4785/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
 
 
 
