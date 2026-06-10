@@ -19,8 +19,7 @@ export const pin = [
         { "name": "ENG-W", "logo": "https://img.sofascore.com/api/v1/team/213121/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8" },
-        { "name": "Server 2", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
+        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8" }
       ]
     }
   },
@@ -35,7 +34,7 @@ export const pin = [
         { "name": "AUS-W", "logo": "https://img.sofascore.com/api/v1/team/213117/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
       ]
     }
   },
