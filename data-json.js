@@ -117,6 +117,21 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "⚽️ Fifa world cup 6": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "04:00 AM | 14-06-2026",
+      "end-in": "06:10 AM | 14-06-2026",
+      "team": [
+        { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
+        { "name": "MAR", "logo": "https://img.sofascore.com/api/v1/team/4778/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
   
 ];
