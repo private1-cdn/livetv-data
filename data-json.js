@@ -19,7 +19,8 @@ export const pin = [
         { "name": "ISL", "logo": "https://img.sofascore.com/api/v1/team/4708/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://tfwm3gr3uomttgr31hp3tfa3dqmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=f410fed6344b6d9f71f674c6-178105250798186&wsIPSercert=5278afc195aa5bc0f9ca8999df07a564&wsBindIP=2&wsserid=1168201446952453455" },
+        { "name": "Server 2", "url": "#" }
       ]
     }
   },
