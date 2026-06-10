@@ -19,7 +19,10 @@ export const pin = [
         { "name": "NGA", "logo": "https://img.sofascore.com/api/v1/team/4785/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://daffodil.formaturamaxi.com.br/fsp.m3u8" }
+        { "name": "Server 1", "url": "https://daffodil.formaturamaxi.com.br/fsp.m3u8" },
+        { "name": "Server 2", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8?hdnts=exp=1781121316~acl=/hls/*~hmac=e9ef90fbc81c2b9b25144bfd965bea36204d54818310bf756032690a8f23a4f4" },
+        { "name": "Server 3", "url": "https://1hls.syrlive.online/bein2/bein2_1080p/index.m3u8" },
+        { "name": "Server 4", "url": "https://live05.msdht.app/live/24561735.m3u8" }
       ]
     }
   },
