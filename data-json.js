@@ -162,6 +162,21 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "⚽️ Fifa world cup 9": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "11:00 PM | 14-06-2026",
+      "end-in": "01:10 AM | 15-06-2026",
+      "team": [
+        { "name": "GER", "logo": "https://img.sofascore.com/api/v1/team/4711/image" },
+        { "name": "CUW", "logo": "https://img.sofascore.com/api/v1/team/55827/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
   
 ];
