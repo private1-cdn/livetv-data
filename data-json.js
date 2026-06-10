@@ -9,21 +9,6 @@ export const welcome = [
 
 export const pin = [
   {
-    "🏏 ICC Women's T20 World Cup 2": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "08:00 PM | 10-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "WI-W", "logo": "https://img.sofascore.com/api/v1/team/213120/image" },
-        { "name": "AUS-W", "logo": "https://img.sofascore.com/api/v1/team/213117/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
-      ]
-    }
-  },
-  {
     "⚽️ International Friendly": {
       "category": "Pin",
       "status": "",
