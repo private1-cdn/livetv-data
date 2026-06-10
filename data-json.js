@@ -19,7 +19,7 @@ export const pin = [
         { "name": "NGA", "logo": "https://img.sofascore.com/api/v1/team/4785/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://daffodil.formaturamaxi.com.br/fsp.m3u8" }
       ]
     }
   },
