@@ -147,6 +147,21 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "⚽️ Fifa world cup 8": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "10:00 AM | 14-06-2026",
+      "end-in": "12:10 PM | 14-06-2026",
+      "team": [
+        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/4741/image" },
+        { "name": "TUR", "logo": "https://img.sofascore.com/api/v1/team/4700/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
   
 ];
