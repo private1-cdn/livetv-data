@@ -9,7 +9,7 @@ export const welcome = [
 
 export const pin = [
   {
-    "🏏 ICC Women's T20 World Cup": {
+    "🏏 ICC Women's T20 World Cup 1": {
       "category": "Pin",
       "status": "",
       "start-in": "03:00 PM | 10-06-2026",
@@ -24,17 +24,17 @@ export const pin = [
     }
   },
   {
-    "Football | International Friendly 1": {
+    "🏏 ICC Women's T20 World Cup 2": {
       "category": "Pin",
       "status": "",
-      "start-in": "12:00 AM | 10-06-2026",
-      "end-in": "02:00 AM | 10-06-2026",
+      "start-in": "08:00 PM | 10-06-2026",
+      "end-in": "",
       "team": [
-        { "name": "SMR", "logo": "https://img.sofascore.com/api/v1/team/4833/image" },
-        { "name": "AZE", "logo": "https://img.sofascore.com/api/v1/team/4742/image" }
+        { "name": "WI-W", "logo": "https://img.sofascore.com/api/v1/team/213120/image" },
+        { "name": "AUS-W", "logo": "https://img.sofascore.com/api/v1/team/213117/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/PSLE_tapmad2026-Backup/level_0.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   }
