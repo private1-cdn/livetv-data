@@ -9,7 +9,7 @@ export const welcome = [
 
 export const pin = [
   {
-    "⚽️ International Friendly": {
+    "⚽️ International Friendly 1": {
       "category": "Pin",
       "status": "",
       "start-in": "01:45 AM | 11-06-2026",
@@ -41,6 +41,23 @@ export const pin = [
       ]
     }
   },
+  {
+    "⚽️ International Friendly 2": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "03:00 AM | 11-06-2026",
+      "end-in": "05:10 AM | 11-06-2026",
+      "team": [
+        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/4713/image" },
+        { "name": "CRC", "logo": "https://img.sofascore.com/api/v1/team/4756/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-PaKvZIm/master.m3u8" },
+        { "name": "Server 2", "url": "https://pull.niues.live/live/stream-9912114_lsd.m3u8?auth_key=1781119280-0-0-f414f92826ce68eb1dc92552aac0fb01" },
+        { "name": "Server 3", "url": "https://live05.msdht.app/live/97312754.m3u8" }
+      ]
+    }
+  }
 
 
 
