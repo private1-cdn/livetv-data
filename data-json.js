@@ -13,7 +13,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "07:00 AM | 10-06-2026",
-      "end-in": "09:00 AM | 10-06-2026",
+      "end-in": "09:10 AM | 10-06-2026",
       "team": [
         { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4819/image" },
         { "name": "ISL", "logo": "https://img.sofascore.com/api/v1/team/4708/image" }
