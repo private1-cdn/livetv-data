@@ -87,6 +87,21 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "⚽️ Fifa world cup 4": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "07:00 AM | 13-06-2026",
+      "end-in": "09:10 AM | 13-06-2026",
+      "team": [
+        { "name": "USA", "logo": "https://img.sofascore.com/api/v1/team/4724/image" },
+        { "name": "PAR", "logo": "https://img.sofascore.com/api/v1/team/4789/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
   
 ];
