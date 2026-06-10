@@ -20,7 +20,7 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://tfwm3gr3uomttgr31hp3tfa3dqmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=f410fed6344b6d9f71f674c6-178105250798186&wsIPSercert=5278afc195aa5bc0f9ca8999df07a564&wsBindIP=2&wsserid=1168201446952453455" },
-        { "name": "Server 2", "url": "#" }
+        { "name": "Server 2", "url": "https://1hls.syrlive.online/time2/time2_1080p/index.m3u8" }
       ]
     }
   },
