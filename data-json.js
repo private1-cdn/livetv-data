@@ -11,7 +11,7 @@ export const pin = [
   {
     "🏏 ICC Women's T20 World Cup 1": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "03:00 PM | 10-06-2026",
       "end-in": "Finished",
       "team": [
