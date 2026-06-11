@@ -403,7 +403,9 @@ export const channels = [
         { "name": "Server 1", "url": "http://103.179.25.147:8181/T-SPORTS/tracks-v1a1/mono.m3u8" },
         { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
         { "name": "Server 3", "url": "http://103.151.61.12/T-Sports.kutta/video.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 4", "url": "http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 5", "url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8" },
+        { "name": "Server 6", "url": "http://27.124.71.27/T-Sports/index.m3u8" }
       ]
     }
   },
