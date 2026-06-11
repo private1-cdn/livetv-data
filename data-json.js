@@ -20,7 +20,8 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
+        { "name": "Server 3", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8?hdnts=exp=1781154306~acl=/hls/*~hmac=d3d91a3a6d3b2de16bfb9fabe653a2b52d3d3d7cea74f07ad2e190476aff19ac" }
       ]
     }
   },
