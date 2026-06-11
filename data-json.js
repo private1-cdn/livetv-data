@@ -442,15 +442,6 @@ export const channels = [
     }
   },
   {
-    "LaLiga TV": {
-      "logo": "LaLigaTV-logo.webp",
-      "category": "Sports",
-      "servers": [
-        { "name": "Server 1", "url": "https://d3bb58xoj568xi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/fb7ba5c6-15a0-4c2a-84d4-5f82390085c6/2.m3u8" }
-      ]
-    }
-  },
-  {
     "Real Madrid TV": {
       "logo": "RealMadridTV-logo.webp",
       "category": "Sports",
