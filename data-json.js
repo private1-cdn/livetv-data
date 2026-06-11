@@ -403,8 +403,10 @@ export const channels = [
       "logo": "TSports-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
+        { "name": "Server 1", "url": "http://103.179.25.147:8181/T-SPORTS/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
+        { "name": "Server 3", "url": "http://103.151.61.12/T-Sports.kutta/video.m3u8" },
+        { "name": "Server 4", "url": "http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
@@ -413,7 +415,7 @@ export const channels = [
       "logo": "Willow-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
@@ -422,52 +424,7 @@ export const channels = [
       "logo": "StarSports1-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8" }
-      ]
-    }
-  },
-  {
-    "Bein Sports 1": {
-      "logo": "BeinSports1-logo.webp",
-      "category": "Sports",
-      "servers": [
-        { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs1.m3u8" }
-      ]
-    }
-  },
-  {
-    "Bein Sports 2": {
-      "logo": "BeinSports2-logo.webp",
-      "category": "Sports",
-      "servers": [
-        { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs2.m3u8" }
-      ]
-    }
-  },
-  {
-    "Bein Sports 3": {
-      "logo": "BeinSports3-logo.webp",
-      "category": "Sports",
-      "servers": [
-        { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs3.m3u8" }
-      ]
-    }
-  },
-  {
-    "Bein Sports 4": {
-      "logo": "BeinSports4-logo.webp",
-      "category": "Sports",
-      "servers": [
-        { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs4.m3u8" }
-      ]
-    }
-  },
-  {
-    "Bein Sports 5": {
-      "logo": "BeinSports5-logo.webp",
-      "category": "Sports",
-      "servers": [
-        { "name": "Server 1", "url": "https://maymunmatematigi.lol/static/bs5.m3u8" }
+        { "name": "Server 1", "url": "http://41.205.93.154/STARSPORTS1/index.m3u8" }
       ]
     }
   },
@@ -476,7 +433,11 @@ export const channels = [
       "logo": "beINSPORTSXTRA-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://bein-esp-xumo.amagi.tv/playlistR480p.m3u8" }
+        { "name": "Server 1", "url": "https://bein-esp-xumo.amagi.tv/playlistR480p.m3u8" },
+        { "name": "Server 2", "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8" },
+        { "name": "Server 3", "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8" },
+        { "name": "Server 4", "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8" },
+        { "name": "Server 5", "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8?ads.vf=SylQdpcCl2O" }
       ]
     }
   },
