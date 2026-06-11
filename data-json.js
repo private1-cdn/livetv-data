@@ -548,7 +548,7 @@ export const channels = [
       "logo": "BTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
@@ -557,7 +557,7 @@ export const channels = [
       "logo": "SangsadTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8" }
+        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8" }
       ]
     }
   },
@@ -566,8 +566,7 @@ export const channels = [
       "logo": "SomoyTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8" },
-        { "name": "Server 2", "url": "https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
@@ -613,7 +612,8 @@ export const channels = [
       "logo": "DeshTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
@@ -641,7 +641,8 @@ export const channels = [
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8" },
-        { "name": "Server 2", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/news24local.stream/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 2", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/news24local.stream/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/News24/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
@@ -690,7 +691,8 @@ export const channels = [
       "logo": "NTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8" }
+        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8" },
+        { "name": "Server 2", "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8" }
       ]
     }
   },
@@ -727,7 +729,7 @@ export const channels = [
       "logo": "SATV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8" }
+        { "name": "Server 1", "url": "http://116.204.149.16/satv/index.m3u8" }
       ]
     }
   },
@@ -736,7 +738,7 @@ export const channels = [
       "logo": "AsianTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
@@ -772,7 +774,8 @@ export const channels = [
       "logo": "MovieBangla-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8" },
+        { "name": "Server 2", "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
@@ -800,15 +803,6 @@ export const channels = [
       "category": "Bangladeshi",
       "servers": [
         { "name": "Server 1", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8" }
-      ]
-    }
-  },
-  {
-    "Deshe Bideshe": {
-      "logo": "DesheBidesheTV-logo.webp",
-      "category": "Bangladeshi",
-      "servers": [
-        { "name": "Server 1", "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8" }
       ]
     }
   },
