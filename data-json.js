@@ -11,7 +11,7 @@ export const pin = [
   {
     "world cup - opening ceremony": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "11:30 PM | 11-06-2026",
       "end-in": "",
       "team": [
