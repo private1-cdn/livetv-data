@@ -165,6 +165,126 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
+  },
+  {
+    "⚽️ Fifa world cup 10": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "02:00 AM | 15-06-2026",
+      "end-in": "04:10 AM | 15-06-2026",
+      "team": [
+        { "name": "NED", "logo": "https://img.sofascore.com/api/v1/team/4705/image" },
+        { "name": "JPN", "logo": "https://img.sofascore.com/api/v1/team/4770/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 11": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "05:00 AM | 15-06-2026",
+      "end-in": "07:10 AM | 15-06-2026",
+      "team": [
+        { "name": "CIV", "logo": "https://img.sofascore.com/api/v1/team/4768/image" },
+        { "name": "ECU", "logo": "https://img.sofascore.com/api/v1/team/4757/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 12": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "08:00 AM | 15-06-2026",
+      "end-in": "10:10 AM | 15-06-2026",
+      "team": [
+        { "name": "SWE", "logo": "https://img.sofascore.com/api/v1/team/4688/image" },
+        { "name": "TUN", "logo": "https://img.sofascore.com/api/v1/team/4729/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 13": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "10:00 AM | 15-06-2026",
+      "end-in": "12:10 PM | 15-06-2026",
+      "team": [
+        { "name": "ESP", "logo": "https://img.sofascore.com/api/v1/team/4698/image" },
+        { "name": "CPV", "logo": "https://img.sofascore.com/api/v1/team/4753/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 14": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "01:00 AM | 16-06-2026",
+      "end-in": "03:10 AM | 16-06-2026",
+      "team": [
+        { "name": "BEL", "logo": "https://img.sofascore.com/api/v1/team/4717/image" },
+        { "name": "EGY", "logo": "https://img.sofascore.com/api/v1/team/4758/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 15": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "04:00 AM | 16-06-2026",
+      "end-in": "06:10 AM | 16-06-2026",
+      "team": [
+        { "name": "KSA", "logo": "https://img.sofascore.com/api/v1/team/4834/image" },
+        { "name": "URU", "logo": "https://img.sofascore.com/api/v1/team/4725/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 16": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "07:00 AM | 16-06-2026",
+      "end-in": "09:10 AM | 16-06-2026",
+      "team": [
+        { "name": "IRN", "logo": "https://img.sofascore.com/api/v1/team/4766/image" },
+        { "name": "NZL", "logo": "https://img.sofascore.com/api/v1/team/4784/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+{
+    "⚽️ Fifa world cup 17": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "01:00 AM | 17-06-2026",
+      "end-in": "03:10 AM | 17-06-2026",
+      "team": [
+        { "name": "FRA", "logo": "https://img.sofascore.com/api/v1/team/4481/image" },
+        { "name": "SEN", "logo": "https://img.sofascore.com/api/v1/team/4739/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
   }
   
 ];
