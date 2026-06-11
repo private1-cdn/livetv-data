@@ -415,10 +415,18 @@ export const channels = [
       "logo": "Willow-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
       ]
     }
   },
+  "A Sports": {
+        "logo": "ASports-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8" },
+          { "name": "Server 2", "url": "http://198.195.239.50:8095/Eurosport/index.m3u8" }
+        ]
+      },
   {
     "Star Sports 1": {
       "logo": "StarSports1-logo.webp",
@@ -428,6 +436,29 @@ export const channels = [
       ]
     }
   },
+  "FIFA Plus": {
+        "logo": "Fifaplus-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8" },
+          { "name": "Server 2", "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8" },
+          { "name": "Server 3", "url": "https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8" },
+          { "name": "Server 4", "url": "https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8" },
+          { "name": "Server 5", "url": "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8" },
+          { "name": "Server 6", "url": "https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8" },
+          { "name": "Server 7", "url": "https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8" },
+          { "name": "Server 8", "url": "https://c822c659.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8" },
+          { "name": "Server 9", "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8" }
+        ]
+      },
+"TyC Sports": {
+        "logo": "TyCSports-logo.webp",
+        "category": "Sports",
+        "servers": [
+          { "name": "Server 1", "url": "http://cdn.tv-rds.workers.dev/TYCSPT.m3u8" },
+          { "name": "Server 2", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" }
+        ]
+      },
   {
     "beIN SPORTS XTRA": {
       "logo": "beINSPORTSXTRA-logo.webp",
