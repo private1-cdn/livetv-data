@@ -9,7 +9,7 @@ export const welcome = [
 
 export const pin = [
   {
-    "⚽️ world cup - opening ceremony": {
+    "world cup - opening ceremony": {
       "category": "Pin",
       "status": "",
       "start-in": "11:30 PM | 11-06-2026",
@@ -22,7 +22,7 @@ export const pin = [
         { "name": "Server 1", "url": "#" }
       ]
     }
-  }
+  },
 
 
 
