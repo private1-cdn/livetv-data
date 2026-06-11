@@ -436,8 +436,7 @@ export const channels = [
         { "name": "Server 1", "url": "https://bein-esp-xumo.amagi.tv/playlistR480p.m3u8" },
         { "name": "Server 2", "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8" },
         { "name": "Server 3", "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8" },
-        { "name": "Server 4", "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8" },
-        { "name": "Server 5", "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8?ads.vf=SylQdpcCl2O" }
+        { "name": "Server 4", "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8" }
       ]
     }
   },
@@ -446,7 +445,7 @@ export const channels = [
       "logo": "RealMadridTV-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8" }
+        { "name": "Server 1", "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8" }
       ]
     }
   },
@@ -464,7 +463,7 @@ export const channels = [
       "logo": "PremierLeague-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
@@ -473,8 +472,8 @@ export const channels = [
       "logo": "RedBull-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8" },
-        { "name": "Server 2", "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8" }
+        { "name": "Server 1", "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8" },
+        { "name": "Server 2", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8" }
       ]
     }
   },
@@ -501,7 +500,9 @@ export const channels = [
       "logo": "DDSports-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8" }
+        { "name": "Server 1", "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8" },
+        { "name": "Server 2", "url": "https://cdn-6.pishow.tv/live/13/master.m3u8" },
+        { "name": "Server 3", "url": "http://103.175.73.12:8080/live/64/64_0.m3u8" }
       ]
     }
   },
