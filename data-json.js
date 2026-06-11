@@ -419,6 +419,7 @@ export const channels = [
       ]
     }
   },
+  {
   "A Sports": {
         "logo": "ASports-logo.webp",
         "category": "Sports",
@@ -426,6 +427,7 @@ export const channels = [
           { "name": "Server 1", "url": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8" },
           { "name": "Server 2", "url": "http://198.195.239.50:8095/Eurosport/index.m3u8" }
         ]
+       }
       },
   {
     "Star Sports 1": {
@@ -436,6 +438,7 @@ export const channels = [
       ]
     }
   },
+  {
   "FIFA Plus": {
         "logo": "Fifaplus-logo.webp",
         "category": "Sports",
@@ -450,7 +453,9 @@ export const channels = [
           { "name": "Server 8", "url": "https://c822c659.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8" },
           { "name": "Server 9", "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8" }
         ]
+       }
       },
+  {
 "TyC Sports": {
         "logo": "TyCSports-logo.webp",
         "category": "Sports",
@@ -458,6 +463,7 @@ export const channels = [
           { "name": "Server 1", "url": "http://cdn.tv-rds.workers.dev/TYCSPT.m3u8" },
           { "name": "Server 2", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" }
         ]
+       }
       },
   {
     "beIN SPORTS XTRA": {
