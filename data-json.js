@@ -20,7 +20,7 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "http://198.195.239.50:8095/PTV-kutta/video.m3u8" },
-        { "name": "Server 2", "url": "http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
         { "name": "Server 3", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" }
       ]
     }
