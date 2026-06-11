@@ -8,22 +8,6 @@ export const welcome = [
 
 
 export const pin = [
-  {
-    "world cup - opening ceremony": {
-      "category": "Pin",
-      "status": "Finished",
-      "start-in": "11:30 PM | 11-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "World Cup", "logo": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp" },
-        { "name": "2026", "logo": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
-      ]
-    }
-  },
 
 
 
@@ -57,7 +41,9 @@ export const pin = [
         { "name": "CZE", "logo": "https://img.sofascore.com/api/v1/team/4714/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
+        { "name": "Server 3", "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8" }
       ]
     }
   },
