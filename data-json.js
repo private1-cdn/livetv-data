@@ -9,25 +9,7 @@ export const welcome = [
 
 export const pin = [
   {
-    "⚽️ International Friendly 1": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "01:45 AM | 11-06-2026",
-      "end-in": "03:55 AM | 11-06-2026",
-      "team": [
-        { "name": "POR", "logo": "https://img.sofascore.com/api/v1/team/4704/image" },
-        { "name": "NGA", "logo": "https://img.sofascore.com/api/v1/team/4785/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://daffodil.formaturamaxi.com.br/fsp.m3u8" },
-        { "name": "Server 2", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8?hdnts=exp=1781121316~acl=/hls/*~hmac=e9ef90fbc81c2b9b25144bfd965bea36204d54818310bf756032690a8f23a4f4" },
-        { "name": "Server 3", "url": "https://1hls.syrlive.online/bein2/bein2_1080p/index.m3u8" },
-        { "name": "Server 4", "url": "https://live05.msdht.app/live/24561735.m3u8" }
-      ]
-    }
-  },
-  {
-    "🏏 3 ODI Series": {
+    "🏏 2 ODI Series": {
       "category": "Pin",
       "status": "",
       "start-in": "11:00 AM | 11-06-2026",
@@ -37,24 +19,8 @@ export const pin = [
         { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/187746/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
-      ]
-    }
-  },
-  {
-    "⚽️ International Friendly 2": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "03:00 AM | 11-06-2026",
-      "end-in": "05:10 AM | 11-06-2026",
-      "team": [
-        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/4713/image" },
-        { "name": "CRC", "logo": "https://img.sofascore.com/api/v1/team/4756/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-PaKvZIm/master.m3u8" },
-        { "name": "Server 2", "url": "https://pull.niues.live/live/stream-9912114_lsd.m3u8?auth_key=1781119280-0-0-f414f92826ce68eb1dc92552aac0fb01" },
-        { "name": "Server 3", "url": "https://live05.msdht.app/live/97312754.m3u8" }
+        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
+        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" }
       ]
     }
   },
