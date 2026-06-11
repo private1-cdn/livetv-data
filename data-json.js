@@ -9,23 +9,20 @@ export const welcome = [
 
 export const pin = [
   {
-    "🏏 2 ODI Series": {
+    "⚽️ world cup - opening ceremony": {
       "category": "Pin",
       "status": "",
-      "start-in": "11:00 AM | 11-06-2026",
+      "start-in": "11:30 PM | 11-06-2026",
       "end-in": "",
       "team": [
-        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/187744/image" },
-        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/187746/image" }
+        { "name": "World Cup", "logo": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp" },
+        { "name": "2026", "logo": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-        { "name": "Server 3", "url": "http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 4", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
-  },
+  }
 
 
 
@@ -460,8 +457,7 @@ export const channels = [
         "logo": "TyCSports-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "http://cdn.tv-rds.workers.dev/TYCSPT.m3u8" },
-          { "name": "Server 2", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" }
+          { "name": "Server 1", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" }
         ]
        }
       },
@@ -585,7 +581,7 @@ export const channels = [
       "logo": "BTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/PTV-kutta/video.m3u8" }
       ]
     }
   },
