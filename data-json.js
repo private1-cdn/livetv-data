@@ -26,7 +26,8 @@ export const pin = [
         { "name": "BIH", "logo": "https://img.sofascore.com/api/v1/team/4479/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
       ]
     }
   },
@@ -357,7 +358,7 @@ export const channels = [
       "logo": "TSports-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/T-spo_rts-hoichoi24/video.m3u8" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
