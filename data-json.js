@@ -13,40 +13,8 @@ export const pin = [
 
 
   
-  {
-    "⚽️ Fifa world cup 1": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "01:00 AM | 12-06-2026",
-      "end-in": "03:10 AM | 12-06-2026",
-      "team": [
-        { "name": "MEX", "logo": "https://img.sofascore.com/api/v1/team/4781/image" },
-        { "name": "RSA", "logo": "https://img.sofascore.com/api/v1/team/4736/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-        { "name": "Server 3", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" }
-      ]
-    }
-  },
-  {
-    "⚽️ Fifa world cup 2": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "08:00 AM | 12-06-2026",
-      "end-in": "10:10 AM | 12-06-2026",
-      "team": [
-        { "name": "KOR", "logo": "https://img.sofascore.com/api/v1/team/4735/image" },
-        { "name": "CZE", "logo": "https://img.sofascore.com/api/v1/team/4714/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-        { "name": "Server 3", "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8" }
-      ]
-    }
-  },
+  
+  
   {
     "⚽️ Fifa world cup 3": {
       "category": "Pin",
@@ -389,12 +357,7 @@ export const channels = [
       "logo": "TSports-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "http://103.179.25.147:8181/T-SPORTS/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 2", "url": "https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1a1/index.m3u8" },
-        { "name": "Server 3", "url": "http://103.151.61.12/T-Sports.kutta/video.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8" },
-        { "name": "Server 6", "url": "http://27.124.71.27/T-Sports/index.m3u8" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/T-spo_rts-hoichoi24/video.m3u8" }
       ]
     }
   },
