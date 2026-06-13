@@ -15,22 +15,7 @@ export const pin = [
   
   
   
-  {
-    "⚽️ Fifa world cup 3": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "01:00 AM | 13-06-2026",
-      "end-in": "03:10 AM | 13-06-2026",
-      "team": [
-        { "name": "CAN", "logo": "https://img.sofascore.com/api/v1/team/4752/image" },
-        { "name": "BIH", "logo": "https://img.sofascore.com/api/v1/team/4479/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
-      ]
-    }
-  },
+ 
   {
     "⚽️ Fifa world cup 4": {
       "category": "Pin",
@@ -42,7 +27,8 @@ export const pin = [
         { "name": "PAR", "logo": "https://img.sofascore.com/api/v1/team/4789/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
       ]
     }
   },
