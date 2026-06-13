@@ -28,7 +28,7 @@ export const pin = [
   {
     "🏏 sl in wi | 3 T20 Series": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "06:30 AM | 14-06-2026",
       "end-in": "",
       "team": [
