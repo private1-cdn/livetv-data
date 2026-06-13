@@ -30,7 +30,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "03:30 PM | 13-06-2026",
-      "end-in": "",
+      "end-in": "Finished",
       "team": [
         { "name": "SCO-W", "logo": "https://img.sofascore.com/api/v1/team/453162/image" },
         { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
