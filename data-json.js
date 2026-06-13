@@ -26,17 +26,17 @@ export const pin = [
     }
   },
   {
-    "🏏 ICC Women World T20 - 1": {
+    "🏏 sl in wi | 3 T20 Series": {
       "category": "Pin",
-      "status": "Finished",
-      "start-in": "03:30 PM | 13-06-2026",
+      "status": "",
+      "start-in": "06:30 AM | 14-06-2026",
       "end-in": "",
       "team": [
-        { "name": "SCO-W", "logo": "https://img.sofascore.com/api/v1/team/453162/image" },
-        { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
+        { "name": "WI", "logo": "https://img.sofascore.com/api/v1/team/187760/image" },
+        { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "#" }
       ]
     }
   },
