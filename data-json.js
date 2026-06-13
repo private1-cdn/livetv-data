@@ -544,7 +544,7 @@ export const channels = [
       "logo": "SomoyTV-logo.webp",
       "category": "Bangladeshi",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" }
       ]
     }
   },
