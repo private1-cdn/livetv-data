@@ -43,7 +43,7 @@ export const pin = [
     "🏏 ICC Women World T20 - 3": {
       "category": "Pin",
       "status": "",
-      "start-in": "11:30 AM | 13-06-2026",
+      "start-in": "11:30 PM | 13-06-2026",
       "end-in": "",
       "team": [
         { "name": "WI-W", "logo": "https://img.sofascore.com/api/v1/team/213120/image" },
