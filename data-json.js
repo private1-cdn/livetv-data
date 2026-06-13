@@ -9,6 +9,67 @@ export const welcome = [
 
 export const pin = [
 
+  {
+    "🏏 3 ODI Series": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "02:00 PM | 13-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "IND", "logo": "https://img.sofascore.com/api/v1/team/187765/image" },
+        { "name": "AFG", "logo": "https://img.sofascore.com/api/v1/team/187575/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports2/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+  {
+    "🏏 ICC Women World T20 - 1": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "03:30 PM | 13-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "SCO-W", "logo": "https://img.sofascore.com/api/v1/team/453162/image" },
+        { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+  {
+    "🏏 ICC Women World T20 - 3": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "11:30 AM | 13-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "WI-W", "logo": "https://img.sofascore.com/api/v1/team/213120/image" },
+        { "name": "NZ-W", "logo": "https://img.sofascore.com/api/v1/team/213115/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+  {
+    "🏏 ICC Women World T20 - 2": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "07:30 PM | 13-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "AUS-W", "logo": "https://img.sofascore.com/api/v1/team/213117/image" },
+        { "name": "SA-W", "logo": "https://img.sofascore.com/api/v1/team/213118/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+
 
 
 
@@ -376,7 +437,7 @@ export const channels = [
       "logo": "StarSports1-logo.webp",
       "category": "Sports",
       "servers": [
-        { "name": "Server 1", "url": "http://41.205.93.154/STARSPORTS1/index.m3u8" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
