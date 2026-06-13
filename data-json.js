@@ -82,7 +82,16 @@ export const pin = [
         { "name": "MAR", "logo": "https://img.sofascore.com/api/v1/team/4778/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 2", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 4", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 5", "url": "https://s3.us-east-2.amazonaws.com/yalaproo2/hls/0/stream_1280x720_3300k.m3u8" },
+        { "name": "Server 6", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
+        { "name": "Server 7", "url": "#" },
+        { "name": "Server 8", "url": "#" },
+        { "name": "Server 9", "url": "#" },
+        { "name": "Server 10", "url": "#" }
       ]
     }
   },
