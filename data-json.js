@@ -28,7 +28,8 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 1", "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8" }
+        { "name": "Server 2", "url": "https://alive.yarncdn.live/hqtv_blv_phanma/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "https://s3.us-east-1.amazonaws.com/yalapro1/hls/0/stream_1280x720_3300k.m3u8" }
       ]
     }
   },
