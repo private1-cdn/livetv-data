@@ -9,22 +9,7 @@ export const welcome = [
 
 export const pin = [
 
-  {
-    "🏏 3 ODI Series": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "02:00 PM | 13-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "IND", "logo": "https://img.sofascore.com/api/v1/team/187765/image" },
-        { "name": "AFG", "logo": "https://img.sofascore.com/api/v1/team/187575/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports2/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 2", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/vertical-backup312/master.m3u8" }
-      ]
-    }
-  },
+  
   {
     "🏏 sl in wi | 3 T20 Series": {
       "category": "Pin",
@@ -55,21 +40,7 @@ export const pin = [
       ]
     }
   },
-  {
-    "🏏 ICC Women World T20 - 2": {
-      "category": "Pin",
-      "status": "Finished",
-      "start-in": "07:30 PM | 13-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "AUS-W", "logo": "https://img.sofascore.com/api/v1/team/213117/image" },
-        { "name": "SA-W", "logo": "https://img.sofascore.com/api/v1/team/213118/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
-      ]
-    }
-  },
+  
 
 
 
