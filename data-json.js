@@ -20,7 +20,8 @@ export const pin = [
         { "name": "AFG", "logo": "https://img.sofascore.com/api/v1/team/187575/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports2/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports2/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8?hdnts=exp=1781337907~acl=/hls/*~hmac=c34bc35aad6290743048803e637ee294da7a0f93594a3eeb8ccde3769fa94b1a" }
       ]
     }
   },
