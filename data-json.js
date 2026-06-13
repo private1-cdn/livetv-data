@@ -52,9 +52,9 @@ export const pin = [
         { "name": "Server 4", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 5", "url": "https://s3.us-east-2.amazonaws.com/yalaproo2/hls/0/stream_1280x720_3300k.m3u8" },
         { "name": "Server 6", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 7", "url": "#" },
-        { "name": "Server 8", "url": "#" },
-        { "name": "Server 9", "url": "#" },
+        { "name": "Server 7", "url": "http://84.17.50.102/fox/index.m3u8" },
+        { "name": "Server 8", "url": "https://bluesport.fun/live/blue_sport_1/index.m3u8" },
+        { "name": "Server 9", "url": "#https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/bydEQp0Upl1qODZU4qpqADmNoX9xsqVzVnZY_EKfNBpqEuiSK9EW5vC336uky-9KUd-3lMgBw5IEd4F2WP1iOQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live" },
         { "name": "Server 10", "url": "#" }
       ]
     }
