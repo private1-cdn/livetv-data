@@ -35,7 +35,6 @@ export const pin = [
   
  
 
-  },
   {
     "⚽️ Fifa world cup 6": {
       "category": "Pin",
