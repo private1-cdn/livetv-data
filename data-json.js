@@ -28,7 +28,7 @@ export const pin = [
   {
     "🏏 sl in wi | 3 T20 Series": {
       "category": "Pin",
-      "status": "Finished",
+      "status": "",
       "start-in": "06:30 AM | 14-06-2026",
       "end-in": "",
       "team": [
@@ -58,7 +58,7 @@ export const pin = [
   {
     "🏏 ICC Women World T20 - 2": {
       "category": "Pin",
-      "status": "",
+      "status": "Finished",
       "start-in": "07:30 PM | 13-06-2026",
       "end-in": "",
       "team": [
