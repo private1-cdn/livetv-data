@@ -67,7 +67,7 @@ export const pin = [
         { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
         { "name": "Server 5", "url": "https://s3.us-east-2.amazonaws.com/yalaproo2/hls/0/stream_1280x720_3300k.m3u8" },
         { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 7", "url": "#" }
+        { "name": "Server 7", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8" }
       ]
     }
   },
