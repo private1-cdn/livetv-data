@@ -21,7 +21,7 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports2/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 2", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8?hdnts=exp=1781337907~acl=/hls/*~hmac=c34bc35aad6290743048803e637ee294da7a0f93594a3eeb8ccde3769fa94b1a" }
+        { "name": "Server 2", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/vertical-backup312/master.m3u8" }
       ]
     }
   },
