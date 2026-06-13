@@ -49,26 +49,7 @@ export const pin = [
   
   
  
-  {
-    "⚽️ Fifa world cup 4": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "07:00 AM | 13-06-2026",
-      "end-in": "09:10 AM | 13-06-2026",
-      "team": [
-        { "name": "USA", "logo": "https://img.sofascore.com/api/v1/team/4724/image" },
-        { "name": "PAR", "logo": "https://img.sofascore.com/api/v1/team/4789/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 2", "url": "https://alive.yarncdn.live/hqtv_blv_phanma/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "https://prod-fastly-eu-west-3.video.pscp.tv/Transcoding/v1/hls/7wZuguG-UqZNB1eF29OwwmlTH_bZlbx9xDrS6-iCdQyeA-_zJadWso6g2XcOvnmJx7-r5cDU7h8-ESlHgy3NaQ/transcode/eu-west-3/periscope-replay-direct-prod-eu-west-3-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live" },
-        { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 5", "url": "https://live.shoranz.cfd/shossss3/index.m3u8" },
-        { "name": "Server 6", "url": "https://fra-prod-catalyst-0.lp-playback.studio/hls/video+ac678wwz0jkjjj2j/1_0/index.m3u8?tkn=3674042677" }
-      ]
-    }
-  },
+
   {
     "⚽️ Fifa world cup 5": {
       "category": "Pin",
@@ -80,7 +61,12 @@ export const pin = [
         { "name": "SUI", "logo": "https://img.sofascore.com/api/v1/team/4699/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "#" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
+        { "name": "Server 5", "url": "https://s3.us-east-2.amazonaws.com/yalaproo2/hls/0/stream_1280x720_3300k.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" }
       ]
     }
   },
