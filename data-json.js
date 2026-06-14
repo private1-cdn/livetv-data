@@ -25,6 +25,21 @@ export const pin = [
       ]
     }
   },
+  {
+    "🏏 aus in ban | 3 odi Series": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "11:00 AM | 14-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "BAN", "logo": "https://img.sofascore.com/api/v1/team/187744/image" },
+        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/187746/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
   
 
 
