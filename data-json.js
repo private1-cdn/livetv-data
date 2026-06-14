@@ -49,26 +49,6 @@ export const pin = [
   
   
  
-
-  {
-    "⚽️ Fifa world cup 7": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "07:00 AM | 14-06-2026",
-      "end-in": "09:10 AM | 14-06-2026",
-      "team": [
-        { "name": "HAI", "logo": "https://img.sofascore.com/api/v1/team/7229/image" },
-        { "name": "SCO", "logo": "https://img.sofascore.com/api/v1/team/4695/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" }
-      ]
-    }
-  },
   {
     "⚽️ Fifa world cup 8": {
       "category": "Pin",
@@ -80,7 +60,11 @@ export const pin = [
         { "name": "TUR", "logo": "https://img.sofascore.com/api/v1/team/4700/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" }
       ]
     }
   },
