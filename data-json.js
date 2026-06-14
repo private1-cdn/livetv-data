@@ -69,7 +69,7 @@ export const pin = [
         { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 5", "url": "#" }
+        { "name": "Server 5", "url": "http://84.17.50.102/fox/index.m3u8" }
       ]
     }
   },
@@ -88,7 +88,7 @@ export const pin = [
         { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 5", "url": "#" }
+        { "name": "Server 5", "url": "http://84.17.50.102/fox/index.m3u8" }
       ]
     }
   },
@@ -107,7 +107,7 @@ export const pin = [
         { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 5", "url": "#" }
+        { "name": "Server 5", "url": "http://84.17.50.102/fox/index.m3u8" }
       ]
     }
   },
@@ -126,7 +126,7 @@ export const pin = [
         { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 5", "url": "#" }
+        { "name": "Server 5", "url": "http://84.17.50.102/fox/index.m3u8" }
       ]
     }
   },
