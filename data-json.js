@@ -11,50 +11,12 @@ export const pin = [
 
   
   
-  {
-    "🏏 ICC Women t20 World cup - 2": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "07:30 PM | 14-06-2026",
-      "end-in": "11:59 PM | 14-06-2026",
-      "team": [
-        { "name": "IND-W", "logo": "https://img.sofascore.com/api/v1/team/213119/image" },
-        { "name": "PAK-W", "logo": "https://img.sofascore.com/api/v1/team/187808/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
-      ]
-    }
-  },
+  
   
 
 
 
 
-  
-  
-  
- 
-  {
-    "⚽️ Fifa world cup 9": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "11:00 PM | 14-06-2026",
-      "end-in": "01:10 AM | 15-06-2026",
-      "team": [
-        { "name": "GER", "logo": "https://img.sofascore.com/api/v1/team/4711/image" },
-        { "name": "CUW", "logo": "https://img.sofascore.com/api/v1/team/55827/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8" },
-        { "name": "Server 2", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 3", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 4", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 5", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 6", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" }
-      ]
-    }
-  },
   {
     "⚽️ Fifa world cup 10": {
       "category": "Pin",
