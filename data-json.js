@@ -46,7 +46,11 @@ export const pin = [
         { "name": "SCO", "logo": "https://img.sofascore.com/api/v1/team/4695/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" }
       ]
     }
   },
