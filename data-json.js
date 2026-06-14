@@ -25,6 +25,36 @@ export const pin = [
       ]
     }
   },
+  {
+    "🏏 ICC Women t20 World cup - 1": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "03:30 PM | 14-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "BAN-W", "logo": "https://img.sofascore.com/api/v1/team/187809/image" },
+        { "name": "NED-W", "logo": "https://img.sofascore.com/api/v1/team/417753/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+  {
+    "🏏 ICC Women t20 World cup - 2": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "07:30 PM | 14-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "IND-W", "logo": "https://img.sofascore.com/api/v1/team/213119/image" },
+        { "name": "PAK-W", "logo": "https://img.sofascore.com/api/v1/team/187808/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
   
 
 
@@ -323,8 +353,7 @@ export const channels = [
         "logo": "ASports-logo.webp",
         "category": "Sports",
         "servers": [
-          { "name": "Server 1", "url": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8" },
-          { "name": "Server 2", "url": "http://198.195.239.50:8095/Eurosport/index.m3u8" }
+          { "name": "Server 1", "url": "#" }
         ]
        }
       },
