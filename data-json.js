@@ -36,7 +36,7 @@ export const pin = [
         { "name": "NED-W", "logo": "https://img.sofascore.com/api/v1/team/417753/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
       ]
     }
   },
@@ -51,7 +51,7 @@ export const pin = [
         { "name": "PAK-W", "logo": "https://img.sofascore.com/api/v1/team/187808/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "http://198.195.239.50:8095/starSports1/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
       ]
     }
   },
