@@ -21,7 +21,7 @@ export const pin = [
         { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/187746/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-P2s6L_EnG-FiN@L/master.m3u8" }
       ]
     }
   },
