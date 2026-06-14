@@ -30,7 +30,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "03:30 PM | 14-06-2026",
-      "end-in": "",
+      "end-in": "07:30 PM | 14-06-2026",
       "team": [
         { "name": "BAN-W", "logo": "https://img.sofascore.com/api/v1/team/187809/image" },
         { "name": "NED-W", "logo": "https://img.sofascore.com/api/v1/team/417753/image" }
@@ -45,7 +45,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "07:30 PM | 14-06-2026",
-      "end-in": "",
+      "end-in": "11:59 PM | 14-06-2026",
       "team": [
         { "name": "IND-W", "logo": "https://img.sofascore.com/api/v1/team/213119/image" },
         { "name": "PAK-W", "logo": "https://img.sofascore.com/api/v1/team/187808/image" }
