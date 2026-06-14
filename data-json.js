@@ -11,21 +11,6 @@ export const pin = [
 
   
   {
-    "🏏 sl in wi | 3 T20 Series": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "06:30 AM | 14-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "WI", "logo": "https://img.sofascore.com/api/v1/team/187760/image" },
-        { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/PSLE_tapmad2026-Backup/master.m3u8" }
-      ]
-    }
-  },
-  {
     "🏏 aus in ban | 3 odi Series": {
       "category": "Pin",
       "status": "",
