@@ -21,7 +21,7 @@ export const pin = [
         { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/PSLE_tapmad2026-Backup/master.m3u8" }
       ]
     }
   },
@@ -35,30 +35,6 @@ export const pin = [
   
  
 
-  {
-    "⚽️ Fifa world cup 6": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "04:00 AM | 14-06-2026",
-      "end-in": "06:10 AM | 14-06-2026",
-      "team": [
-        { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
-        { "name": "MAR", "logo": "https://img.sofascore.com/api/v1/team/4778/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 2", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 3", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "https://s3.us-east-2.amazonaws.com/yalaproo2/hls/0/stream_1280x720_3300k.m3u8" },
-        { "name": "Server 6", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 7", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 8", "url": "https://bluesport.fun/live/blue_sport_1/index.m3u8" },
-        { "name": "Server 9", "url": "#https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/bydEQp0Upl1qODZU4qpqADmNoX9xsqVzVnZY_EKfNBpqEuiSK9EW5vC336uky-9KUd-3lMgBw5IEd4F2WP1iOQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live" },
-        { "name": "Server 10", "url": "#" }
-      ]
-    }
-  },
   {
     "⚽️ Fifa world cup 7": {
       "category": "Pin",
