@@ -26,21 +26,6 @@ export const pin = [
     }
   },
   {
-    "🏏 ICC Women t20 World cup - 1": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "03:30 PM | 14-06-2026",
-      "end-in": "07:30 PM | 14-06-2026",
-      "team": [
-        { "name": "BAN-W", "logo": "https://img.sofascore.com/api/v1/team/187809/image" },
-        { "name": "NED-W", "logo": "https://img.sofascore.com/api/v1/team/417753/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
-      ]
-    }
-  },
-  {
     "🏏 ICC Women t20 World cup - 2": {
       "category": "Pin",
       "status": "",
