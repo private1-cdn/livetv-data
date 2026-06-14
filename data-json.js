@@ -46,7 +46,7 @@ export const pin = [
         { "name": "CUW", "logo": "https://img.sofascore.com/api/v1/team/55827/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8" },
         { "name": "Server 2", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 3", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
