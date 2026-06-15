@@ -9,21 +9,7 @@ export const welcome = [
 
 export const pin = [
   
-  {
-    "🏏 sl in wi | 3 t20 series": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "06:30 AM | 15-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "WI", "logo": "https://img.sofascore.com/api/v1/team/187760/image" },
-        { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://5a1178b42cc03.streamlock.net/shamshadtelevision/shamshadtelevision/playlist.m3u8" }
-      ]
-    }
-  },
+  
   
   
   
