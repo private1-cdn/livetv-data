@@ -20,7 +20,7 @@ export const pin = [
         { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://bd-mc-flive.fancode.com/mumbai/142977_english_hls_6f073467f892321_1ta-di_h264/1080p.m3u8?hdntl=Expires=1781568306~_GO=Generated~acl=/mumbai/142977_english_hls_6f073467f892321_1ta-di_h264/*~Signature=ATZ0w6fFNIlC_nnBuEapCGmHijcDtGY5SLB4qpwLq_gbUzI4nPIe7Ih7_TKI5uhfpkE04KIY_0RYe0WMErTSJEfNm_YH" }
+        { "name": "Server 1", "url": "https://5a1178b42cc03.streamlock.net/shamshadtelevision/shamshadtelevision/playlist.m3u8" }
       ]
     }
   },
@@ -33,32 +33,12 @@ export const pin = [
 
 
   
-
-{
-    "⚽️ Fifa world cup 12": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "08:00 AM | 15-06-2026",
-      "end-in": "10:10 AM | 15-06-2026",
-      "team": [
-        { "name": "SWE", "logo": "https://img.sofascore.com/api/v1/team/4688/image" },
-        { "name": "TUN", "logo": "https://img.sofascore.com/api/v1/team/4729/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" }
-      ]
-    }
-  },
 {
     "⚽️ Fifa world cup 13": {
       "category": "Pin",
       "status": "",
-      "start-in": "10:00 AM | 15-06-2026",
-      "end-in": "12:10 PM | 15-06-2026",
+      "start-in": "10:00 PM | 15-06-2026",
+      "end-in": "12:10 AM | 16-06-2026",
       "team": [
         { "name": "ESP", "logo": "https://img.sofascore.com/api/v1/team/4698/image" },
         { "name": "CPV", "logo": "https://img.sofascore.com/api/v1/team/4753/image" }
