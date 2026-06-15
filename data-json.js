@@ -33,7 +33,6 @@ export const pin = [
 
 
   
-{
 
 {
     "⚽️ Fifa world cup 12": {
