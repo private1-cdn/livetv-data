@@ -20,7 +20,7 @@ export const pin = [
         { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/PSLE_tapmad2026-Backup/master.m3u8" }
+        { "name": "Server 1", "url": "https://bd-mc-flive.fancode.com/mumbai/142977_english_hls_6f073467f892321_1ta-di_h264/1080p.m3u8?hdntl=Expires=1781568306~_GO=Generated~acl=/mumbai/142977_english_hls_6f073467f892321_1ta-di_h264/*~Signature=ATZ0w6fFNIlC_nnBuEapCGmHijcDtGY5SLB4qpwLq_gbUzI4nPIe7Ih7_TKI5uhfpkE04KIY_0RYe0WMErTSJEfNm_YH" }
       ]
     }
   },
