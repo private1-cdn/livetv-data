@@ -20,7 +20,7 @@ export const pin = [
         { "name": "SL", "logo": "https://img.sofascore.com/api/v1/team/187756/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/PSLE_tapmad2026-Backup/master.m3u8" }
       ]
     }
   },
