@@ -32,44 +32,9 @@ export const pin = [
 
 
 
-  {
-    "⚽️ Fifa world cup 10": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "02:00 AM | 15-06-2026",
-      "end-in": "04:10 AM | 15-06-2026",
-      "team": [
-        { "name": "NED", "logo": "https://img.sofascore.com/api/v1/team/4705/image" },
-        { "name": "JPN", "logo": "https://img.sofascore.com/api/v1/team/4770/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" }
-      ]
-    }
-  },
+  
 {
-    "⚽️ Fifa world cup 11": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "05:00 AM | 15-06-2026",
-      "end-in": "07:10 AM | 15-06-2026",
-      "team": [
-        { "name": "CIV", "logo": "https://img.sofascore.com/api/v1/team/4768/image" },
-        { "name": "ECU", "logo": "https://img.sofascore.com/api/v1/team/4757/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://live12.xiazhix1.top/live/85042987.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" }
-      ]
-    }
-  },
+
 {
     "⚽️ Fifa world cup 12": {
       "category": "Pin",
