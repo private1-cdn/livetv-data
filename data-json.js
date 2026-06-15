@@ -9,7 +9,36 @@ export const welcome = [
 
 export const pin = [
   
-  
+  {
+    "🏏 ICC Women's T20 World Cup - 1": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "07:30 PM | 16-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "NZ-W", "logo": "https://img.sofascore.com/api/v1/team/213115/image" },
+        { "name": "SL-W", "logo": "https://img.sofascore.com/api/v1/team/187806/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+  {
+    "🏏 ICC Women's T20 World Cup - 2": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "11:30 PM | 16-06-2026",
+      "end-in": "",
+      "team": [
+        { "name": "ENG-W", "logo": "https://img.sofascore.com/api/v1/team/213121/image" },
+        { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
   
   
   
