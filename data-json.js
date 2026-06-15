@@ -31,7 +31,7 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
+        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
         { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
         { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
