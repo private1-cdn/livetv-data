@@ -285,6 +285,15 @@ export const channels = [
       ]
     }
   },
+  {
+    "ADN - Zee Bangla Shonar": {
+      "logo": "#",
+      "category": "ADN - (Rakib)",
+      "servers": [
+        { "name": "Server 1", "url": "http://172.20.3.1:3255/ZEE-BANGLA-CINEMA/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
 
 
 
