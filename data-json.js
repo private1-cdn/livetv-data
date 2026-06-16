@@ -10,26 +10,11 @@ export const welcome = [
 export const pin = [
   
   {
-    "🏏 ICC Women's T20 World Cup - 1": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "07:30 PM | 16-06-2026",
-      "end-in": "",
-      "team": [
-        { "name": "NZ-W", "logo": "https://img.sofascore.com/api/v1/team/213115/image" },
-        { "name": "SL-W", "logo": "https://img.sofascore.com/api/v1/team/187806/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
-      ]
-    }
-  },
-  {
-    "🏏 ICC Women's T20 World Cup - 2": {
+    "🏏 ICC Women's T20 World Cup": {
       "category": "Pin",
       "status": "",
       "start-in": "11:30 PM | 16-06-2026",
-      "end-in": "",
+      "end-in": "03:30 AM | 17-06-2026",
       "team": [
         { "name": "ENG-W", "logo": "https://img.sofascore.com/api/v1/team/213121/image" },
         { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
@@ -66,7 +51,6 @@ export const pin = [
         { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
         { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
         { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
       ]
     }
