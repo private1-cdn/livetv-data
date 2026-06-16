@@ -249,7 +249,7 @@ export const pin = [
 
 
 
-export const adn = [
+export const channels = [
   {
     "T Sports": {
       "logo": "TSports-logo.webp",
