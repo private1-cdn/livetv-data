@@ -255,7 +255,7 @@ export const channels = [
  {
   "ADN - T Sports": {
         "logo": "TSports-logo.webp",
-        "category": "ADN",
+        "category": "ADN - (BDIX)",
         "servers": [
           { "name": "Server 1", "url": "http://172.20.3.1:3255/TSportsHD_sf_bdix/tracks-v1a1/mono.m3u8" },
           { "name": "Server 1", "url": "http://172.20.3.1:3255/TSportsHD_sf_nix/tracks-v1a1/mono.m3u8" }
