@@ -20,7 +20,7 @@ export const pin = [
         { "name": "SL-W", "logo": "https://img.sofascore.com/api/v1/team/187806/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
       ]
     }
   },
@@ -35,7 +35,7 @@ export const pin = [
         { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
       ]
     }
   },
@@ -48,82 +48,10 @@ export const pin = [
 
 
   
-{
-    "⚽️ Fifa world cup 13": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "10:00 PM | 15-06-2026",
-      "end-in": "12:10 AM | 16-06-2026",
-      "team": [
-        { "name": "ESP", "logo": "https://img.sofascore.com/api/v1/team/4698/image" },
-        { "name": "CPV", "logo": "https://img.sofascore.com/api/v1/team/4753/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
-      ]
-    }
-  },
-{
-    "⚽️ Fifa world cup 14": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "01:00 AM | 16-06-2026",
-      "end-in": "03:10 AM | 16-06-2026",
-      "team": [
-        { "name": "BEL", "logo": "https://img.sofascore.com/api/v1/team/4717/image" },
-        { "name": "EGY", "logo": "https://img.sofascore.com/api/v1/team/4758/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
-      ]
-    }
-  },
-{
-    "⚽️ Fifa world cup 15": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "04:00 AM | 16-06-2026",
-      "end-in": "06:10 AM | 16-06-2026",
-      "team": [
-        { "name": "KSA", "logo": "https://img.sofascore.com/api/v1/team/4834/image" },
-        { "name": "URU", "logo": "https://img.sofascore.com/api/v1/team/4725/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
-      ]
-    }
-  },
-{
-    "⚽️ Fifa world cup 16": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "07:00 AM | 16-06-2026",
-      "end-in": "09:10 AM | 16-06-2026",
-      "team": [
-        { "name": "IRN", "logo": "https://img.sofascore.com/api/v1/team/4766/image" },
-        { "name": "NZL", "logo": "https://img.sofascore.com/api/v1/team/4784/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
-      ]
-    }
-  },
+
+
+
+
 {
     "⚽️ Fifa world cup 17": {
       "category": "Pin",
@@ -135,7 +63,11 @@ export const pin = [
         { "name": "SEN", "logo": "https://img.sofascore.com/api/v1/team/4739/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
+        { "name": "Server 2", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master.m3u8" },
+        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 4", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
       ]
     }
   },
