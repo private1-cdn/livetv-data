@@ -249,6 +249,20 @@ export const pin = [
 
 
 
+export const adn = [
+  {
+    "T Sports": {
+      "logo": "TSports-logo.webp",
+      "category": "Sports",
+      "servers": [
+        { "name": "Server 1", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  }
+  ];
+
+
+
 
 export const channels = [
   {
