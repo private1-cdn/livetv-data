@@ -251,17 +251,19 @@ export const pin = [
 
 
 export const channels = [
-  
- {
-  "ADN - T Sports": {
-        "logo": "TSports-logo.webp",
-        "category": "ADN - (BDIX)",
-        "servers": [
-          { "name": "Server 1", "url": "http://172.20.3.1:3255/TSportsHD_sf_bdix/tracks-v1a1/mono.m3u8" },
-          { "name": "Server 1", "url": "http://172.20.3.1:3255/TSportsHD_sf_nix/tracks-v1a1/mono.m3u8" }
-        ]
-      }
-   },
+
+  {
+    "ADN - T Sports": {
+      "logo": "TSports-logo.webp",
+      "category": "ADN - (Rakib)",
+      "servers": [
+        { "name": "Server 1", "url": "http://172.20.3.1:3255/TSportsHD_sf_bdix/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "http://172.20.3.1:3255/TSportsHD_sf_nix/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://172.20.3.1:3255/TSportsHD_rc_nix/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 4", "url": "http://172.20.3.1:3255/TSportsHD_nk_nix/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
 
 
 
