@@ -296,6 +296,15 @@ export const channels = [
     }
   },
   {
+    "ADN - A Sports": {
+      "logo": "ASports-logo.webp",
+      "category": "ADN - (Rakib)",
+      "servers": [
+        { "name": "Server 1", "url": "http://172.20.3.1:3255/A-SPORTS-HD/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+  {
     "ADN - Zee Bangla Shonar": {
       "logo": "#",
       "category": "ADN - (Rakib)",
