@@ -3,18 +3,18 @@ export const pin = [
   {
     "1": {
       "category": "Cricket",
-      "title": "ICC Women's T20 World Cup - 1",
+      "title": "ICC Women's T20 World Cup",
       "status": "",
       "start-in": "07:30 PM | 16-06-2026",
       "end-in": "",
       "team": [
         {
-          "name": "NZ-W",
-          "logo": "https://img.sofascore.com/api/v1/team/213115/image"
+          "team-name": "NZ-W",
+          "team-logo": "https://img.sofascore.com/api/v1/team/213115/image"
         },
         {
-          "name": "SL-W",
-          "logo": "https://img.sofascore.com/api/v1/team/187806/image"
+          "team-name": "SL-W",
+          "team-logo": "https://img.sofascore.com/api/v1/team/187806/image"
         }
       ],
       "servers": [
