@@ -208,7 +208,7 @@ export const channels = [
   },
   {
     "ADN - PTV": {
-      "logo": "#",
+      "logo": "PTV-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
         { "name": "Server 1", "url": "http://172.20.3.1:3255/ptv_bdix/tracks-v1a1/mono.m3u8" },
@@ -219,7 +219,7 @@ export const channels = [
   },
   {
     "ADN - Unite8 Sports": {
-      "logo": "#",
+      "logo": "Unite8Sports-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
         { "name": "Server 1", "url": "http://172.20.3.1:3255/spotyfyz_nix/tracks-v1a1/mono.m3u8" },
@@ -238,7 +238,7 @@ export const channels = [
   },
   {
     "ADN - Eurosport": {
-      "logo": "#",
+      "logo": "Eurosport-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
         { "name": "Server 1", "url": "http://172.20.3.1:3255/EurosportHD/tracks-v1a1/mono.m3u8" }
@@ -247,7 +247,7 @@ export const channels = [
   },
   {
     "ADN - Zee Bangla Shonar": {
-      "logo": "#",
+      "logo": "ZeeBanglaShonar-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
         { "name": "Server 1", "url": "http://172.20.3.1:3255/ZEE-BANGLA-CINEMA/tracks-v1a1/mono.m3u8" }
