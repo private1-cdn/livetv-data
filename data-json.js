@@ -286,6 +286,16 @@ export const channels = [
     }
   },
   {
+    "ADN - Unite8 Sports": {
+      "logo": "#",
+      "category": "ADN - (Rakib)",
+      "servers": [
+        { "name": "Server 1", "url": "http://172.20.3.1:3255/spotyfyz_nix/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 1", "url": "http://172.20.3.1:3255/spotyfyz_bdix/tracks-v1a1/mono.m3u8" }
+      ]
+    }
+  },
+  {
     "ADN - Zee Bangla Shonar": {
       "logo": "#",
       "category": "ADN - (Rakib)",
