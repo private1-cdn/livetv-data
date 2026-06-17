@@ -9,21 +9,7 @@ export const welcome = [
 
 export const pin = [
   
-  {
-    "🏏 ICC Women's T20 World Cup": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "11:30 PM | 16-06-2026",
-      "end-in": "03:30 AM | 17-06-2026",
-      "team": [
-        { "name": "ENG-W", "logo": "https://img.sofascore.com/api/v1/team/213121/image" },
-        { "name": "IRE-W", "logo": "https://img.sofascore.com/api/v1/team/213116/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" }
-      ]
-    }
-  },
+
   
   
   
@@ -34,50 +20,8 @@ export const pin = [
 
   
 
-{
-    "⚽️ Fifa world cup 19": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "07:00 AM | 17-06-2026",
-      "end-in": "09:10 AM | 17-06-2026",
-      "team": [
-        { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4819/image" },
-        { "name": "ALG", "logo": "https://img.sofascore.com/api/v1/team/4691/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://stream.kurdtv.live/bein-max-2/index.m3u8" },
-        { "name": "Server 2", "url": "https://stream.kurdtv.live/alwan-sport/index.m3u8" },
-        { "name": "Server 3", "url": "http://113.21.231.219:789/Tsports/index.m3u8" },
-        { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
-      ]
-    }
-  },
-{
-    "⚽️ Fifa world cup 20": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "10:00 AM | 17-06-2026",
-      "end-in": "12:10 PM | 17-06-2026",
-      "team": [
-        { "name": "AUT", "logo": "https://img.sofascore.com/api/v1/team/4718/image" },
-        { "name": "JOR", "logo": "https://img.sofascore.com/api/v1/team/4771/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
-      ]
-    }
-  },
+
+
 {
     "⚽️ Fifa world cup 21": {
       "category": "Pin",
@@ -89,9 +33,9 @@ export const pin = [
         { "name": "COD", "logo": "https://img.sofascore.com/api/v1/team/4823/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 1", "url": "https://stream.kurdtv.live/bein-max-2/index.m3u8" },
+        { "name": "Server 2", "url": "https://stream.kurdtv.live/alwan-sport/index.m3u8" },
+        { "name": "Server 3", "url": "http://113.21.231.219:789/Tsports/index.m3u8" },
         { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
         { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
