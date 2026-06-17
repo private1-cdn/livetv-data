@@ -34,53 +34,6 @@ export const pin = [
 
   
 
-
-
-
-{
-    "⚽️ Fifa world cup 17": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "01:00 AM | 17-06-2026",
-      "end-in": "03:10 AM | 17-06-2026",
-      "team": [
-        { "name": "FRA", "logo": "https://img.sofascore.com/api/v1/team/4481/image" },
-        { "name": "SEN", "logo": "https://img.sofascore.com/api/v1/team/4739/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
-      ]
-    }
-  },
-  {
-    "⚽️ Fifa world cup 18": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "04:00 AM | 17-06-2026",
-      "end-in": "06:10 AM | 17-06-2026",
-      "team": [
-        { "name": "IRQ", "logo": "https://img.sofascore.com/api/v1/team/4767/image" },
-        { "name": "NOR", "logo": "https://img.sofascore.com/api/v1/team/4475/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
-        { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
-      ]
-    }
-  },
 {
     "⚽️ Fifa world cup 19": {
       "category": "Pin",
@@ -92,8 +45,8 @@ export const pin = [
         { "name": "ALG", "logo": "https://img.sofascore.com/api/v1/team/4691/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "http://84.17.50.102/fox/index.m3u8" },
-        { "name": "Server 2", "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8" },
+        { "name": "Server 1", "url": "https://stream.kurdtv.live/bein-max-2/index.m3u8" },
+        { "name": "Server 2", "url": "https://stream.kurdtv.live/alwan-sport/index.m3u8" },
         { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
         { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
