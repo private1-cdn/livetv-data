@@ -25,6 +25,12 @@ export const liveevent = [
         {
           "server-name": "Server 2",
           "channel-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
+        },
+        {
+          "server-name": "Server 3",
+          "channel-url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
+          "keyid": "549ab7cd35a64bb6bb479ecead04d69d",
+          "key": "829799ed534d11fcadeb4b192467e050"
         }
       ]
     }
