@@ -1,4 +1,4 @@
-export const pin = [
+export const liveevent = [
   
   {
     "1": {
