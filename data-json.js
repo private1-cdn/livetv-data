@@ -47,7 +47,7 @@ export const pin = [
       "servers": [
         { "name": "Server 1", "url": "https://stream.kurdtv.live/bein-max-2/index.m3u8" },
         { "name": "Server 2", "url": "https://stream.kurdtv.live/alwan-sport/index.m3u8" },
-        { "name": "Server 3", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+        { "name": "Server 3", "url": "http://113.21.231.219:789/Tsports/index.m3u8" },
         { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
         { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
