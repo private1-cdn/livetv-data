@@ -5,7 +5,7 @@ export const liveevent = [
       "category": "Cricket",
       "title": "ICC Women's T20 World Cup",
       "status": "",
-      "start-in": "07:30 PM | 18-06-2026",
+      "start-in": "07:30 PM | 16-06-2026",
       "end-in": "",
       "team": [
         {
