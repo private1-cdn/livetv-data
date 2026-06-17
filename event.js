@@ -19,8 +19,12 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "name": "Server 1",
-          "url": "#"
+          "server-name": "Server 1",
+          "channel-url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
+        },
+        {
+          "server-name": "Server 2",
+          "channel-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
         }
       ]
     }
