@@ -28,9 +28,9 @@ export const liveevent = [
         },
         {
           "server-name": "Server 3",
-          "channel-url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd",
-          "keyid": "d14658a0ede94debcb4013b2056ba6d1",
-          "key": "60838a3176127fed0eaf038a5575de11"
+          "channel-url": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "keyid": "290e09c837da78d5cd961978d390515c",
+          "key": "b748836c71e6a4ca68ef5b5652db6247"
         }
       ]
     }
