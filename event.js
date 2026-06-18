@@ -28,9 +28,9 @@ export const liveevent = [
         },
         {
           "server-name": "Server 3",
-          "channel-url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
-          "keyid": "549ab7cd35a64bb6bb479ecead04d69d",
-          "key": "829799ed534d11fcadeb4b192467e050"
+          "channel-url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd",
+          "keyid": "d14658a0ede94debcb4013b2056ba6d1",
+          "key": "60838a3176127fed0eaf038a5575de11"
         }
       ]
     }
