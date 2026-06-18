@@ -24,7 +24,7 @@ export const liveevent = [
         },
         {
           "server-name": "Server 2",
-          "stream-url": "http://103.175.73.12:8080/live/64/64_0.m3u8"
+          "stream-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
         },
         {
           "server-name": "Server 3",
