@@ -20,15 +20,15 @@ export const liveevent = [
       "servers": [
         {
           "server-name": "Server 1",
-          "channel-url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
+          "stream-url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
         },
         {
           "server-name": "Server 2",
-          "channel-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
+          "stream-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
         },
         {
           "server-name": "Server 3",
-          "channel-url": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "mpd-stream-url": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
           "keyid": "290e09c837da78d5cd961978d390515c",
           "key": "b748836c71e6a4ca68ef5b5652db6247"
         }
