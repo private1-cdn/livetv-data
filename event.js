@@ -145,7 +145,7 @@ export const liveevent = [
     "6": {
       "category": "Cricket",
       "title": "ICC Women's T20 World Cup 3",
-      "status": "",
+      "status": "Finished",
       "start-in": "",
       "end-in": "",
       "team": [
