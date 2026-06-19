@@ -63,8 +63,8 @@ export const pin = [
     "⚽️ Fifa world cup 31": {
       "category": "Pin",
       "status": "",
-      "start-in": "05:00 AM | 18-06-2026",
-      "end-in": "07:10 AM | 18-06-2026",
+      "start-in": "06:30 AM | 20-06-2026",
+      "end-in": "08:40 AM | 20-06-2026",
       "team": [
         { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
         { "name": "HAI", "logo": "https://img.sofascore.com/api/v1/team/7229/image" }
