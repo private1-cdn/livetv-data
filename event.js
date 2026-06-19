@@ -24,7 +24,7 @@ export const liveevent = [
         },
         {
           "server-name": "Server 2",
-          "stream-url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8"
+          "stream-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
         },
         {
           "server-name": "Server 3",
