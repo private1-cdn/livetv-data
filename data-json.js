@@ -34,13 +34,15 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -56,13 +58,15 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -78,13 +82,15 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -100,13 +106,15 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -122,13 +130,15 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
         { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
+        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   }
