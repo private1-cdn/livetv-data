@@ -122,7 +122,7 @@ export const liveevent = [
       "title": "ICC Women's T20 World Cup 2",
       "status": "",
       "start-in": "08:30 PM | 18-06-2026",
-      "end-in": "",
+      "end-in": "10:30 PM | 18-06-2026",
       "team": [
         {
           "team-name": "NZ-W",
