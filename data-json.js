@@ -34,11 +34,11 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "https://tfwt1gr5domt1gc41hctogezd1cjppbasa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8?wsSession=05f5c9601e0830124057d75a-178171679892216&wsIPSercert=e97f40833ccd50026cd6a7fd8ce585df&wsBindIP=2&wsserid=1168273349992270251" },
-        { "name": "Server 3", "url": "http://113.21.231.219:789/Tsports/index.m3u8" },
-        { "name": "Server 4", "url": "http://103.179.25.147:8181/T-SPORTS-MADARCHOD/index.m3u8" },
+        { "name": "Server 2", "url": "#" },
+        { "name": "Server 3", "url": "#" },
+        { "name": "Server 4", "url": "#" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "http://46.101.169.21/ch299/index.m3u8" },
+        { "name": "Server 6", "url": "#" },
         { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
         { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
