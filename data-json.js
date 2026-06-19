@@ -23,14 +23,14 @@ export const pin = [
 
 
 {
-    "⚽️ Fifa world cup 21": {
+    "⚽️ Fifa world cup 29": {
       "category": "Pin",
       "status": "",
-      "start-in": "11:00 PM | 17-06-2026",
-      "end-in": "01:10 AM | 18-06-2026",
+      "start-in": "01:00 AM | 20-06-2026",
+      "end-in": "03:10 AM | 20-06-2026",
       "team": [
-        { "name": "POR", "logo": "https://img.sofascore.com/api/v1/team/4704/image" },
-        { "name": "COD", "logo": "https://img.sofascore.com/api/v1/team/4823/image" }
+        { "name": "USA", "logo": "https://img.sofascore.com/api/v1/team/4724/image" },
+        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/4741/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
@@ -45,14 +45,14 @@ export const pin = [
     }
   },
 {
-    "⚽️ Fifa world cup 22": {
+    "⚽️ Fifa world cup 30": {
       "category": "Pin",
       "status": "",
-      "start-in": "02:00 AM | 18-06-2026",
-      "end-in": "04:10 AM | 18-06-2026",
+      "start-in": "04:00 AM | 20-06-2026",
+      "end-in": "06:10 AM | 20-06-2026",
       "team": [
-        { "name": "ENG", "logo": "https://img.sofascore.com/api/v1/team/4713/image" },
-        { "name": "CRO", "logo": "https://img.sofascore.com/api/v1/team/4715/image" }
+        { "name": "SCO", "logo": "https://img.sofascore.com/api/v1/team/4695/image" },
+        { "name": "MAR", "logo": "https://img.sofascore.com/api/v1/team/4778/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
@@ -60,14 +60,14 @@ export const pin = [
     }
   },
 {
-    "⚽️ Fifa world cup 23": {
+    "⚽️ Fifa world cup 31": {
       "category": "Pin",
       "status": "",
       "start-in": "05:00 AM | 18-06-2026",
       "end-in": "07:10 AM | 18-06-2026",
       "team": [
-        { "name": "GHA", "logo": "https://img.sofascore.com/api/v1/team/4764/image" },
-        { "name": "PAN", "logo": "https://img.sofascore.com/api/v1/team/5164/image" }
+        { "name": "BRA", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
+        { "name": "HAI", "logo": "https://img.sofascore.com/api/v1/team/7229/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
@@ -75,14 +75,29 @@ export const pin = [
     }
   },
 {
-    "⚽️ Fifa world cup 24": {
+    "⚽️ Fifa world cup 32": {
       "category": "Pin",
       "status": "",
-      "start-in": "08:00 AM | 18-06-2026",
-      "end-in": "10:10 AM | 18-06-2026",
+      "start-in": "09:00 AM | 20-06-2026",
+      "end-in": "11:10 AM | 20-06-2026",
       "team": [
-        { "name": "UZB", "logo": "https://img.sofascore.com/api/v1/team/4723/image" },
-        { "name": "COL", "logo": "https://img.sofascore.com/api/v1/team/4820/image" }
+        { "name": "TUR", "logo": "https://img.sofascore.com/api/v1/team/4700/image" },
+        { "name": "PAR", "logo": "https://img.sofascore.com/api/v1/team/4789/image" }
+      ],
+      "servers": [
+        { "name": "Server 1", "url": "#" }
+      ]
+    }
+  },
+  {
+    "⚽️ Fifa world cup 33": {
+      "category": "Pin",
+      "status": "",
+      "start-in": "11:00 PM | 20-06-2026",
+      "end-in": "01:10 AM | 21-06-2026",
+      "team": [
+        { "name": "NED", "logo": "https://img.sofascore.com/api/v1/team/4705/image" },
+        { "name": "SWE", "logo": "https://img.sofascore.com/api/v1/team/4688/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
