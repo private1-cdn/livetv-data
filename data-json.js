@@ -34,11 +34,11 @@ export const pin = [
       ],
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "#" },
-        { "name": "Server 3", "url": "#" },
-        { "name": "Server 4", "url": "#" },
+        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
         { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 6", "url": "#" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
         { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
         { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
@@ -55,7 +55,14 @@ export const pin = [
         { "name": "MAR", "logo": "https://img.sofascore.com/api/v1/team/4778/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
+        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -70,7 +77,14 @@ export const pin = [
         { "name": "HAI", "logo": "https://img.sofascore.com/api/v1/team/7229/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
+        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -85,7 +99,14 @@ export const pin = [
         { "name": "PAR", "logo": "https://img.sofascore.com/api/v1/team/4789/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
+        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   },
@@ -100,7 +121,14 @@ export const pin = [
         { "name": "SWE", "logo": "https://img.sofascore.com/api/v1/team/4688/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
+        { "name": "Server 2", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 3", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
+        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+        { "name": "Server 5", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+        { "name": "Server 7", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
       ]
     }
   }
