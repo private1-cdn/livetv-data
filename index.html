@@ -1,0 +1,2582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>PinikBuzz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/shaka-player@5.0.0/dist/shaka-player.ui.js">
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/shaka-player@5.0.0/dist/controls.css">
+    <style>
+        :root {
+            --shaka-color-primary: #e50914;
+            --shaka-color-background: rgba(0, 0, 0, 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background: #18181b;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            color: #e4e4e7;
+            -webkit-font-smoothing: antialiased;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        body.modal-open {
+            overflow: hidden;
+        }
+
+        .app {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            height: 100dvh;
+            width: 100%;
+            margin: 0 auto;
+            background: #18181b;
+            position: relative;
+        }
+
+        .header {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 48px;
+            margin: 8px 8px 0 8px;
+            padding: 0 14px;
+            background: #18181b;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+            z-index: 30;
+        }
+
+        .logo {
+            font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #e4e4e7;
+            cursor: default;
+            white-space: nowrap;
+        }
+
+        .logo span {
+            color: #696969;
+            margin-left: 2px;
+        }
+
+        .menu-icon {
+            font-size: 20px;
+            color: #a1a1aa;
+            cursor: pointer;
+            padding: 7px;
+            border-radius: 7px;
+            background: transparent;
+            border: 1px solid transparent;
+            transition: all 200ms ease;
+        }
+
+        .menu-icon:hover {
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(255, 255, 255, 0.08);
+        }
+
+        .scrollable-area {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .scrollable-area::-webkit-scrollbar {
+            display: none;
+        }
+
+        .category-section {
+            flex-shrink: 0;
+            background: #18181b;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 8px 10px;
+            flex-wrap: wrap;
+        }
+
+        .category-item {
+            width: 48px;
+            aspect-ratio: 1 / 1;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.02);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 200ms ease;
+            flex-shrink: 0;
+        }
+
+        .category-item:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.18);
+            transform: translateY(-1px);
+        }
+
+        .category-item.active {
+            border-color: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+        }
+
+        .category-item img,
+        .category-fallback {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: inherit;
+            display: block;
+        }
+
+        .category-item img {
+            filter: invert(1) brightness(1.1);
+            -webkit-filter: invert(1) brightness(1.1);
+        }
+
+        .category-fallback {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.03);
+            color: #a1a1aa;
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+        }
+
+        .filter-section {
+            flex-shrink: 0;
+            background: #18181b;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            min-height: 44px;
+        }
+
+        .filter-section::-webkit-scrollbar {
+            display: none;
+        }
+
+        .filter-btn {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #a1a1aa;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+            flex-shrink: 0;
+            letter-spacing: 0.3px;
+        }
+
+        .filter-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: #e4e4e7;
+        }
+
+        .filter-btn.active {
+            background: rgba(255, 255, 255, 0.18);
+            border-color: rgba(255, 255, 255, 0.35);
+            color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .filter-btn:disabled {
+            opacity: 0.55;
+            cursor: not-allowed;
+            pointer-events: none;
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.05);
+            color: #52525b;
+        }
+
+        .card-section {
+            flex: 1;
+            min-height: 0;
+            background: #18181b;
+            position: relative;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 16px 16px;
+            padding: 20px 12px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            align-content: start;
+        }
+
+        .card-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+            z-index: 1;
+        }
+
+        .server-error {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #a1a1aa;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            z-index: 5;
+            display: none;
+            text-align: center;
+        }
+
+        .server-error.visible {
+            display: block;
+        }
+
+        .event-card {
+            background: #1e1e1e;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 26px 14px 18px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+            transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease,
+                filter 0.3s ease, opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            filter: none;
+        }
+
+        .event-card.match-finished {
+            filter: grayscale(0.85);
+            opacity: 0.65;
+            pointer-events: none;
+        }
+
+        .event-card.match-finished:hover {
+            transform: none;
+            border-color: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+        }
+
+        .event-card.match-upcoming {
+            pointer-events: none;
+            opacity: 0.85;
+        }
+
+        .event-card.card-animate-in {
+            animation: cardAppear 0.4s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+            opacity: 0;
+        }
+
+        @keyframes cardAppear {
+            from {
+                opacity: 0;
+                transform: translateY(18px) scale(0.94);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .event-card:not(.match-finished):not(.match-upcoming):hover {
+            border-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+        }
+
+        .event-card:not(.match-finished):not(.match-upcoming):active {
+            transform: scale(0.98);
+            transition: transform 100ms ease;
+        }
+
+        .card-title {
+            position: absolute;
+            top: -11px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(24, 24, 27, 0.95);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 24px;
+            padding: 0 12px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            color: #d4d4d8;
+            text-transform: uppercase;
+            white-space: nowrap;
+            z-index: 3;
+            line-height: 1.4;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+            max-width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            pointer-events: none;
+        }
+
+        .card-title-cat-img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            border-radius: 50%;
+            flex-shrink: 0;
+            filter: invert(1) brightness(1.2);
+            -webkit-filter: invert(1) brightness(1.2);
+            display: none;
+        }
+
+        .card-title-cat-img[src] {
+            display: inline-block;
+        }
+
+        .card-title-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex: 1;
+            pointer-events: none;
+        }
+
+        .team {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .team-logo {
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.04);
+            padding: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: transform 150ms ease;
+        }
+
+        .team-logo-fallback {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 24px;
+            color: #a1a1aa;
+            letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+
+        .team-name {
+            font-size: 12px;
+            font-weight: 600;
+            color: #d4d4d8;
+            letter-spacing: 0.3px;
+            text-align: center;
+            line-height: 1.2;
+            max-width: 70px;
+            word-break: break-word;
+        }
+
+        .card-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            flex: 0 0 auto;
+            min-width: 70px;
+        }
+
+        .countdown-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .event-time {
+            font-size: 11px;
+            font-weight: 600;
+            color: #facc15;
+            letter-spacing: 0.3px;
+        }
+
+        .countdown-timer {
+            font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: #34d399;
+            letter-spacing: 0.5px;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        .countdown-timer.upcoming {
+            color: #facc15;
+        }
+
+        .finished-badge {
+            font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            display: none;
+        }
+
+        .finished-badge.visible {
+            display: inline-block;
+            padding: 5px 18px;
+            border-radius: 10px;
+            color: #a1a1aa;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 1.4;
+            background: transparent;
+        }
+
+        .live-badge {
+            font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            font-weight: 800;
+            color: #ef4444;
+            letter-spacing: 1px;
+            animation: liveFade 1s ease-in-out infinite;
+            display: none;
+        }
+
+        .live-badge.visible {
+            display: inline-block;
+        }
+
+        @keyframes liveFade {
+            0%,
+            100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.25;
+            }
+        }
+
+        .event-date {
+            font-size: 11px;
+            font-weight: 600;
+            color: #facc15;
+            letter-spacing: 0.3px;
+        }
+
+        .bottom-spacer {
+            flex-shrink: 0;
+            height: 60px;
+            width: 100%;
+            pointer-events: none;
+            grid-column: 1 / -1;
+        }
+
+        .bottom-nav {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            height: 52px;
+            width: fit-content;
+            max-width: calc(100% - 16px);
+            padding: 0 8px;
+            background: #18181b;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(12px);
+            z-index: 20;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            cursor: pointer;
+            padding: 6px 14px;
+            border-radius: 8px;
+            background: transparent;
+            border: 1px solid transparent;
+            transition: all 200ms ease;
+            color: #a1a1aa;
+            min-width: 54px;
+            flex: 1;
+            height: 100%;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(255, 255, 255, 0.08);
+        }
+
+        .nav-item i {
+            font-size: 18px;
+        }
+
+        .nav-label {
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            white-space: nowrap;
+        }
+
+        .player-modal {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            background: #18181b;
+            display: none;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            border: none;
+            outline: none;
+            opacity: 0;
+            transform: scale(0.95) translateY(10px);
+            pointer-events: none;
+        }
+
+        .player-modal.active {
+            display: flex;
+            animation: modalFadeIn 0.35s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+            pointer-events: auto;
+        }
+
+        .player-modal.closing {
+            display: flex;
+            animation: modalFadeOut 0.25s cubic-bezier(0.55, 0.06, 0.68, 0.19) forwards;
+            pointer-events: none;
+        }
+
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.94) translateY(12px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        @keyframes modalFadeOut {
+            from {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+            to {
+                opacity: 0;
+                transform: scale(0.94) translateY(12px);
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 48px;
+            padding: 0 16px;
+            background: #18181b;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            flex-shrink: 0;
+        }
+
+        .modal-logo {
+            font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #e4e4e7;
+            cursor: default;
+            white-space: nowrap;
+        }
+
+        .modal-logo span {
+            color: #696969;
+            margin-left: 2px;
+        }
+
+        .modal-close {
+            font-size: 20px;
+            color: #a1a1aa;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 7px;
+            background: transparent;
+            border: 1px solid transparent;
+            transition: all 200ms ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 40px;
+            min-height: 40px;
+            flex-shrink: 0;
+        }
+
+        .modal-close:hover {
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(255, 255, 255, 0.08);
+            color: #e4e4e7;
+        }
+
+        .modal-close:active {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.14);
+        }
+
+        .modal-content {
+            flex: 1;
+            min-height: 0;
+            background: #18181b;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .modal-content::-webkit-scrollbar {
+            display: none;
+        }
+
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+            background: #000;
+            flex-shrink: 0;
+        }
+
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.9);
+        }
+
+        .video-container:fullscreen {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            background: #000 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        .video-container:fullscreen video {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain;
+        }
+
+        .video-container:-webkit-full-screen {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            background: #000 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        .video-container:-webkit-full-screen video {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            outline: none;
+            background-color: #000;
+            touch-action: manipulation;
+            transition: object-fit 0.3s ease;
+        }
+
+        .video-container video.video-fill {
+            object-fit: fill;
+        }
+
+        .video-container video.video-cover {
+            object-fit: cover;
+        }
+
+        .video-container video::-webkit-media-controls {
+            display: none !important;
+        }
+
+        .shaka-spinner-container {
+            display: none !important;
+        }
+
+        .custom-loader-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.3s ease;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .dots-container {
+            display: flex;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 14px;
+            height: 14px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+        .dot:nth-child(1) {
+            animation-delay: -0.32s;
+        }
+
+        .dot:nth-child(2) {
+            animation-delay: -0.16s;
+        }
+
+        @keyframes bounce {
+            0%,
+            80%,
+            100% {
+                transform: scale(0);
+            }
+            40% {
+                transform: scale(1);
+            }
+        }
+
+        .shaka-playback-rate-button {
+            display: none !important;
+        }
+
+        .shaka-seek-bar-container,
+        .shaka-seek-bar {
+            pointer-events: none !important;
+            cursor: default !important;
+        }
+
+        .shaka-seek-bar::-webkit-slider-thumb {
+            display: none !important;
+            -webkit-appearance: none !important;
+        }
+
+        .shaka-seek-bar::-moz-range-thumb {
+            display: none !important;
+        }
+
+        .shaka-mute-button {
+            width: 40px !important;
+            display: inline-block !important;
+        }
+
+        .shaka-volume-bar-container {
+            display: none !important;
+        }
+
+        .shaka-big-buttons-container {
+            display: none !important;
+        }
+
+        .shaka-resolution-button {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: white;
+        }
+
+        .shaka-resolution-menu {
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+        }
+
+        .custom-ratio-btn {
+            background: transparent !important;
+            border: none !important;
+            color: #ffffff !important;
+            cursor: pointer !important;
+            padding: 4px !important;
+            display: none !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 36px !important;
+            height: 36px !important;
+            min-width: 36px !important;
+            border-radius: 4px !important;
+            transition: background-color 0.2s ease !important;
+            flex-shrink: 0 !important;
+            outline: none !important;
+            -webkit-tap-highlight-color: transparent !important;
+            position: relative !important;
+        }
+
+        .video-container:fullscreen .custom-ratio-btn,
+        .video-container:-webkit-full-screen .custom-ratio-btn {
+            display: flex !important;
+        }
+
+        .custom-ratio-btn:hover {
+            background: rgba(255, 255, 255, 0.15) !important;
+        }
+
+        .custom-ratio-btn:active {
+            background: rgba(255, 255, 255, 0.25) !important;
+        }
+
+        .custom-ratio-btn .material-symbols-outlined {
+            font-size: 20px;
+            line-height: 1;
+        }
+
+        .custom-ratio-tooltip {
+            display: none;
+            position: absolute;
+            bottom: calc(100% + 16px);
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.562);
+            color: #ffffff;
+            padding: 10px;
+            font-size: 14px;
+            white-space: nowrap;
+            z-index: 100;
+            pointer-events: none;
+        }
+
+        .custom-ratio-btn:hover .custom-ratio-tooltip {
+            display: block;
+        }
+
+        .modal-event-title {
+            padding: 14px 16px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 700;
+            color: #d4d4d8;
+            letter-spacing: 0.4px;
+            background: rgba(255, 255, 255, 0.03);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            text-transform: uppercase;
+            word-break: break-word;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .modal-category-icon {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            border-radius: 50%;
+            flex-shrink: 0;
+            filter: invert(1) brightness(1.2);
+            -webkit-filter: invert(1) brightness(1.2);
+            display: none;
+        }
+
+        .modal-category-icon.visible {
+            display: inline-block;
+        }
+
+        .modal-servers {
+            padding: 16px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            justify-content: center;
+            overflow-y: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .modal-servers::-webkit-scrollbar {
+            display: none;
+        }
+
+        .server-btn {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #d4d4d8;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 200ms ease;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(4px);
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .server-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.25);
+            transform: translateY(-1px);
+        }
+
+        .server-btn:active {
+            transform: scale(0.97);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .server-active-icon {
+            color: #ef4444;
+            font-size: 14px;
+            display: none;
+        }
+
+        .server-active-icon.visible {
+            display: inline;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .event-card.card-animate-in {
+                animation: none !important;
+                opacity: 1 !important;
+                transform: translateY(0) scale(1) !important;
+            }
+
+            .player-modal.active {
+                animation: none !important;
+                opacity: 1 !important;
+                transform: scale(1) translateY(0) !important;
+            }
+
+            .player-modal.closing {
+                animation: none !important;
+                opacity: 0 !important;
+                transform: scale(1) translateY(0) !important;
+            }
+
+            .player-modal {
+                transition: none !important;
+            }
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+            .modal-servers {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 769px) {
+            .modal-content {
+                display: grid;
+                grid-template-columns: 70% 30%;
+                grid-template-rows: auto auto;
+                overflow: hidden;
+            }
+
+            .video-wrapper {
+                grid-column: 1;
+                grid-row: 1;
+                margin-top: 20px;
+                margin-left: 20px;
+                width: calc(100% - 20px);
+            }
+
+            .modal-event-title {
+                grid-column: 1;
+                grid-row: 2;
+                border-bottom: none;
+            }
+
+            .modal-servers {
+                grid-column: 2;
+                grid-row: 1 / 3;
+                grid-template-columns: 1fr;
+                align-content: start;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .modal-servers {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+            .header {
+                height: 52px;
+                margin: 8px 8px 0 8px;
+                padding: 0 18px;
+                border-radius: 14px;
+            }
+
+            .logo {
+                font-size: 18px;
+            }
+
+            .menu-icon {
+                font-size: 19px;
+                padding: 7px;
+                border-radius: 7px;
+            }
+
+            .category-section {
+                gap: 14px;
+                padding: 10px 14px;
+            }
+
+            .category-item {
+                width: 52px;
+                border-radius: 14px;
+            }
+
+            .filter-section {
+                padding: 10px 16px;
+                gap: 10px;
+                min-height: 48px;
+            }
+
+            .filter-btn {
+                font-size: 13px;
+                padding: 10px 20px;
+            }
+
+            .card-section {
+                padding: 24px 16px;
+                gap: 20px;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .event-card {
+                padding: 28px 16px 20px;
+                border-radius: 10px;
+            }
+
+            .card-title {
+                font-size: 11px;
+                gap: 6px;
+            }
+
+            .card-title-cat-img {
+                width: 22px;
+                height: 22px;
+            }
+
+            .card-body {
+                gap: 14px;
+            }
+
+            .card-center {
+                min-width: 80px;
+            }
+
+            .countdown-container {
+                gap: 6px;
+            }
+
+            .event-time,
+            .event-date {
+                font-size: 12px;
+            }
+
+            .countdown-timer,
+            .live-badge,
+            .finished-badge {
+                font-size: 15px;
+            }
+
+            .finished-badge.visible {
+                padding: 5px 20px;
+                font-size: 12px;
+            }
+
+            .bottom-nav {
+                bottom: 12px;
+                gap: 6px;
+                height: 56px;
+                padding: 0 12px;
+                border-radius: 14px;
+                max-width: calc(100% - 20px);
+            }
+
+            .nav-item {
+                padding: 6px 16px;
+                min-width: 58px;
+            }
+
+            .nav-item i {
+                font-size: 19px;
+            }
+
+            .nav-label {
+                font-size: 11px;
+            }
+
+            .bottom-spacer {
+                height: 60px;
+            }
+
+            .modal-header {
+                height: 52px;
+                padding: 0 20px;
+            }
+
+            .modal-logo {
+                font-size: 19px;
+            }
+
+            .modal-close {
+                font-size: 21px;
+                padding: 10px;
+                min-width: 42px;
+                min-height: 42px;
+            }
+
+            .modal-event-title {
+                font-size: 16px;
+                padding: 16px 20px;
+            }
+
+            .server-btn {
+                font-size: 14px;
+                padding: 12px 24px;
+            }
+
+            .custom-ratio-btn {
+                width: 38px !important;
+                height: 38px !important;
+                min-width: 38px !important;
+            }
+
+            .custom-ratio-btn .material-symbols-outlined {
+                font-size: 21px;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1199px) {
+            .app {
+                border-left: 1px solid rgba(255, 255, 255, 0.08);
+                border-right: 1px solid rgba(255, 255, 255, 0.08);
+                box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+            }
+
+            .header {
+                height: 58px;
+                margin: 12px 12px 0 12px;
+                padding: 0 24px;
+                border-radius: 14px;
+            }
+
+            .logo {
+                font-size: 20px;
+            }
+
+            .logo span {
+                margin-left: 3px;
+            }
+
+            .menu-icon {
+                font-size: 22px;
+                padding: 8px;
+                border-radius: 8px;
+            }
+
+            .category-section {
+                gap: 18px;
+                padding: 12px 20px;
+            }
+
+            .category-item {
+                width: 56px;
+                border-radius: 14px;
+            }
+
+            .filter-section {
+                padding: 12px 24px;
+                gap: 12px;
+                min-height: 52px;
+            }
+
+            .filter-btn {
+                font-size: 14px;
+                padding: 10px 24px;
+            }
+
+            .card-section {
+                padding: 28px 24px;
+                gap: 24px;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .event-card {
+                padding: 34px 22px 24px;
+                border-radius: 10px;
+            }
+
+            .card-title {
+                font-size: 12px;
+                gap: 7px;
+            }
+
+            .card-title-cat-img {
+                width: 24px;
+                height: 24px;
+            }
+
+            .card-body {
+                gap: 16px;
+            }
+
+            .card-center {
+                min-width: 90px;
+            }
+
+            .countdown-container {
+                gap: 7px;
+            }
+
+            .event-time,
+            .event-date {
+                font-size: 13px;
+            }
+
+            .countdown-timer,
+            .live-badge,
+            .finished-badge {
+                font-size: 16px;
+            }
+
+            .finished-badge.visible {
+                padding: 6px 24px;
+                font-size: 13px;
+            }
+
+            .bottom-nav {
+                bottom: 14px;
+                gap: 8px;
+                height: 60px;
+                padding: 0 16px;
+                border-radius: 14px;
+                max-width: calc(100% - 24px);
+            }
+
+            .nav-item {
+                padding: 8px 18px;
+                min-width: 66px;
+            }
+
+            .nav-item i {
+                font-size: 20px;
+            }
+
+            .nav-label {
+                font-size: 11px;
+            }
+
+            .bottom-spacer {
+                height: 70px;
+            }
+
+            .modal-header {
+                height: 56px;
+                padding: 0 24px;
+            }
+
+            .modal-logo {
+                font-size: 20px;
+            }
+
+            .modal-close {
+                font-size: 22px;
+                padding: 10px;
+                min-width: 44px;
+                min-height: 44px;
+            }
+
+            .modal-event-title {
+                font-size: 17px;
+                padding: 18px 24px;
+            }
+
+            .custom-ratio-btn {
+                width: 40px !important;
+                height: 40px !important;
+                min-width: 40px !important;
+            }
+
+            .custom-ratio-btn .material-symbols-outlined {
+                font-size: 22px;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .app {
+                border-left: 1px solid rgba(255, 255, 255, 0.08);
+                border-right: 1px solid rgba(255, 255, 255, 0.08);
+                box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+            }
+
+            .header {
+                height: 62px;
+                margin: 12px 12px 0 12px;
+                padding: 0 24px;
+                border-radius: 14px;
+            }
+
+            .logo {
+                font-size: 22px;
+            }
+
+            .logo span {
+                margin-left: 3px;
+            }
+
+            .menu-icon {
+                font-size: 24px;
+                padding: 8px;
+                border-radius: 8px;
+            }
+
+            .category-section {
+                gap: 24px;
+                padding: 14px 28px;
+            }
+
+            .category-item {
+                width: 60px;
+                border-radius: 16px;
+            }
+
+            .filter-section {
+                padding: 14px 28px;
+                gap: 14px;
+                min-height: 58px;
+            }
+
+            .filter-btn {
+                font-size: 15px;
+                padding: 10px 28px;
+            }
+
+            .card-section {
+                padding: 32px 32px;
+                gap: 28px;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .event-card {
+                padding: 38px 28px 28px;
+                border-radius: 10px;
+            }
+
+            .card-title {
+                font-size: 13px;
+                gap: 8px;
+            }
+
+            .card-title-cat-img {
+                width: 26px;
+                height: 26px;
+            }
+
+            .card-body {
+                gap: 18px;
+            }
+
+            .card-center {
+                min-width: 100px;
+            }
+
+            .countdown-container {
+                gap: 8px;
+            }
+
+            .event-time,
+            .event-date {
+                font-size: 14px;
+            }
+
+            .countdown-timer,
+            .live-badge,
+            .finished-badge {
+                font-size: 17px;
+            }
+
+            .finished-badge.visible {
+                padding: 8px 28px;
+                font-size: 14px;
+            }
+
+            .bottom-nav {
+                bottom: 16px;
+                gap: 10px;
+                height: 64px;
+                padding: 0 18px;
+                border-radius: 16px;
+                max-width: calc(100% - 28px);
+            }
+
+            .nav-item {
+                padding: 8px 22px;
+                min-width: 72px;
+            }
+
+            .nav-item i {
+                font-size: 22px;
+            }
+
+            .nav-label {
+                font-size: 12px;
+            }
+
+            .bottom-spacer {
+                height: 70px;
+            }
+
+            .modal-header {
+                height: 60px;
+                padding: 0 28px;
+            }
+
+            .modal-logo {
+                font-size: 22px;
+            }
+
+            .modal-close {
+                font-size: 24px;
+                padding: 10px;
+                min-width: 48px;
+                min-height: 48px;
+            }
+
+            .modal-event-title {
+                font-size: 18px;
+                padding: 20px 28px;
+            }
+
+            .custom-ratio-btn {
+                width: 42px !important;
+                height: 42px !important;
+                min-width: 42px !important;
+            }
+
+            .custom-ratio-btn .material-symbols-outlined {
+                font-size: 23px;
+            }
+        }
+
+        @media (hover: none) and (pointer: coarse) {
+            .category-item,
+            .nav-item,
+            .menu-icon,
+            .modal-close,
+            .event-card,
+            .server-btn,
+            .custom-ratio-btn,
+            .filter-btn {
+                cursor: default;
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            .category-item:active,
+            .nav-item:active,
+            .server-btn:active {
+                background: rgba(255, 255, 255, 0.08);
+                border-color: rgba(255, 255, 255, 0.14);
+            }
+
+            .modal-close:active {
+                background: rgba(255, 255, 255, 0.08);
+                border-color: rgba(255, 255, 255, 0.14);
+            }
+
+            .event-card:not(.match-finished):active {
+                transform: scale(0.97);
+            }
+
+            .custom-ratio-btn:active {
+                background: rgba(255, 255, 255, 0.2) !important;
+            }
+
+            .filter-btn:active:not(:disabled) {
+                background: rgba(255, 255, 255, 0.15);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="logo">Pinik<span>Buzz</span></div>
+            <i class="fas fa-bars menu-icon" aria-label="Menu" role="button" tabindex="0"></i>
+        </header>
+
+        <div class="scrollable-area">
+            <section class="category-section" aria-label="Categories">
+                <div class="category-item active" role="button" tabindex="0" data-name="All">
+                    <img alt="All">
+                </div>
+                <div class="category-item" role="button" tabindex="0" data-name="Football">
+                    <img alt="Football">
+                </div>
+                <div class="category-item" role="button" tabindex="0" data-name="Cricket">
+                    <img alt="Cricket">
+                </div>
+            </section>
+
+            <section class="filter-section" aria-label="Filters"></section>
+
+            <main class="card-section" aria-label="Cards">
+                <div class="server-error">Server Error</div>
+            </main>
+
+            <div class="bottom-spacer"></div>
+        </div>
+
+        <nav class="bottom-nav" aria-label="Navigation">
+            <div class="nav-item" role="button" tabindex="0">
+                <i class="fas fa-home"></i>
+                <span class="nav-label">Home</span>
+            </div>
+            <div class="nav-item" role="button" tabindex="0">
+                <i class="fas fa-tv"></i>
+                <span class="nav-label">Channels</span>
+            </div>
+            <div class="nav-item" role="button" tabindex="0">
+                <i class="fas fa-play"></i>
+                <span class="nav-label">Highlights</span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="player-modal" id="playerModal" aria-label="Player" role="dialog" aria-modal="true">
+        <div class="modal-header">
+            <span class="modal-logo">Pinik<span>Buzz</span></span>
+            <i class="fas fa-times modal-close" id="modalClose" aria-label="Close" role="button" tabindex="0"></i>
+        </div>
+        <div class="modal-content">
+            <div class="video-wrapper">
+                <div class="video-container" id="video-container">
+                    <div id="custom-loader" class="custom-loader-wrapper">
+                        <div class="dots-container">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <video id="video" autoplay playsinline></video>
+                </div>
+            </div>
+            <div class="modal-event-title" id="modalEventTitle" data-default-title="Match Title">
+                <img class="modal-category-icon" id="modalCategoryIcon" src="" alt="">
+                <span id="modalEventTitleText">Match Title</span>
+            </div>
+            <div class="modal-servers" id="modalServers"></div>
+        </div>
+    </div>
+
+    <template id="card-template">
+        <div class="event-card">
+            <div class="card-title">
+                <img class="card-title-cat-img" src="" alt="" crossorigin="anonymous" referrerpolicy="no-referrer">
+                <span class="card-title-text"></span>
+            </div>
+            <div class="card-body">
+                <div class="team team-left">
+                    <img class="team-logo" src="" alt="" crossorigin="anonymous" referrerpolicy="no-referrer">
+                    <span class="team-name"></span>
+                </div>
+                <div class="card-center">
+                    <div class="countdown-container">
+                        <span class="event-time"></span>
+                        <span class="countdown-timer"></span>
+                        <span class="live-badge">LIVE</span>
+                        <span class="finished-badge">FINISHED</span>
+                        <span class="event-date"></span>
+                    </div>
+                </div>
+                <div class="team team-right">
+                    <img class="team-logo" src="" alt="" crossorigin="anonymous" referrerpolicy="no-referrer">
+                    <span class="team-name"></span>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="server-button-template">
+        <button class="server-btn">
+            <i class="fas fa-volume-up server-active-icon"></i>
+            <span class="server-btn-text"></span>
+        </button>
+    </template>
+
+    <template id="ratio-btn-template">
+        <button class="custom-ratio-btn" type="button" aria-label="Aspect Ratio" data-mode="0"
+                data-icons='["aspect_ratio","width_wide","calendar_view_day"]'
+                data-tooltips='["Contain","Fill","Cover"]'>
+            <span class="material-symbols-outlined">aspect_ratio</span>
+            <span class="custom-ratio-tooltip">Contain</span>
+        </button>
+    </template>
+
+    <template id="filter-btn-template">
+        <button class="filter-btn" data-filter="">
+            <span class="filter-btn-text"></span>
+        </button>
+    </template>
+
+    <script>
+        (function() {
+            const categoryImageMap = {
+                'All': 'https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Sports.webp',
+                'Football': 'https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Football.webp',
+                'Cricket': 'https://raw.githubusercontent.com/private1-cdn/livetv-data/main/channellogo/Cricket.webp'
+            };
+
+            const categoryImages = document.querySelectorAll('.category-item img');
+            categoryImages.forEach(img => {
+                const parentItem = img.closest('.category-item');
+                if (parentItem) {
+                    const name = parentItem.getAttribute('data-name');
+                    if (name && categoryImageMap[name]) {
+                        img.src = categoryImageMap[name];
+                    }
+                }
+                img.setAttribute('data-retry', '0');
+                img.addEventListener('error', function() {
+                    const retryCount = parseInt(this.getAttribute('data-retry'), 10);
+                    if (retryCount === 0) {
+                        this.setAttribute('data-retry', '1');
+                        const originalSrc = this.src.split('?')[0];
+                        this.src = originalSrc + '?retry=' + Date.now();
+                    } else {
+                        const parentItem = this.closest('.category-item');
+                        if (!parentItem) return;
+                        const name = parentItem.getAttribute('data-name') || '';
+                        const firstLetter = name.charAt(0).toUpperCase();
+                        const fallback = document.createElement('span');
+                        fallback.className = 'category-fallback';
+                        fallback.textContent = firstLetter;
+                        this.replaceWith(fallback);
+                    }
+                });
+            });
+
+            const cardSection = document.querySelector('.card-section');
+            const serverErrorEl = cardSection.querySelector('.server-error');
+            const cardTemplate = document.getElementById('card-template');
+            const categoryItems = document.querySelectorAll('.category-item');
+            const playerModal = document.getElementById('playerModal');
+            const modalClose = document.getElementById('modalClose');
+            const modalEventTitle = document.getElementById('modalEventTitle');
+            const modalCategoryIcon = document.getElementById('modalCategoryIcon');
+            const modalEventTitleText = document.getElementById('modalEventTitleText');
+            const modalServers = document.getElementById('modalServers');
+            const serverButtonTemplate = document.getElementById('server-button-template');
+            const filterSection = document.querySelector('.filter-section');
+            const filterBtnTemplate = document.getElementById('filter-btn-template');
+
+            let allEvents = [];
+            let activeCategory = 'All';
+            let currentFilter = 'all';
+            let countdownIntervalId = null;
+            const cardMetaList = [];
+            let isModalClosing = false;
+            let isRendering = false;
+            let currentLoadSessionId = 0;
+            let modalHistoryPushed = false;
+            let ignorePopstate = false;
+
+            const filterOrder = ['all', 'live', 'scheduled', 'upcoming', 'finished'];
+
+            const filters = [
+                { label: 'All', value: 'all' },
+                { label: 'Live', value: 'live' },
+                { label: 'Scheduled', value: 'scheduled' },
+                { label: 'Upcoming', value: 'upcoming' },
+                { label: 'Finished', value: 'finished' }
+            ];
+
+            filters.forEach(f => {
+                const clone = filterBtnTemplate.content.cloneNode(true);
+                const btn = clone.querySelector('.filter-btn');
+                const textSpan = btn.querySelector('.filter-btn-text');
+                btn.setAttribute('data-filter', f.value);
+                textSpan.textContent = f.label;
+                if (f.value === currentFilter) btn.classList.add('active');
+                btn.addEventListener('click', function() {
+                    if (this.disabled) return;
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentFilter = this.getAttribute('data-filter');
+                    renderCards();
+                });
+                filterSection.appendChild(btn);
+            });
+
+            function reorderFilterButtons() {
+                const buttons = [...filterSection.querySelectorAll('.filter-btn')];
+                buttons.sort((a, b) => {
+                    const aVal = a.getAttribute('data-filter');
+                    const bVal = b.getAttribute('data-filter');
+                    const aDisabled = a.disabled ? 1 : 0;
+                    const bDisabled = b.disabled ? 1 : 0;
+                    if (aDisabled !== bDisabled) return aDisabled - bDisabled;
+                    const aIndex = filterOrder.indexOf(aVal);
+                    const bIndex = filterOrder.indexOf(bVal);
+                    return aIndex - bIndex;
+                });
+                filterSection.innerHTML = '';
+                buttons.forEach(b => filterSection.appendChild(b));
+            }
+
+            function ensureSpacer() {
+                let spacer = cardSection.querySelector('.bottom-spacer');
+                if (!spacer) {
+                    spacer = document.createElement('div');
+                    spacer.className = 'bottom-spacer';
+                    cardSection.appendChild(spacer);
+                }
+                return spacer;
+            }
+
+            function resetRatioButton() {
+                const ratioBtn = document.querySelector('.custom-ratio-btn');
+                if (ratioBtn) {
+                    ratioBtn.dataset.mode = '0';
+                    const tooltip = ratioBtn.querySelector('.custom-ratio-tooltip');
+                    const iconSpan = ratioBtn.querySelector('.material-symbols-outlined');
+                    const icons = JSON.parse(ratioBtn.dataset.icons);
+                    const tooltips = JSON.parse(ratioBtn.dataset.tooltips);
+                    if (tooltip) tooltip.textContent = tooltips[0];
+                    if (iconSpan) iconSpan.textContent = icons[0];
+                }
+                const videoEl = document.getElementById('video');
+                if (videoEl) {
+                    videoEl.classList.remove('video-fill', 'video-cover');
+                }
+            }
+
+            function openModal(cardElement) {
+                if (isModalClosing) return;
+
+                const category = cardElement ? cardElement.getAttribute('data-category') : '';
+                if (category && categoryImageMap[category]) {
+                    modalCategoryIcon.src = categoryImageMap[category];
+                    modalCategoryIcon.classList.add('visible');
+                } else {
+                    modalCategoryIcon.classList.remove('visible');
+                }
+
+                const defaultTitle = modalEventTitle.getAttribute('data-default-title') || 'Match Title';
+                const eventTitle = cardElement ? cardElement.getAttribute('data-title') : null;
+                modalEventTitleText.textContent = eventTitle || defaultTitle;
+
+                modalServers.innerHTML = '';
+
+                const serversData = cardElement ? cardElement.getAttribute('data-servers') : null;
+                if (serversData) {
+                    try {
+                        const servers = JSON.parse(serversData);
+                        if (Array.isArray(servers) && servers.length > 0) {
+                            servers.forEach(server => {
+                                const buttonClone = serverButtonTemplate.content.cloneNode(true);
+                                const btn = buttonClone.querySelector('.server-btn');
+                                const textSpan = btn.querySelector('.server-btn-text');
+                                const icon = btn.querySelector('.server-active-icon');
+                                textSpan.textContent = server['server-name'] || 'Server';
+
+                                btn.addEventListener('click', async function(e) {
+                                    e.stopPropagation();
+
+                                    const allIcons = modalServers.querySelectorAll('.server-active-icon');
+                                    allIcons.forEach(ic => ic.classList.remove('visible'));
+                                    icon.classList.add('visible');
+
+                                    const streamUrl = server['stream-url'];
+                                    const mpdStreamUrl = server['mpd-stream-url'];
+                                    const keyId = server['keyid'];
+                                    const key = server['key'];
+
+                                    if (!window.player) return;
+
+                                    const thisSessionId = ++currentLoadSessionId;
+
+                                    try {
+                                        await window.player.unload();
+                                        if (thisSessionId !== currentLoadSessionId) return;
+
+                                        if (streamUrl && streamUrl !== '#') {
+                                            window.player.configure({
+                                                manifest: { defaultPresentationDelay: 15, dash: {} },
+                                                drm: { clearKeys: {}, advanced: {} }
+                                            });
+                                            await window.player.load(streamUrl);
+                                        } else if (mpdStreamUrl && mpdStreamUrl !== '#') {
+                                            window.player.configure({
+                                                manifest: {
+                                                    defaultPresentationDelay: 15,
+                                                    dash: {
+                                                        ignoreMinBufferTime: true,
+                                                        ignoreSuggestedPresentationDelay: true,
+                                                        autoCorrectDrift: true
+                                                    }
+                                                }
+                                            });
+
+                                            if (keyId && key) {
+                                                window.player.configure({
+                                                    drm: {
+                                                        clearKeys: { [keyId.trim()]: key.trim() },
+                                                        advanced: {
+                                                            'org.w3.clearkey': {
+                                                                sessionType: 'temporary'
+                                                            }
+                                                        }
+                                                    }
+                                                });
+                                            } else {
+                                                window.player.configure({
+                                                    drm: { clearKeys: {}, advanced: {} }
+                                                });
+                                            }
+                                            await window.player.load(mpdStreamUrl);
+                                        }
+
+                                        if (thisSessionId !== currentLoadSessionId) {
+                                            window.player.unload().catch(() => {});
+                                            return;
+                                        }
+
+                                        const videoEl = document.getElementById("video");
+                                        if (videoEl) {
+                                            await videoEl.play();
+                                        }
+                                    } catch (err) {}
+                                });
+
+                                modalServers.appendChild(buttonClone);
+                            });
+                        }
+                    } catch (e) {}
+                }
+
+                resetRatioButton();
+
+                playerModal.classList.remove('closing');
+                playerModal.classList.add('active');
+                document.body.classList.add('modal-open');
+
+                if (!modalHistoryPushed) {
+                    history.pushState({ modal: true }, '');
+                    modalHistoryPushed = true;
+                }
+
+                if (window.player) {
+                    window.player.configure({
+                        streaming: {
+                            bufferingGoal: 30,
+                            rebufferingGoal: 3,
+                            bufferBehind: 10,
+                            retryParameters: {
+                                maxAttempts: 15,
+                                baseDelay: 1000,
+                                backoffFactor: 2
+                            }
+                        }
+                    });
+                }
+            }
+
+            function closeModal(triggeredByPopstate = false) {
+                if (!playerModal.classList.contains('active') || isModalClosing) return;
+                isModalClosing = true;
+
+                currentLoadSessionId = 0;
+                modalServers.innerHTML = '';
+
+                if (window.player) {
+                    window.player.unload().catch(() => {});
+                    const video = document.getElementById('video');
+                    if (video) {
+                        video.pause();
+                        video.removeAttribute('src');
+                        video.load();
+                        video.classList.remove('video-fill', 'video-cover');
+                    }
+                }
+
+                resetRatioButton();
+
+                const loader = document.getElementById('custom-loader');
+                if (loader) {
+                    loader.style.display = 'none';
+                    loader.style.opacity = '0';
+                }
+
+                playerModal.classList.add('closing');
+                playerModal.classList.remove('active');
+                document.body.classList.remove('modal-open');
+
+                setTimeout(function() {
+                    playerModal.classList.remove('closing');
+                    isModalClosing = false;
+                }, 250);
+
+                if (!triggeredByPopstate && modalHistoryPushed) {
+                    ignorePopstate = true;
+                    history.back();
+                    modalHistoryPushed = false;
+                }
+            }
+
+            modalClose.addEventListener('click', function(e) {
+                e.stopPropagation();
+                closeModal();
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && playerModal.classList.contains('active')) {
+                    closeModal();
+                }
+            });
+
+            window.addEventListener('popstate', function(e) {
+                if (ignorePopstate) {
+                    ignorePopstate = false;
+                    return;
+                }
+                if (playerModal.classList.contains('active')) {
+                    closeModal(true);
+                }
+            });
+
+            cardSection.addEventListener('click', function(e) {
+                const card = e.target.closest('.event-card');
+                if (card && !card.classList.contains('match-finished') && !card.classList.contains('match-upcoming')) {
+                    openModal(card);
+                }
+            });
+
+            function updateFilterButtonsState() {
+                const now = Date.now();
+                const filterButtons = document.querySelectorAll('.filter-btn');
+                const counts = {
+                    all: 0,
+                    live: 0,
+                    scheduled: 0,
+                    upcoming: 0,
+                    finished: 0
+                };
+
+                let categoryEvents = allEvents;
+                if (activeCategory !== 'All') {
+                    categoryEvents = allEvents.filter(ev => ev.category && ev.category.toLowerCase() === activeCategory.toLowerCase());
+                }
+
+                categoryEvents.forEach(ev => {
+                    const startInStr = ev['start-in'] || '';
+                    const endInStr = ev['end-in'] || '';
+                    const startDate = parseDateTime(startInStr);
+                    const endDate = parseDateTime(endInStr);
+                    const statusStr = ev['status'] || '';
+                    const finished = (endDate && endDate.getTime() <= now) || (statusStr.toLowerCase() === 'finished');
+
+                    counts.all++;
+                    if (finished) {
+                        counts.finished++;
+                    } else if (startDate) {
+                        const diff = startDate.getTime() - now;
+                        if (diff > 0) counts.scheduled++;
+                        else counts.live++;
+                    } else {
+                        counts.upcoming++;
+                    }
+                });
+
+                filterButtons.forEach(btn => {
+                    const filter = btn.getAttribute('data-filter');
+                    const count = counts[filter] || 0;
+                    btn.disabled = (count === 0);
+                });
+
+                reorderFilterButtons();
+            }
+
+            categoryItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    categoryItems.forEach(ci => ci.classList.remove('active'));
+                    this.classList.add('active');
+                    activeCategory = this.getAttribute('data-name');
+                    currentFilter = 'all';
+                    document.querySelectorAll('.filter-btn').forEach(btn => {
+                        btn.classList.remove('active');
+                        if (btn.getAttribute('data-filter') === 'all') btn.classList.add('active');
+                    });
+                    updateFilterButtonsState();
+                    renderCards();
+                });
+            });
+
+            function parseDateTime(dateTimeStr) {
+                if (!dateTimeStr) return null;
+                try {
+                    const parts = dateTimeStr.split(' | ');
+                    if (parts.length !== 2) return null;
+                    const timePart = parts[0].trim();
+                    const datePart = parts[1].trim();
+                    const dateSegments = datePart.split('-');
+                    if (dateSegments.length !== 3) return null;
+                    const day = parseInt(dateSegments[0], 10);
+                    const month = parseInt(dateSegments[1], 10) - 1;
+                    const year = parseInt(dateSegments[2], 10);
+                    const timeMatch = timePart.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+                    if (!timeMatch) return null;
+                    let hour = parseInt(timeMatch[1], 10);
+                    const minute = parseInt(timeMatch[2], 10);
+                    const ampm = timeMatch[3].toUpperCase();
+                    if (ampm === 'PM' && hour !== 12) hour += 12;
+                    if (ampm === 'AM' && hour === 12) hour = 0;
+                    return new Date(year, month, day, hour, minute, 0);
+                } catch (e) {
+                    return null;
+                }
+            }
+
+            function formatCountdown(diffMs) {
+                if (diffMs <= 0) return null;
+                const totalSeconds = Math.floor(diffMs / 1000);
+                const days = Math.floor(totalSeconds / 86400);
+                if (days > 0) {
+                    return `${days}D`;
+                } else {
+                    const hours = Math.floor(totalSeconds / 3600);
+                    const minutes = Math.floor((totalSeconds % 3600) / 60);
+                    const seconds = totalSeconds % 60;
+                    return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                }
+            }
+
+            function updateAllCountdowns() {
+                const now = Date.now();
+                let hasActiveCountdowns = false;
+                cardMetaList.forEach(meta => {
+                    if (!meta.targetDate || meta.isFinished) return;
+                    const diff = meta.targetDate.getTime() - now;
+                    if (diff <= 0) {
+                        meta.countdownTimerEl.style.display = 'none';
+                        meta.liveTextEl.classList.add('visible');
+                    } else {
+                        hasActiveCountdowns = true;
+                        meta.countdownTimerEl.style.display = '';
+                        meta.liveTextEl.classList.remove('visible');
+                        meta.countdownTimerEl.textContent = formatCountdown(diff);
+                    }
+                });
+                if (!hasActiveCountdowns && cardMetaList.length > 0) {
+                    clearInterval(countdownIntervalId);
+                    countdownIntervalId = null;
+                }
+            }
+
+            function renderCards() {
+                if (isRendering) return;
+                isRendering = true;
+
+                if (countdownIntervalId) {
+                    clearInterval(countdownIntervalId);
+                    countdownIntervalId = null;
+                }
+                cardMetaList.length = 0;
+
+                const existingCards = cardSection.querySelectorAll('.event-card');
+                existingCards.forEach(card => card.remove());
+                serverErrorEl.classList.remove('visible');
+
+                const spacer = ensureSpacer();
+
+                let filteredEvents = allEvents;
+                if (activeCategory !== 'All') {
+                    filteredEvents = allEvents.filter(
+                        ev => ev.category && ev.category.toLowerCase() === activeCategory.toLowerCase()
+                    );
+                }
+
+                if (filteredEvents.length === 0) {
+                    updateFilterButtonsState();
+                    isRendering = false;
+                    return;
+                }
+
+                const now = Date.now();
+
+                filteredEvents.forEach(ev => {
+                    const startInStr = ev['start-in'] || '';
+                    const endInStr = ev['end-in'] || '';
+                    ev._startDate = parseDateTime(startInStr);
+                    ev._endDate = parseDateTime(endInStr);
+                    const statusStr = ev['status'] || '';
+                    ev._finished = (ev._endDate && ev._endDate.getTime() <= now) || (statusStr.toLowerCase() === 'finished');
+                    if (ev._origIndex === undefined) ev._origIndex = 0;
+                });
+
+                if (currentFilter !== 'all') {
+                    filteredEvents = filteredEvents.filter(ev => {
+                        if (ev._finished) return currentFilter === 'finished';
+                        if (ev._startDate) {
+                            const diff = ev._startDate.getTime() - now;
+                            if (diff > 0) return currentFilter === 'scheduled';
+                            else return currentFilter === 'live';
+                        } else {
+                            return currentFilter === 'upcoming';
+                        }
+                    });
+                }
+
+                filteredEvents.sort((a, b) => {
+                    const groupA = a._finished ? 3 : (a._startDate ? (a._startDate.getTime() <= now ? 0 : 1) : 2);
+                    const groupB = b._finished ? 3 : (b._startDate ? (b._startDate.getTime() <= now ? 0 : 1) : 2);
+                    if (groupA !== groupB) return groupA - groupB;
+
+                    if (groupA === 0) {
+                        if (a._startDate && b._startDate) return b._startDate - a._startDate;
+                        if (a._startDate) return -1;
+                        if (b._startDate) return 1;
+                        return (a._origIndex ?? 0) - (b._origIndex ?? 0);
+                    } else if (groupA === 1) {
+                        if (a._startDate && b._startDate) return a._startDate - b._startDate;
+                        if (a._startDate) return -1;
+                        if (b._startDate) return 1;
+                        return (a._origIndex ?? 0) - (b._origIndex ?? 0);
+                    } else if (groupA === 2) {
+                        return (a._origIndex ?? 0) - (b._origIndex ?? 0);
+                    } else {
+                        const endA = a._endDate ? a._endDate.getTime() : 0;
+                        const endB = b._endDate ? b._endDate.getTime() : 0;
+                        return endB - endA;
+                    }
+                });
+
+                let needsInterval = false;
+
+                filteredEvents.forEach((event, index) => {
+                    const clone = cardTemplate.content.cloneNode(true);
+                    const card = clone.querySelector('.event-card');
+                    const titleEl = card.querySelector('.card-title');
+                    const catImg = titleEl.querySelector('.card-title-cat-img');
+                    const catText = titleEl.querySelector('.card-title-text');
+                    const teamLeftImg = card.querySelector('.team-left .team-logo');
+                    const teamLeftName = card.querySelector('.team-left .team-name');
+                    const teamRightImg = card.querySelector('.team-right .team-logo');
+                    const teamRightName = card.querySelector('.team-right .team-name');
+                    const countdownTimerEl = card.querySelector('.countdown-timer');
+                    const liveTextEl = card.querySelector('.live-badge');
+                    const finishedBadgeEl = card.querySelector('.finished-badge');
+                    const eventTimeEl = card.querySelector('.event-time');
+                    const eventDateEl = card.querySelector('.event-date');
+
+                    const eventTitle = event.title || 'Match';
+                    card.setAttribute('data-title', eventTitle);
+                    card.setAttribute('data-category', event.category || '');
+                    if (event.servers && Array.isArray(event.servers)) {
+                        card.setAttribute('data-servers', JSON.stringify(event.servers));
+                    } else {
+                        card.setAttribute('data-servers', '[]');
+                    }
+
+                    if (event.category && categoryImageMap[event.category]) {
+                        catImg.src = categoryImageMap[event.category];
+                        catImg.alt = event.category;
+                    } else {
+                        catImg.remove();
+                    }
+                    catText.textContent = eventTitle;
+
+                    if (event.team && event.team.length >= 1) {
+                        teamLeftImg.src = event.team[0]['team-logo'] || '';
+                        teamLeftImg.alt = event.team[0]['team-name'] || '';
+                        teamLeftName.textContent = event.team[0]['team-name'] || '';
+                    } else {
+                        teamLeftImg.style.display = 'none';
+                        teamLeftName.textContent = 'TBD';
+                    }
+
+                    if (event.team && event.team.length >= 2) {
+                        teamRightImg.src = event.team[1]['team-logo'] || '';
+                        teamRightImg.alt = event.team[1]['team-name'] || '';
+                        teamRightName.textContent = event.team[1]['team-name'] || '';
+                    } else {
+                        teamRightImg.style.display = 'none';
+                        teamRightName.textContent = 'TBD';
+                    }
+
+                    [teamLeftImg, teamRightImg].forEach(img => {
+                        img.setAttribute('data-retry', '0');
+                        img.addEventListener('error', function() {
+                            const retryCount = parseInt(this.getAttribute('data-retry'), 10);
+                            if (retryCount === 0) {
+                                this.setAttribute('data-retry', '1');
+                                const originalSrc = this.src.split('?')[0];
+                                this.src = originalSrc + '?retry=' + Date.now();
+                            } else {
+                                const teamContainer = this.closest('.team');
+                                const nameEl = teamContainer ? teamContainer.querySelector(
+                                    '.team-name') : null;
+                                const firstChar = nameEl ? nameEl.textContent.trim().charAt(0)
+                                    .toUpperCase() : '?';
+                                const fallback = document.createElement('span');
+                                fallback.className = 'team-logo-fallback';
+                                fallback.textContent = firstChar;
+                                this.replaceWith(fallback);
+                            }
+                        });
+                    });
+
+                    const startInStr = event['start-in'] || '';
+                    const parts = startInStr.split(' | ');
+                    if (parts.length === 2) {
+                        eventTimeEl.textContent = parts[0].trim();
+                        eventDateEl.textContent = parts[1].trim();
+                    } else {
+                        eventTimeEl.textContent = '';
+                        eventDateEl.textContent = '';
+                    }
+
+                    const finished = event._finished;
+                    const startDate = event._startDate;
+
+                    if (finished) {
+                        card.classList.add('match-finished');
+                        finishedBadgeEl.classList.add('visible');
+                        countdownTimerEl.style.display = 'none';
+                        liveTextEl.classList.remove('visible');
+                        cardMetaList.push({
+                            targetDate: null,
+                            countdownTimerEl,
+                            liveTextEl,
+                            isFinished: true
+                        });
+                    } else if (startDate) {
+                        const diff = startDate.getTime() - now;
+                        if (diff > 0) {
+                            card.classList.add('match-upcoming');
+                            countdownTimerEl.style.display = '';
+                            countdownTimerEl.textContent = formatCountdown(diff);
+                            countdownTimerEl.classList.remove('upcoming');
+                            liveTextEl.classList.remove('visible');
+                            finishedBadgeEl.classList.remove('visible');
+                            needsInterval = true;
+                            cardMetaList.push({
+                                targetDate: startDate,
+                                countdownTimerEl,
+                                liveTextEl,
+                                isFinished: false
+                            });
+                        } else {
+                            countdownTimerEl.style.display = 'none';
+                            liveTextEl.classList.add('visible');
+                            finishedBadgeEl.classList.remove('visible');
+                            countdownTimerEl.classList.remove('upcoming');
+                            cardMetaList.push({
+                                targetDate: null,
+                                countdownTimerEl,
+                                liveTextEl,
+                                isFinished: false
+                            });
+                        }
+                    } else {
+                        card.classList.add('match-upcoming');
+                        countdownTimerEl.textContent = 'UPCOMING';
+                        countdownTimerEl.style.display = '';
+                        countdownTimerEl.classList.add('upcoming');
+                        liveTextEl.classList.remove('visible');
+                        finishedBadgeEl.classList.remove('visible');
+                        cardMetaList.push({
+                            targetDate: null,
+                            countdownTimerEl,
+                            liveTextEl,
+                            isFinished: false
+                        });
+                    }
+
+                    card.style.animationDelay = `${index * 55}ms`;
+                    card.classList.add('card-animate-in');
+
+                    card.addEventListener('animationend', function() {
+                        this.classList.remove('card-animate-in');
+                        this.style.animationDelay = '';
+                    }, { once: true });
+
+                    cardSection.insertBefore(card, spacer);
+                });
+
+                updateFilterButtonsState();
+
+                if (needsInterval) {
+                    countdownIntervalId = setInterval(updateAllCountdowns, 1000);
+                }
+
+                isRendering = false;
+            }
+
+            async function fetchEventData(retryCount = 0) {
+                const baseUrl = 'https://raw.githubusercontent.com/private1-cdn/livetv-data/main/event.js';
+                const url = baseUrl + (retryCount > 0 ? '?retry=' + Date.now() : '');
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) throw new Error('Fetch failed with status ' + response.status);
+                    const text = await response.text();
+                    const jsonStr = text
+                        .replace(/^export\s+const\s+liveevent\s*=\s*/, '')
+                        .replace(/;\s*$/, '')
+                        .trim();
+                    const rawData = JSON.parse(jsonStr);
+
+                    const events = [];
+                    if (Array.isArray(rawData)) {
+                        rawData.forEach(item => {
+                            if (typeof item === 'object' && item !== null) {
+                                const keys = Object.keys(item);
+                                keys.forEach(key => {
+                                    const ev = item[key];
+                                    if (ev && typeof ev === 'object') {
+                                        ev._id = key;
+                                        ev._origIndex = events.length;
+                                        events.push(ev);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                    allEvents = events;
+                    updateFilterButtonsState();
+                    renderCards();
+                } catch (err) {
+                    if (retryCount === 0) {
+                        return fetchEventData(1);
+                    }
+                    const existingCards = cardSection.querySelectorAll('.event-card');
+                    existingCards.forEach(card => card.remove());
+                    if (countdownIntervalId) {
+                        clearInterval(countdownIntervalId);
+                        countdownIntervalId = null;
+                    }
+                    cardMetaList.length = 0;
+                    serverErrorEl.classList.add('visible');
+                }
+            }
+
+            ensureSpacer();
+            fetchEventData();
+        })();
+    </script>
+
+    <script>
+        (function initShakaPlayer() {
+            shaka.polyfill.installAll();
+            if (!shaka.Player.isBrowserSupported()) {
+                return;
+            }
+
+            const video = document.getElementById("video");
+            const container = document.getElementById("video-container");
+            const loader = document.getElementById("custom-loader");
+
+            container.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+                return false;
+            });
+            video.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+                return false;
+            });
+
+            window.player = new shaka.Player();
+            window.player.attach(video);
+
+            const ui = new shaka.ui.Overlay(window.player, container, video);
+            ui.configure({
+                controlPanelElements: [
+                    'play_pause',
+                    'time_and_duration',
+                    'spacer',
+                    'mute',
+                    'quality',
+                    'picture_in_picture',
+                    'fullscreen'
+                ],
+                doubleClickForFullscreen: false,
+                enableFullscreenOnRotation: false,
+                singleClickForPlayAndPause: false,
+                forceLandscapeOnFullscreen: true,
+                fadeDelay: 3
+            });
+
+            let isFirstPlay = true;
+            video.addEventListener('playing', () => {
+                if (isFirstPlay && window.player.isLive()) {
+                    const seekRange = window.player.seekRange();
+                    if (seekRange) {
+                        video.currentTime = seekRange.end - 15;
+                        isFirstPlay = false;
+                    }
+                }
+                if (bufferTimeout) clearTimeout(bufferTimeout);
+                loader.style.opacity = '0';
+                setTimeout(() => loader.style.display = 'none', 300);
+            });
+
+            let bufferTimeout = null;
+            window.player.addEventListener('buffering', (event) => {
+                if (event.buffering) {
+                    bufferTimeout = setTimeout(() => {
+                        loader.style.display = 'flex';
+                        loader.offsetHeight;
+                        loader.style.opacity = '1';
+                    }, 300);
+                } else {
+                    if (bufferTimeout) clearTimeout(bufferTimeout);
+                    loader.style.opacity = '0';
+                    setTimeout(() => loader.style.display = 'none', 300);
+                }
+            });
+
+            function insertRatioButton() {
+                if (container.querySelector('.custom-ratio-btn')) return;
+
+                const fullscreenBtn = container.querySelector('.shaka-fullscreen-button');
+                if (!fullscreenBtn || !fullscreenBtn.parentNode) {
+                    setTimeout(insertRatioButton, 200);
+                    return;
+                }
+
+                const ratioTemplate = document.getElementById('ratio-btn-template');
+                const ratioBtn = ratioTemplate.content.cloneNode(true).querySelector('.custom-ratio-btn');
+
+                ratioBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    let mode = parseInt(this.dataset.mode, 10);
+                    mode = (mode + 1) % 3;
+                    this.dataset.mode = mode;
+
+                    const icons = JSON.parse(this.dataset.icons);
+                    const tooltips = JSON.parse(this.dataset.tooltips);
+                    const iconSpan = this.querySelector('.material-symbols-outlined');
+                    const tooltipEl = this.querySelector('.custom-ratio-tooltip');
+                    if (iconSpan) iconSpan.textContent = icons[mode];
+                    if (tooltipEl) tooltipEl.textContent = tooltips[mode];
+
+                    const videoEl = document.getElementById('video');
+                    if (videoEl) {
+                        videoEl.classList.remove('video-fill', 'video-cover');
+                        if (mode === 1) videoEl.classList.add('video-fill');
+                        if (mode === 2) videoEl.classList.add('video-cover');
+                    }
+                });
+
+                fullscreenBtn.parentNode.insertBefore(ratioBtn, fullscreenBtn);
+            }
+
+            insertRatioButton();
+        })();
+    </script>
+</body>
+</html>
