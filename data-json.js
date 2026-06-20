@@ -151,25 +151,35 @@ export const pin = [
 export const channels = [
 
   {
-    "ADN - T Sports": {
-      "logo": "TSports-logo.webp",
+    "ADN - Fox": {
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
       "category": "ADN - (Rakib)",
       "servers": [
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/TSportsHD_sf_bdix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 2", "url": "http://172.20.3.1:3255/TSportsHD_sf_nix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "http://172.20.3.1:3255/TSportsHD_rc_nix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 4", "url": "http://172.20.3.1:3255/TSportsHD_nk_nix/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://172.19.178.149:18190/fifa8/tracks-v1/index.fmp4.m3u8?token=22ac081eda9f6f238c91ad45b0647833c441b7e9-a9df980cb592b543108eb8172237cf10-1781925277-1781914177" },
+        { "name": "Server 2", "url": "http://172.19.178.148:18190/feed_fifa3/tracks-v1/index.fmp4.m3u8?token=5cf188d25b14d6e4807d4806cf8e0f447f9a9f2a-be1b9e779a6a456f22fd4d673c3983bf-1781925544-1781914444" }
       ]
     }
   },
   {
-    "ADN - Somoy TV": {
-      "logo": "SomoyTV-logo.webp",
+    "ADN - T Sports": {
+      "logo": "TSports-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/somy_rc_bdix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/somyyt/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://172.19.178.149:18190/fifa_tsnsports4aq/tracks-v1/index.fmp4.m3u8?token=af5a3cbddab92a8c7587e72fb7ce15869533d5eb-c5ba76418e78487c9c2088d09b83a03a-1781925419-1781914319" },
+        { "name": "Server 2", "url": "http://172.19.178.49:18190/t_sports/tracks-v1/index.fmp4.m3u8?token=421841b31ddb736feaa34e764a0c4f23adaf144f-814a28da5fcdb63615dad41c359cea7f-1781925441-1781914341" },
+        { "name": "Server 3", "url": "http://172.19.178.149:18190/t_sports_vip/tracks-v1/index.fmp4.m3u8?token=c77987534fa7efaf8210cfef25642fcaa2fdb6f6-b33cfb8f2258ec21f0a741833e6f7e93-1781925496-1781914396" },
+        { "name": "Server 4", "url": "http://172.19.178.49:18190/t_sports_vip/tracks-v1/index.fmp4.m3u8?token=f40176c6656a5e38ee1e71cd90ee696792dcc084-80dc36a1b565ea7a3b838e7f4bdc163a-1781925523-1781914423" },
+        { "name": "Server 5", "url": "http://172.19.178.29:18190/SN-E01-01/tracks-v1/seg-0-21455.hls.fmp4?token=333a0ca8d0f995c8c442da1cbff36dab7a0fe6d8-94b5e24a5f0eeb4ad55c4a6729dec444-1781925594-1781914494" },
+        { "name": "Server 6", "url": "http://172.19.178.29:18190/SN-E01-01/tracks-v1/index.fmp4.m3u8?token=353f2e619bd6b192077b885546735b1b3bf702b5-eebc22b42dc365fa5f95be0643ccbadf-1781925671-1781914571" }
       ]
+    }
+  },
+  {
+    "ADN - BTV": {
+      "logo": "BTV-logo.webp",
+      "category": "ADN - (Rakib)",
+      "servers": [
+        { "name": "Server 1", "url": "http://172.19.178.148:18190/btv/tracks-v1/index.fmp4.m3u8?token=8aa5a8904150f25941afd10f9b7d5fedd1627b65-464afdb631a43fb0d42ea414ed873b7c-1781925783-1781914683" }
     }
   },
   {
@@ -177,9 +187,8 @@ export const channels = [
       "logo": "PTV-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/ptv_bdix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 2", "url": "http://172.20.3.1:3255/ptv_nix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "http://172.20.3.1:3255/ptv/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://172.19.178.149:18190/ptv_sports/tracks-v1/index.fmp4.m3u8?token=31f111f1badd6855c889b61d2144299b499c7950-0bea689fc71c44e40c37cd31c2764921-1781925460-1781914360" },
+        { "name": "Server 2", "url": "http://172.19.178.29:18190/CD-E02-01/tracks-v1/index.fmp4.m3u8?token=4f24b8b11bf5ffc828d5cef651ca12eafc203f81-291148afda2391c27e8ae7cf77f062d9-1781925638-1781914538" }
       ]
     }
   },
@@ -188,8 +197,8 @@ export const channels = [
       "logo": "Unite8Sports-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/spotyfyz_nix/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/spotyfyz_bdix/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://172.19.178.49:18190/unite8-sports-1/tracks-v1/index.fmp4.m3u8?token=532ca2f852fc82794b9a0c8133e2766cca0569ab-b535c76a8536eab8648e5ed2c007e37c-1781925323-1781914223" },
+        { "name": "Server 2", "url": "http://172.19.178.49:18190/unite8-sports-2/tracks-v1/index.fmp4.m3u8?token=3f8e5de8c7bf79b4fbaaa6206692d9b348b11ee8-9bb52b86dea6311d7e0dbedae87a9351-1781925350-1781914250" }
       ]
     }
   },
@@ -216,7 +225,7 @@ export const channels = [
       "logo": "ZeeBanglaShonar-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
-        { "name": "Server 1", "url": "http://172.20.3.1:3255/ZEE-BANGLA-CINEMA/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "http://172.19.178.29:18190/PC-01/tracks-a1/index.fmp4.m3u8?token=3b2d1c01dca8df07e64a5c1f3ee3bfd0da9115b5-e16bea14d49806889f5784a852e75e10-1781925382-1781914282" }
       ]
     }
   },
