@@ -20,49 +20,6 @@ export const pin = [
 
   
 
-
-
-{
-    "⚽️ Fifa world cup 29": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "01:00 AM | 20-06-2026",
-      "end-in": "03:10 AM | 20-06-2026",
-      "team": [
-        { "name": "USA", "logo": "https://img.sofascore.com/api/v1/team/4724/image" },
-        { "name": "AUS", "logo": "https://img.sofascore.com/api/v1/team/4741/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "#" } 
-      ]
-    }
-  },
-{
-    "⚽️ Fifa world cup 30": {
-      "category": "Pin",
-      "status": "",
-      "start-in": "04:00 AM | 20-06-2026",
-      "end-in": "06:10 AM | 20-06-2026",
-      "team": [
-        { "name": "SCO", "logo": "https://img.sofascore.com/api/v1/team/4695/image" },
-        { "name": "MAR", "logo": "https://img.sofascore.com/api/v1/team/4778/image" }
-      ],
-      "servers": [
-        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
-      ]
-    }
-  },
 {
     "⚽️ Fifa world cup 31": {
       "category": "Pin",
@@ -74,16 +31,8 @@ export const pin = [
         { "name": "HAI", "logo": "https://img.sofascore.com/api/v1/team/7229/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
-        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 4", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 5", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
-        { "name": "Server 6", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
-        { "name": "Server 7", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
-        { "name": "Server 8", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
-        { "name": "Server 9", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
-        { "name": "Server 10", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" }
+        { "name": "Server 1", "url": "https://backup.alarafatofficial.workers.dev/?url=https%3A%2F%2Fd1211whpimeups.cloudfront.net%2Fsmil%3Artbgo%2Fmedia-uauic9lzr_b4096000_slENG_30417.ts&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36&ekey=SPORTIX_SECURE_KEY_2026" },
+        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
