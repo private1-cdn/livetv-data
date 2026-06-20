@@ -180,6 +180,7 @@ export const channels = [
       "category": "ADN - (Rakib)",
       "servers": [
         { "name": "Server 1", "url": "http://172.19.178.148:18190/btv/tracks-v1/index.fmp4.m3u8?token=8aa5a8904150f25941afd10f9b7d5fedd1627b65-464afdb631a43fb0d42ea414ed873b7c-1781925783-1781914683" }
+      ]
     }
   },
   {
@@ -225,10 +226,10 @@ export const channels = [
       "logo": "ZeeBanglaShonar-logo.webp",
       "category": "ADN - (Rakib)",
       "servers": [
-        { "name": "Server 1", "http://172.19.178.29:18190/PC-01/tracks-a1/index.fmp4.m3u8?token=3b2d1c01dca8df07e64a5c1f3ee3bfd0da9115b5-e16bea14d49806889f5784a852e75e10-1781925382-1781914282" }
+        { "name": "Server 1", "url": "http://172.19.178.29:18190/PC-01/tracks-a1/index.fmp4.m3u8?token=3b2d1c01dca8df07e64a5c1f3ee3bfd0da9115b5-e16bea14d49806889f5784a852e75e10-1781925382-1781914282" }
       ]
     }
-  },
+  }
 
 
 
