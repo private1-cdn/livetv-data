@@ -35,7 +35,7 @@ export const pin = [
       "servers": [
         { "name": "Server 1", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8" },
         { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
-        { "name": "Server 3", "url": "#" }
+        { "name": "Server 3", "url": "#" } 
       ]
     }
   },
