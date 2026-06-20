@@ -31,8 +31,12 @@ export const pin = [
         { "name": "HAI", "logo": "https://img.sofascore.com/api/v1/team/7229/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://backup.alarafatofficial.workers.dev/?url=https%3A%2F%2Fd1211whpimeups.cloudfront.net%2Fsmil%3Artbgo%2Fmedia-uauic9lzr_b4096000_slENG_30417.ts&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36&ekey=SPORTIX_SECURE_KEY_2026" },
-        { "name": "Server 2", "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" }
+        { "name": "Server 1", "url": "http://172.19.178.149:18190/fifa_tsnsports4aq/tracks-v1/index.fmp4.m3u8?token=af5a3cbddab92a8c7587e72fb7ce15869533d5eb-c5ba76418e78487c9c2088d09b83a03a-1781925419-1781914319" },
+        { "name": "Server 2", "url": "http://172.19.178.49:18190/t_sports/tracks-v1/index.fmp4.m3u8?token=421841b31ddb736feaa34e764a0c4f23adaf144f-814a28da5fcdb63615dad41c359cea7f-1781925441-1781914341" },
+        { "name": "Server 3", "url": "http://172.19.178.149:18190/t_sports_vip/tracks-v1/index.fmp4.m3u8?token=c77987534fa7efaf8210cfef25642fcaa2fdb6f6-b33cfb8f2258ec21f0a741833e6f7e93-1781925496-1781914396" },
+        { "name": "Server 4", "url": "http://172.19.178.49:18190/t_sports_vip/tracks-v1/index.fmp4.m3u8?token=f40176c6656a5e38ee1e71cd90ee696792dcc084-80dc36a1b565ea7a3b838e7f4bdc163a-1781925523-1781914423" },
+        { "name": "Server 5", "url": "http://172.19.178.29:18190/SN-E01-01/tracks-v1/seg-0-21455.hls.fmp4?token=333a0ca8d0f995c8c442da1cbff36dab7a0fe6d8-94b5e24a5f0eeb4ad55c4a6729dec444-1781925594-1781914494" },
+        { "name": "Server 6", "url": "http://172.19.178.29:18190/SN-E01-01/tracks-v1/index.fmp4.m3u8?token=353f2e619bd6b192077b885546735b1b3bf702b5-eebc22b42dc365fa5f95be0643ccbadf-1781925671-1781914571" }
       ]
     }
   },
@@ -113,15 +117,6 @@ export const channels = [
         { "name": "Server 4", "url": "http://172.19.178.49:18190/t_sports_vip/tracks-v1/index.fmp4.m3u8?token=f40176c6656a5e38ee1e71cd90ee696792dcc084-80dc36a1b565ea7a3b838e7f4bdc163a-1781925523-1781914423" },
         { "name": "Server 5", "url": "http://172.19.178.29:18190/SN-E01-01/tracks-v1/seg-0-21455.hls.fmp4?token=333a0ca8d0f995c8c442da1cbff36dab7a0fe6d8-94b5e24a5f0eeb4ad55c4a6729dec444-1781925594-1781914494" },
         { "name": "Server 6", "url": "http://172.19.178.29:18190/SN-E01-01/tracks-v1/index.fmp4.m3u8?token=353f2e619bd6b192077b885546735b1b3bf702b5-eebc22b42dc365fa5f95be0643ccbadf-1781925671-1781914571" }
-      ]
-    }
-  },
-  {
-    "ADN - BTV": {
-      "logo": "BTV-logo.webp",
-      "category": "ADN - (Rakib)",
-      "servers": [
-        { "name": "Server 1", "url": "http://172.19.178.148:18190/btv/tracks-v1/index.fmp4.m3u8?token=8aa5a8904150f25941afd10f9b7d5fedd1627b65-464afdb631a43fb0d42ea414ed873b7c-1781925783-1781914683" }
       ]
     }
   },
