@@ -166,7 +166,7 @@ export const channels = [
         { "name": "Server 1", "url": "http://172.19.178.29:18190/PC-01/tracks-a1/index.fmp4.m3u8?token=3b2d1c01dca8df07e64a5c1f3ee3bfd0da9115b5-e16bea14d49806889f5784a852e75e10-1781925382-1781914282" }
       ]
     }
-  }
+  },
 
 
 
