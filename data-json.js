@@ -119,16 +119,17 @@ export const channels = [
       "logo": "PTV-logo.webp",
       "category": "Sync - (সুফিয়ান)",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.18.18.18:8082/PTV-SPORTS-HD/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
   {
-    "Sync - Unite8 Sports": {
-      "logo": "Unite8Sports-logo.webp",
+    "Sync - Somoy TV": {
+      "logo": "SomoyTV-logo.webp",
       "category": "Sync - (সুফিয়ান)",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.18.18.18:8082/Live3/tracks-v1a1/mono.m3u8" },
+        { "name": "Server 2", "url": "http://198.18.18.18:8082/SOMOY.TV.HD/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
@@ -137,7 +138,7 @@ export const channels = [
       "logo": "ASports-logo.webp",
       "category": "Sync - (সুফিয়ান)",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.18.18.18:8082/A.SPORTS.HD/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
@@ -146,16 +147,16 @@ export const channels = [
       "logo": "Eurosport-logo.webp",
       "category": "Sync - (সুফিয়ান)",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.18.18.18:8082/EUROSPORTS.HD/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
   {
-    "Sync - Zee Bangla Shonar": {
-      "logo": "ZeeBanglaShonar-logo.webp",
+    "Sync - BTV": {
+      "logo": "BTV-logo.webp",
       "category": "Sync - (সুফিয়ান)",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.18.18.18:8082/Live4/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
