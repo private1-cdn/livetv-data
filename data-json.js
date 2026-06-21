@@ -110,7 +110,7 @@ export const channels = [
       "logo": "TSports-logo.webp",
       "category": "Sync - (সুফিয়ান)",
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "http://198.18.18.18:8082/Live2/tracks-v1a1/mono.m3u8" }
       ]
     }
   },
