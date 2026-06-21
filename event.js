@@ -28,9 +28,9 @@ export const liveevent = [
         },
         {
           "server-name": "Server 3",
-          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd",
-          "keyid": "d14658a0ede94debcb4013b2056ba6d1",
-          "key": "60838a3176127fed0eaf038a5575de11"
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+          "keyid": "",
+          "key": ""
         },
         {
           "server-name": "Server 4",
