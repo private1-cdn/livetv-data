@@ -31,7 +31,8 @@ export const pin = [
         { "name": "AUT", "logo": "https://img.sofascore.com/api/v1/team/4718/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
+        { "name": "Server 1", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" },
+        { "name": "Server 2", "url": "https://fa723fc1b171.aps32.playlist.live-video.net/v1/playlist/CqkFH-oX-JcN9NDyJ-kZfYaigYa3f8lBCSOMIfa2Um7z5mcMdL_tzEyS_XS3jxgXQeOC6-e9T156fRfVMoEGCMMZNxwyBrF9ApecCjhP0Oirci2MAMKAMEboZxzjjaryK23PK72RhfKRsgnVCf6zLb-GEW6ZT1OJ4GdIVdHtSt8V0Qs-NeYF9a_1Jh_wxMsr5P5ixA8YnFuSYNb9UUXktS6oCymVkEbPM3dRP5XL5K7qvR2XhDHOqAEh1tHrRtMbB4v2C5Hn2MYn_W5mDobD7KZvYGJBig6KOom6ro2M8WzjFI7b3Fr44UsBYBt3HvQvULd8CgC13opdQxQYqB-DGPDv_1zK6DcdIH5svsbty8ogY2N2fjmy_hhydHDk4Fwp2JsVU3GPwskzJSHqHI4q0hzTQ_jM6WhQAPXAjkKzv_1QhxzB5OmJFv-MIOwiJYmFHn_gL2_8JHYhnW_K_9dMHe26bMz755oc25EfcS0U6d6iiuq9z8v-s_wFPbIOAublnKgrF8b7mlnFda2hicDakUVE7xckYllCoJS_FU3aw3aavP0fGHHfwhFI9Bj7Cl75-FukUiXhxFGezi1plHdPyA3ZY6Il0HC4M2uTgWWjf_zsqTzEWtoZ7QRJF8F7IK4gBGhyLhppU-lhdihUrHLiP9C5hz3ZvWhAH_FpFgjUGH_pYZOoqhr0SyT3mNngIvfO3VOs8IOfL0wNRt_y29JDOTxhy0QQJJ1EO1H5Ur1aDWYF95SWNga2LmQ64jiIA7q2NRlgyIWXj36LBGZbTfL25oJefiI22iHSBy2E_EttGwYLRMKXtCWFKf2JcNYLIvVYbkXKwj9fXzuc8yPCBAK_VE4EnFhDWaHojaFCfsIulx0RqJRgB-UVP1ToOe-6ICzOFjt1nQQ0aCz6dReDGgwwubR9T0efRCkL-jwgASoJdXMtd2VzdC0yMLYP.m3u8" }
       ]
     }
   },
