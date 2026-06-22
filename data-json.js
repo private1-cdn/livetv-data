@@ -27,8 +27,8 @@ export const pin = [
       "start-in": "11:00 PM | 22-06-2026",
       "end-in": "01:10 AM | 23-06-2026",
       "team": [
-        { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4748/image" },
-        { "name": "AUT", "logo": "https://img.sofascore.com/api/v1/team/7229/image" }
+        { "name": "ARG", "logo": "https://img.sofascore.com/api/v1/team/4819/image" },
+        { "name": "AUT", "logo": "https://img.sofascore.com/api/v1/team/4718/image" }
       ],
       "servers": [
         { "name": "Server 1", "url": "#" }
