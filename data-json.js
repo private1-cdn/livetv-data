@@ -31,7 +31,7 @@ export const pin = [
         { "name": "AUT", "logo": "https://img.sofascore.com/api/v1/team/4718/image" }
       ],
       "servers": [
-        { "name": "Server 1", "url": "#" }
+        { "name": "Server 1", "url": "https://m.mxonlive.xyz/nexusstream/ch08.m3u8" }
       ]
     }
   },
