@@ -28,15 +28,15 @@ export const liveevent = [
         },
         {
           "server-name": "Server 3",
-          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-          "keyid": "",
-          "key": ""
+          "mpd-stream-url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "keyid": "7e9239c1982d984a002df3ed049d0756",
+          "key": "1b8a17598129a3618535c8fb05f103fe"
         },
         {
           "server-name": "Server 4",
           "mpd-stream-url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "keyid": "14eeabf30c14b7fbf3008c03099ce011",
-          "key": "17d2ac8dbc5429bd70af3433aa12158d"
+          "keyid": "7e9239c1982d984a002df3ed049d0756",
+          "key": "1b8a17598129a3618535c8fb05f103fe"
         }
       ]
     }
