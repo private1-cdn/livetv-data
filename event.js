@@ -22,9 +22,9 @@ export const liveevent = [
         },
         {
           "server-name": "Server 3",
-          "mpd-stream-url": "https://tv.beyondtaxconsultants.com/api/proxy?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-          "keyid": "f8b207c10f3f76aeba32a360ec52b9e4",
-          "key": "afad49d20eb39670e93e371c1d669921"
+          "mpd-stream-url": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "keyid": "290e09c837da78d5cd961978d390515c",
+          "key": "b748836c71e6a4ca68ef5b5652db6247"
         },
         {
           "server-name": "Server 4",
