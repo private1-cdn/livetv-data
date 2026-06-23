@@ -8,14 +8,8 @@ export const liveevent = [
       "start-in": "07:30 PM | 16-06-2026",
       "end-in": "",
       "team": [
-        {
-          "team-name": "NZ-W",
-          "team-logo": "https://img.sofascore.com/api/v1/team/213115/image"
-        },
-        {
-          "team-name": "SL-W",
-          "team-logo": "https://img.sofascore.com/api/v1/team/187806/image"
-        }
+        { "team-name": "NZ-W", "team-logo": "https://img.sofascore.com/api/v1/team/213115/image" },
+        { "team-name": "SL-W", "team-logo": "https://img.sofascore.com/api/v1/team/187806/image" }
       ],
       "servers": [
         {
@@ -28,9 +22,9 @@ export const liveevent = [
         },
         {
           "server-name": "Server 3",
-          "mpd-stream-url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "keyid": "7e9239c1982d984a002df3ed049d0756",
-          "key": "1b8a17598129a3618535c8fb05f103fe"
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+          "keyid": "f8b207c10f3f76aeba32a360ec52b9e4",
+          "key": "afad49d20eb39670e93e371c1d669921"
         },
         {
           "server-name": "Server 4",
