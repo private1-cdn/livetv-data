@@ -14,7 +14,7 @@ export const liveevent = [
       "servers": [
         {
           "server-name": "Server 1",
-          "stream-url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
+          "stream-url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
         },
         {
           "server-name": "Server 2",
