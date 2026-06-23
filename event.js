@@ -18,7 +18,7 @@ export const liveevent = [
         },
         {
           "server-name": "Server 2",
-          "stream-url": "https://bozztv.com/rongo/rongo-dbcnews/tracks-v2a1/mono.m3u8"
+          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8"
         },
         {
           "server-name": "Server 3",
