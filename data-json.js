@@ -25,7 +25,7 @@ export const pin = [
       "category": "Pin",
       "status": "",
       "start-in": "11:00 PM | 24-06-2026",
-      "end-in": "01:10 AM | 23-06-2026",
+      "end-in": "",
       "team": [
         { "name": "testing", "logo": "#" },
         { "name": "testing", "logo": "#" }
