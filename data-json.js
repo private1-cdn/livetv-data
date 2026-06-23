@@ -24,7 +24,7 @@ export const pin = [
     "⚽️ Fifa world cup": {
       "category": "Pin",
       "status": "",
-      "start-in": "11:00 PM | 22-06-2026",
+      "start-in": "11:00 PM | 24-06-2026",
       "end-in": "01:10 AM | 23-06-2026",
       "team": [
         { "name": "testing", "logo": "#" },
