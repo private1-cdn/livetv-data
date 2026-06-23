@@ -14,7 +14,7 @@ export const liveevent = [
       "servers": [
         {
           "server-name": "Server 1",
-          "stream-url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
+          "stream-url": "https://toffee-proxy.shahriar-diu64.workers.dev/https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/0/master_2000.m3u8"
         },
         {
           "server-name": "Server 2",
