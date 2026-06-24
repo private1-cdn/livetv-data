@@ -15,6 +15,14 @@ export const liveevent = [
         {
           "server-name": "FOX",
           "stream-url": "https://xyzcloud3.xyz/FOX/index.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://pul-tenm.nbs3g.com/live/hd-en-1-4459826.m3u8?txSecret=a90b9c8802d7a786e5a62f0b74148d9b&txTime=6A3D7858"
+        },
+        {
+          "server-name": "TRT 1",
+          "stream-url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8"
         }
       ]
     }
