@@ -39,6 +39,11 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "Bein Sports 4",
+          "stream-url": "https://pub-e3eb43d02df647099f49525f20574746.r2.dev/BMax4-1/index.m3u8"
+        },
+        
+        {
           "server-name": "FOX",
           "stream-url": "http://84.17.50.102/fox/index.m3u8"
         },
