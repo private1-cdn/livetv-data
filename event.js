@@ -43,6 +43,10 @@ export const liveevent = [
         {
           "server-name": "FS1",
           "stream-url": "https://xyzcloud3.xyz/FS1/index.m3u8"
+        },
+        {
+          "server-name": "Tofee",
+          "stream-url": "https://sm-monirul.top/tof/live/ecuvscur/index.m3u8?nocache=1782324055251"
         }
       ]
     }
