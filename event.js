@@ -32,7 +32,10 @@ export const liveevent = [
         { "team-name": "Qatar", "team-logo": "https://img.sofascore.com/api/v1/team/4792/image" }
       ],
       "servers": [
-        
+        {
+          "server-name": "FS1",
+          "stream-url": "https://xyzcloud3.xyz/FS1/index.m3u8"
+        }
       ]
     }
   },
