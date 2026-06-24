@@ -2,26 +2,16 @@ export const liveevent = [
   
   {
     "1": {
-      "category": "Cricket",
-      "title": "Match Title",
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
       "status": "",
-      "start-in": "07:30 AM | 16-06-2026",
-      "end-in": "",
+      "start-in": "01:00 AM | 25-06-2026",
+      "end-in": "03:10 AM | 25-06-2026",
       "team": [
-        { "team-name": "#", "team-logo": "#" },
-        { "team-name": "#", "team-logo": "#" }
+        { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
+        { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" }
       ],
       "servers": [
-        {
-          "server-name": "Server 1",
-          "mpd-stream-url": "#",
-          "keyid": "#",
-          "key": "#"
-        },
-        {
-          "server-name": "Server 2",
-          "stream-url": "#"
-        }
         
       ]
     }
