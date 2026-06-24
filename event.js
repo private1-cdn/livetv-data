@@ -12,6 +12,10 @@ export const liveevent = [
         { "team-name": "Haiti", "team-logo": "https://img.sofascore.com/api/v1/team/7229/image" }
       ],
       "servers": [
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+        }
         
       ]
     }
@@ -40,6 +44,26 @@ export const liveevent = [
         {
           "server-name": "S8 TV",
           "stream-url": "https://hls.lauthaitv.cc/live/sco-bra-wc-cat/index.m3u8"
+        },
+
+        {
+          "server-name": "BTV",
+          "stream-url": "https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8"
+        },
+
+        {
+          "server-name": "TRT 1",
+          "stream-url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8"
+        },
+
+        {
+          "server-name": "CCTV 5",
+          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
+        },
+
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8"
         }
         
       ]
