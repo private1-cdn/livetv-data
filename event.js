@@ -66,6 +66,23 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "5": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "07:00 AM | 25-06-2026",
+      "end-in": "09:10 AM | 25-06-2026",
+      "team": [
+        { "team-name": "Czechia", "team-logo": "https://img.sofascore.com/api/v1/team/4714/image" },
+        { "team-name": "Mexico", "team-logo": "https://img.sofascore.com/api/v1/team/4781/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
