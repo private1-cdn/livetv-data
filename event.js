@@ -15,6 +15,23 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "2": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "01:00 AM | 25-06-2026",
+      "end-in": "03:10 AM | 25-06-2026",
+      "team": [
+        { "team-name": "BiH", "team-logo": "https://img.sofascore.com/api/v1/team/4479/image" },
+        { "team-name": "Qatar", "team-logo": "https://img.sofascore.com/api/v1/team/4792/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
