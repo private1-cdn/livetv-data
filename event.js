@@ -15,6 +15,11 @@ export const liveevent = [
         {
           "server-name": "Bein Sports 1",
           "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+        },
+
+        {
+          "server-name": "Bein Sports 3",
+          "stream-url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8"
         }
         
       ]
