@@ -1,56 +1,4 @@
 export const liveevent = [
-  
-  {
-    "1": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "01:00 AM | 25-06-2026",
-      "end-in": "03:10 AM | 25-06-2026",
-      "team": [
-        { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
-        { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "FOX",
-          "stream-url": "https://xyzcloud3.xyz/FOX/index.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://pul-tenm.nbs3g.com/live/hd-en-1-4459826.m3u8?txSecret=a90b9c8802d7a786e5a62f0b74148d9b&txTime=6A3D7858"
-        },
-        {
-          "server-name": "TRT 1",
-          "stream-url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8"
-        }
-      ]
-    }
-  },
-
-  {
-    "2": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "01:00 AM | 25-06-2026",
-      "end-in": "03:10 AM | 25-06-2026",
-      "team": [
-        { "team-name": "BiH", "team-logo": "https://img.sofascore.com/api/v1/team/4479/image" },
-        { "team-name": "Qatar", "team-logo": "https://img.sofascore.com/api/v1/team/4792/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "FS1",
-          "stream-url": "https://xyzcloud3.xyz/FS1/index.m3u8"
-        },
-        {
-          "server-name": "Tofee",
-          "stream-url": "https://sm-monirul.top/tof/live/ecuvscur/index.m3u8?nocache=1782324055251"
-        }
-      ]
-    }
-  },
 
   {
     "3": {
@@ -84,6 +32,10 @@ export const liveevent = [
         {
           "server-name": "CAZE TV",
           "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "http://84.17.50.102/fox/index.m3u8"
         }
       ]
     }
