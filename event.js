@@ -32,6 +32,23 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "3": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "04:00 AM | 25-06-2026",
+      "end-in": "06:10 AM | 25-06-2026",
+      "team": [
+        { "team-name": "Morocco", "team-logo": "https://img.sofascore.com/api/v1/team/4778/image" },
+        { "team-name": "Haiti", "team-logo": "https://img.sofascore.com/api/v1/team/7229/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
