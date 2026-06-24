@@ -13,8 +13,8 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "Testing",
-          "stream-url": "https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8"
+          "server-name": "FOX",
+          "stream-url": "https://xyzcloud3.xyz/FOX/index.m3u8"
         }
       ]
     }
