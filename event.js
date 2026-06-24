@@ -36,7 +36,12 @@ export const liveevent = [
         {
           "server-name": "FOX",
           "stream-url": "http://84.17.50.102/fox/index.m3u8"
+        },
+        {
+          "server-name": "S8 TV",
+          "stream-url": "https://hls.lauthaitv.cc/live/sco-bra-wc-cat/index.m3u8"
         }
+        
       ]
     }
   },
