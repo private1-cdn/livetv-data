@@ -81,7 +81,10 @@ export const liveevent = [
         { "team-name": "Scotland", "team-logo": "https://img.sofascore.com/api/v1/team/4695/image" }
       ],
       "servers": [
-        
+        {
+          "server-name": "CAZE TV",
+          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+        }
       ]
     }
   },
