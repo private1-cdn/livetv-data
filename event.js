@@ -5,14 +5,17 @@ export const liveevent = [
       "category": "Football",
       "title": "Fifa World Cup 2026",
       "status": "",
-      "start-in": "01:00 AM | 25-06-2026",
-      "end-in": "03:10 AM | 25-06-2026",
+      "start-in": "01:00 AM | 23-06-2026",
+      "end-in": "",
       "team": [
         { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
         { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" }
       ],
       "servers": [
-        
+        {
+          "server-name": "Testing",
+          "stream-url": "https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8"
+        }
       ]
     }
   },
