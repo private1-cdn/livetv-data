@@ -83,6 +83,23 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "6": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "07:00 AM | 25-06-2026",
+      "end-in": "09:10 AM | 25-06-2026",
+      "team": [
+        { "team-name": "South Africa", "team-logo": "https://img.sofascore.com/api/v1/team/4736/image" },
+        { "team-name": "South Korea", "team-logo": "https://img.sofascore.com/api/v1/team/4735/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
