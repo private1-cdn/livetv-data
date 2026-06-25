@@ -32,6 +32,10 @@ export const liveevent = [
         { "team-name": "NED-W", "team-logo": "https://img.sofascore.com/api/v1/team/417753/image" }
       ],
       "servers": [
+        {
+          "server-name": "Star Sports 1",
+          "stream-url": "http://114.130.57.233:8080/StarSports1/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1"
+        }
         
       ]
     }
