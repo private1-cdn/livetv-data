@@ -46,6 +46,14 @@ export const liveevent = [
         {
           "server-name": "OK WIN TV",
           "stream-url": "https://ivs-play.knozi.top/live/live_1782348592667_acbvhjkv.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+        },
+        {
+          "server-name": "Tofee",
+          "stream-url": "https://sm-monirul.top/tof/live/ecuvscur/index.m3u8"
         }
         
       ]
@@ -75,6 +83,18 @@ export const liveevent = [
         {
           "server-name": "S8 TV",
           "stream-url": "https://hls.lauthaitv.cc/live/ecu-ger-wc-cat/index.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "http://84.17.50.102/fox/index.m3u8"
+        },
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8"
+        },
+        {
+          "server-name": "CCTV 5",
+          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
         }
         
       ]
