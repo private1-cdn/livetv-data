@@ -15,7 +15,12 @@ export const liveevent = [
         {
           "server-name": "Willow",
           "stream-url": "https://trs1.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
+        },
+        {
+          "server-name": "Tapmad",
+          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/hdntl=exp=1782498756~acl=%2f*~data=hdntl~hmac=4261ebf5277aa55f3610401bf438e869d037ce64e3aeec2473b4f502775f38cc/level_0.m3u8"
         }
+        
       ]
     }
   },
