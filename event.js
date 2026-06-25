@@ -21,26 +21,6 @@ export const liveevent = [
   },
 
   {
-    "8": {
-      "category": "Cricket",
-      "title": "ICC Women's T20 World Cup",
-      "status": "",
-      "start-in": "07:30 PM | 25-06-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "BAN-W", "team-logo": "https://img.sofascore.com/api/v1/team/187809/image" },
-        { "team-name": "IND-W", "team-logo": "https://img.sofascore.com/api/v1/team/213119/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Willow",
-          "stream-url": "https://trs1.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
-        }
-      ]
-    }
-  },
-
-  {
     "9": {
       "category": "Cricket",
       "title": "ICC Women's T20 World Cup",
