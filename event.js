@@ -12,7 +12,10 @@ export const liveevent = [
         { "team-name": "Sri Lanka", "team-logo": "https://img.sofascore.com/api/v1/team/187756/image" }
       ],
       "servers": [
-        
+        {
+          "server-name": "Tapmad",
+          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1782481627~acl=%2f*~data=hdntl~hmac=db057fc758d857644afd010b29d5fde6da39a4b8fe559ba1678e5c53b5c9d960/level_0.m3u8"
+        }
       ]
     }
   },
