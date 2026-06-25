@@ -1,82 +1,6 @@
 export const liveevent = [
 
   {
-    "3": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "04:00 AM | 25-06-2026",
-      "end-in": "06:10 AM | 25-06-2026",
-      "team": [
-        { "team-name": "Morocco", "team-logo": "https://img.sofascore.com/api/v1/team/4778/image" },
-        { "team-name": "Haiti", "team-logo": "https://img.sofascore.com/api/v1/team/7229/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
-        },
-
-        {
-          "server-name": "Bein Sports 3",
-          "stream-url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
-    "4": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "04:00 AM | 25-06-2026",
-      "end-in": "06:10 AM | 25-06-2026",
-      "team": [
-        { "team-name": "Brazil", "team-logo": "https://img.sofascore.com/api/v1/team/4748/image" },
-        { "team-name": "Scotland", "team-logo": "https://img.sofascore.com/api/v1/team/4695/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Bein Sports 4",
-          "stream-url": "https://pub-e3eb43d02df647099f49525f20574746.r2.dev/BMax4-1/index.m3u8"
-        },
-        
-        {
-          "server-name": "FOX",
-          "stream-url": "http://84.17.50.102/fox/index.m3u8"
-        },
-        {
-          "server-name": "S8 TV",
-          "stream-url": "https://hls.lauthaitv.cc/live/sco-bra-wc-cat/index.m3u8"
-        },
-
-        {
-          "server-name": "BTV",
-          "stream-url": "https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8"
-        },
-
-        {
-          "server-name": "TRT 1",
-          "stream-url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8"
-        },
-
-        {
-          "server-name": "CCTV 5",
-          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
-        },
-
-        {
-          "server-name": "T Sports",
-          "stream-url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
     "5": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -88,6 +12,26 @@ export const liveevent = [
         { "team-name": "Mexico", "team-logo": "https://img.sofascore.com/api/v1/team/4781/image" }
       ],
       "servers": [
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+        },
+        {
+          "server-name": "BTV",
+          "stream-url": "https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "http://84.17.50.102/fox/index.m3u8"
+        },
+        {
+          "server-name": "i Screen",
+          "stream-url": "https://sm-monirul.top/ott/iscreen/index.m3u8"
+        },
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8"
+        }
         
       ]
     }
@@ -105,6 +49,19 @@ export const liveevent = [
         { "team-name": "South Korea", "team-logo": "https://img.sofascore.com/api/v1/team/4735/image" }
       ],
       "servers": [
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niues.live/live/stream-9912091_lsd.m3u8?auth_key=1782343582-0-0-f580dab032797e980aad9f346e451634"
+        },
+
+        {
+          "server-name": "S8 TV",
+          "stream-url": "https://hls.lauthaitv.cc/live/rsa-kor-wc-nts/index.m3u8"
+        },
+        {
+          "server-name": "CCTV 5",
+          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
+        }
         
       ]
     }
