@@ -13,8 +13,8 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "Tapmad",
-          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1782481627~acl=%2f*~data=hdntl~hmac=db057fc758d857644afd010b29d5fde6da39a4b8fe559ba1678e5c53b5c9d960/level_0.m3u8"
+          "server-name": "Willow",
+          "stream-url": "https://trs1.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
         }
       ]
     }
