@@ -25,26 +25,7 @@ export const liveevent = [
     }
   },
 
-  {
-    "9": {
-      "category": "Cricket",
-      "title": "ICC Women's T20 World Cup",
-      "status": "",
-      "start-in": "11:30 PM | 25-06-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "SA-W", "team-logo": "https://img.sofascore.com/api/v1/team/213118/image" },
-        { "team-name": "NED-W", "team-logo": "https://img.sofascore.com/api/v1/team/417753/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Star Sports 1",
-          "stream-url": "https://cz-pli.hossainhridoy.workers.dev/proxy/https://cdn7.zohanayaan.com:1686/hls/star1in.m3u8?md5=g-cYBoV8q2rwShOTc4Wdgw&expires=1782416415"
-        }
-        
-      ]
-    }
-  },
+  
 
   {
     "10": {
@@ -75,6 +56,18 @@ export const liveevent = [
         { "team-name": "Germany", "team-logo": "https://img.sofascore.com/api/v1/team/4711/image" }
       ],
       "servers": [
+        {
+          "server-name": "Special Server",
+          "stream-url": "https://wccdn.djdoolky76.net/stream/wctv2/index.m3u8"
+        },
+        {
+          "server-name": "OK WIN TV",
+          "stream-url": "https://ivs-play.knozi.top/live/live_1782348606094_2dgv1u5n.m3u8"
+        },
+        {
+          "server-name": "S8 TV",
+          "stream-url": "https://hls.lauthaitv.cc/live/ecu-ger-wc-cat/index.m3u8"
+        }
         
       ]
     }
