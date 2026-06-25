@@ -39,7 +39,7 @@ export const liveevent = [
       "servers": [
         {
           "server-name": "Star Sports 1",
-          "stream-url": "http://114.130.57.233:8080/StarSports1/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1"
+          "stream-url": "https://cz-pli.hossainhridoy.workers.dev/proxy/https://cdn7.zohanayaan.com:1686/hls/star1in.m3u8?md5=g-cYBoV8q2rwShOTc4Wdgw&expires=1782416415"
         }
         
       ]
