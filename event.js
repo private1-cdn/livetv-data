@@ -52,6 +52,40 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "16": {
+      "category": "Cricket",
+      "title": "T20 International Series",
+      "status": "",
+      "start-in": "06:30 PM | 26-06-2026",
+      "end-in": "",
+      "team": [
+        { "team-name": "India", "team-logo": "https://img.sofascore.com/api/v1/team/187765/image" },
+        { "team-name": "Ireland", "team-logo": "https://img.sofascore.com/api/v1/team/187766/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "17": {
+      "category": "Cricket",
+      "title": "ICC Women's T20 World Cup",
+      "status": "",
+      "start-in": "11:30 PM | 26-06-2026",
+      "end-in": "",
+      "team": [
+        { "team-name": "SL-W", "team-logo": "https://img.sofascore.com/api/v1/team/187806/image" },
+        { "team-name": "SCO-W", "team-logo": "https://img.sofascore.com/api/v1/team/453162/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
