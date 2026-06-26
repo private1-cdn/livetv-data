@@ -13,6 +13,13 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "TNT Sports 1",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd",
+          "keyid": "d14658a0ede94debcb4013b2056ba6d1",
+          "key": "60838a3176127fed0eaf038a5575de11"
+        },
+        
+        {
           "server-name": "Willow",
           "stream-url": "https://trs1.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
         }
