@@ -82,6 +82,18 @@ export const liveevent = [
         {
           "server-name": "S8 TV",
           "stream-url": "https://hls.lauthaitv.cc/live/nor-fra-wc-cat/index.m3u8"
+        },
+        {
+          "server-name": "Koora City",
+          "stream-url": "https://za.teworld.online/mooott1_360/index.m3u8"
+        },
+        {
+          "server-name": "Fox",
+          "stream-url": "https://storage.googleapis.com/bluejaysx/bsports/mux_video/index-1.m3u8"
+        },
+        {
+          "server-name": "Arabic",
+          "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FGOOO-592.ts&host=http%3A%2F%2F193.47.62.47&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
         }
         
       ]
@@ -107,6 +119,10 @@ export const liveevent = [
         {
           "server-name": "OK WIN TV",
           "stream-url": "https://ivs-play.knozi.top/live/live_1782489586184_zz2lvjrd.m3u8"
+        },
+        {
+          "server-name": "Special",
+          "stream-url": "https://tahmidx.rezvionecuptea88.workers.dev/"
         }
         
       ]
