@@ -113,6 +113,10 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FRFRFRFQQ.m3u8&host=http%3A%2F%2F193.47.62.59&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
+        },
+        {
           "server-name": "S8 TV",
           "stream-url": "https://hls.lauthaitv.cc/live/sen-irq-wc-phao/index.m3u8"
         },
@@ -123,6 +127,10 @@ export const liveevent = [
         {
           "server-name": "Special",
           "stream-url": "https://tahmidx.rezvionecuptea88.workers.dev/"
+        },
+        {
+          "server-name": "Koora City",
+          "stream-url": "https://we.smarop.store/spoos1_360/index.m3u8"
         }
         
       ]
