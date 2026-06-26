@@ -71,6 +71,10 @@ export const liveevent = [
         { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" }
       ],
       "servers": [
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8"
+        }
         
       ]
     }
