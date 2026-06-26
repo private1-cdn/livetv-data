@@ -26,7 +26,7 @@ export const liveevent = [
         },
         {
           "server-name": "Tapmad",
-          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/T56A87p03/master.m3u8?hdnts=exp=1782477307~acl=/hls/*~hmac=0d0f57c57ed54760cc45500403094d790161ead96925c2cc45b7ff84744c0f2e"
+          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1782564167~acl=%2f*~data=hdntl~hmac=3109c6347bf8c93f1c124ba2c0851d1d090ed35cf8a5f22d15bc72db8592fc46/level_0.m3u8"
         },
         {
           "server-name": "Willow",
