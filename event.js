@@ -100,6 +100,14 @@ export const liveevent = [
         { "team-name": "Iraq", "team-logo": "https://img.sofascore.com/api/v1/team/4767/image" }
       ],
       "servers": [
+        {
+          "server-name": "S8 TV",
+          "stream-url": "https://hls.lauthaitv.cc/live/sen-irq-wc-phao/index.m3u8"
+        },
+        {
+          "server-name": "OK WIN TV",
+          "stream-url": "https://ivs-play.knozi.top/live/live_1782489586184_zz2lvjrd.m3u8"
+        }
         
       ]
     }
