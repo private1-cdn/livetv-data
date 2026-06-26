@@ -49,7 +49,12 @@ export const liveevent = [
         { "team-name": "SCO-W", "team-logo": "https://img.sofascore.com/api/v1/team/453162/image" }
       ],
       "servers": [
-        
+        {
+          "server-name": "Willow",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "keyid": "290e09c837da78d5cd961978d390515c",
+          "key": "b748836c71e6a4ca68ef5b5652db6247"
+        }
       ]
     }
   },
