@@ -74,6 +74,14 @@ export const liveevent = [
         {
           "server-name": "T Sports",
           "stream-url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "http://84.17.50.102/fox/index.m3u8"
+        },
+        {
+          "server-name": "S8 TV",
+          "stream-url": "https://hls.lauthaitv.cc/live/nor-fra-wc-cat/index.m3u8"
         }
         
       ]
