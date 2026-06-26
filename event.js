@@ -12,6 +12,10 @@ export const liveevent = [
         { "team-name": "Ireland", "team-logo": "https://img.sofascore.com/api/v1/team/187766/image" }
       ],
       "servers": [
+        {
+          "server-name": "Willow",
+          "stream-url": "https://trs1.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
+        }
         
       ]
     }
