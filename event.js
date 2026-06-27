@@ -14,6 +14,12 @@ export const liveevent = [
       "servers": [
         {
           "server-name": "Willow",
+          "mpd-stream-url": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/h6yoxnltlz/out/v1/f8e35f2f8441467fafd4a5398a71ecbe/cenc.mpd",
+          "keyid": "a58eaea09c8159c8e4a3bea3064dfa3c",
+          "key": "56b318070e628a9e3e7501392ef472a5"
+        },
+        {
+          "server-name": "Willow",
           "stream-url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
         }
         
