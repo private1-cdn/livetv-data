@@ -121,6 +121,74 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "31": {
+      "category": "Cricket",
+      "title": "BAN in ZIM | Only Test",
+      "status": "",
+      "start-in": "01:30 PM | 28-06-2026",
+      "end-in": "",
+      "team": [
+        { "team-name": "Bangladesh", "team-logo": "https://img.sofascore.com/api/v1/team/187744/image" },
+        { "team-name": "Zimbabwe", "team-logo": "https://img.sofascore.com/api/v1/team/187745/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "32": {
+      "category": "Cricket",
+      "title": "ICC Women's T20 World Cup",
+      "status": "",
+      "start-in": "03:30 PM | 28-06-2026",
+      "end-in": "07:30 PM | 28-06-2026",
+      "team": [
+        { "team-name": "BAN-W", "team-logo": "https://img.sofascore.com/api/v1/team/187809/image" },
+        { "team-name": "SA-W", "team-logo": "https://img.sofascore.com/api/v1/team/213118/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "33": {
+      "category": "Cricket",
+      "title": "India in Ireland | 2 T20-I Series",
+      "status": "",
+      "start-in": "06:30 PM | 28-06-2026",
+      "end-in": "11:30 PM | 28-06-2026",
+      "team": [
+        { "team-name": "India", "team-logo": "https://img.sofascore.com/api/v1/team/187765/image" },
+        { "team-name": "Ireland", "team-logo": "https://img.sofascore.com/api/v1/team/187766/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "34": {
+      "category": "Cricket",
+      "title": "ICC Women's T20 World Cup",
+      "status": "",
+      "start-in": "07:30 PM | 28-06-2026",
+      "end-in": "11:30 PM | 28-06-2026",
+      "team": [
+        { "team-name": "IND-W", "team-logo": "https://img.sofascore.com/api/v1/team/213119/image" },
+        { "team-name": "AUS-W", "team-logo": "https://img.sofascore.com/api/v1/team/213117/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
