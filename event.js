@@ -19,6 +19,10 @@ export const liveevent = [
         {
           "server-name": "Unite8 Sports 2",
           "stream-url": "https://rajutv.pages.dev/proxy?url=http://212.102.34.8:9080/AndFlixHD/video.m3u8"
+        },
+        {
+          "server-name": "BTV",
+          "stream-url": "https://rajutv.pages.dev/proxy?url=http://114.130.57.233:8080/BTV/video.m3u8?token=SkQuhAXZxgBan1"
         }
         
       ]
@@ -40,6 +44,14 @@ export const liveevent = [
         {
           "server-name": "Bein Sports 1",
           "stream-url": "https://rajutv.pages.dev/proxy?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F23%2Findex.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "https://rajutv.pages.dev/proxy?url=http://84.17.50.102/fox/index.m3u8"
+        },
+        {
+          "server-name": "TVP Sport",
+          "stream-url": "https://rajutv.pages.dev/proxy?url=https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8"
         }
         
       ]
