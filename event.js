@@ -21,6 +21,14 @@ export const liveevent = [
         {
           "server-name": "Willow",
           "stream-url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
+        },
+        {
+          "server-name": "Star Sports 1",
+          "stream-url": "https://cz-pli.hossainhridoy.workers.dev/proxy/https://cdn3.zohanayaan.com:1686/hls/star1in.m3u8?md5=ySh_MiZoz6oSr8LABDLLRg&expires=1782556813"
+        },
+        {
+          "server-name": "Willow",
+          "stream-url": "https://cz-pli.hossainhridoy.workers.dev/proxy/https://cdn6.zohanayaan.com:1686/hls/willowextra.m3u8?md5=8Cb7NKhv9x0JWMbKA05b9g&expires=1782556814"
         }
         
       ]
