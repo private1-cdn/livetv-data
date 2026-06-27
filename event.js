@@ -13,8 +13,12 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "Sport TV 1",
+          "stream-url": "https://rajutv.pages.dev/proxy?url=https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8"
+        },
+        {
           "server-name": "Unite8 Sports 2",
-          "stream-url": "http://212.102.34.8:9080/AndFlixHD/video.m3u8"
+          "stream-url": "https://rajutv.pages.dev/proxy?url=http://212.102.34.8:9080/AndFlixHD/video.m3u8"
         }
         
       ]
