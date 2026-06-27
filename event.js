@@ -12,6 +12,10 @@ export const liveevent = [
         { "team-name": "Iran", "team-logo": "https://img.sofascore.com/api/v1/team/4766/image" }
       ],
       "servers": [
+        {
+          "server-name": "Unite8 Sports 2",
+          "stream-url": "http://212.102.34.8:9080/AndFlixHD/video.m3u8"
+        }
         
       ]
     }
@@ -29,6 +33,10 @@ export const liveevent = [
         { "team-name": "Belgium", "team-logo": "https://img.sofascore.com/api/v1/team/4717/image" }
       ],
       "servers": [
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://rajutv.pages.dev/proxy?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F23%2Findex.m3u8"
+        }
         
       ]
     }
