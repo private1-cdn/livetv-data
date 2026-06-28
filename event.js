@@ -1,48 +1,6 @@
 export const liveevent = [
 
   {
-    "33": {
-      "category": "Cricket",
-      "title": "India in Ireland | 2 T20-I Series",
-      "status": "",
-      "start-in": "06:30 PM | 28-06-2026",
-      "end-in": "11:30 PM | 28-06-2026",
-      "team": [
-        { "team-name": "India", "team-logo": "https://img.sofascore.com/api/v1/team/187765/image" },
-        { "team-name": "Ireland", "team-logo": "https://img.sofascore.com/api/v1/team/187766/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Willow",
-          "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FFIIIQQQQQQ.m3u8&host=http%3A%2F%2F193.47.62.42&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
-        }
-        
-      ]
-    }
-  },
-
-  {
-    "34": {
-      "category": "Cricket",
-      "title": "ICC Women's T20 World Cup",
-      "status": "",
-      "start-in": "07:30 PM | 28-06-2026",
-      "end-in": "11:30 PM | 28-06-2026",
-      "team": [
-        { "team-name": "IND-W", "team-logo": "https://img.sofascore.com/api/v1/team/213119/image" },
-        { "team-name": "AUS-W", "team-logo": "https://img.sofascore.com/api/v1/team/213117/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Willow",
-          "stream-url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
     "35": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -54,6 +12,30 @@ export const liveevent = [
         { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" }
       ],
       "servers": [
+        {
+          "server-name": "Sport TV 1",
+          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8"
+        },
+        {
+          "server-name": "TVP Sport",
+          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "http://84.17.50.102/fox/index.m3u8"
+        },
+        {
+          "server-name": "CCTV 5",
+          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
+        },
+        {
+          "server-name": "CAZE TV",
+          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+        }
         
       ]
     }
