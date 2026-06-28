@@ -12,6 +12,14 @@ export const liveevent = [
         { "team-name": "Austria", "team-logo": "https://img.sofascore.com/api/v1/team/4718/image" }
       ],
       "servers": [
+        {
+          "server-name": "SOCO",
+          "stream-url": "https://pull.niues.live/live/stream-557845_lhd.m3u8?auth_key=1782615082-0-0-ad9655e87d8fb3f832f32235bc4b2df8"
+        },
+        {
+          "server-name": "CCTV 5+",
+          "stream-url": "https://play.gzxdby.com/live/183334344568_254762755p.m3u8"
+        }
         
       ]
     }
@@ -29,6 +37,26 @@ export const liveevent = [
         { "team-name": "Jordan", "team-logo": "https://img.sofascore.com/api/v1/team/4771/image" }
       ],
       "servers": [
+        {
+          "server-name": "i Screen",
+          "stream-url": "https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8"
+        },
+        {
+          "server-name": "HD FIFA",
+          "stream-url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn3.m3u8"
+        },
+        {
+          "server-name": "KOORA City",
+          "stream-url": "https://ex.moorarts.xyz/diluoe1_720/index.m3u8"
+        },
+        {
+          "server-name": "CCTV 5",
+          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
+        },
+        {
+          "server-name": "TSN 1",
+          "stream-url": "https://pub-098b280041274cf5929f5e19cfc8ac67.r2.dev/en/index.m3u8"
+        },
         {
           "server-name": "S8 TV",
           "stream-url": "https://hls.lauthaitv.cc/live/jor-arg-wc-nts/index.m3u8"
