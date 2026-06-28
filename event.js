@@ -1,101 +1,6 @@
 export const liveevent = [
 
   {
-    "24": {
-      "category": "Cricket",
-      "title": "ICC Women's T20 World Cup",
-      "status": "",
-      "start-in": "11:30 PM | 27-06-2026",
-      "end-in": "03:30 AM | 28-06-2026",
-      "team": [
-        { "team-name": "ENG-W", "team-logo": "https://img.sofascore.com/api/v1/team/213121/image" },
-        { "team-name": "NZ-W", "team-logo": "https://img.sofascore.com/api/v1/team/213115/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Willow",
-          "mpd-stream-url": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/h6yoxnltlz/out/v1/f8e35f2f8441467fafd4a5398a71ecbe/cenc.mpd",
-          "keyid": "a58eaea09c8159c8e4a3bea3064dfa3c",
-          "key": "56b318070e628a9e3e7501392ef472a5"
-        },
-        {
-          "server-name": "Willow",
-          "stream-url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
-    "25": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "03:00 AM | 28-06-2026",
-      "end-in": "05:10 AM | 28-06-2026",
-      "team": [
-        { "team-name": "Croatia", "team-logo": "https://img.sofascore.com/api/v1/team/4715/image" },
-        { "team-name": "Ghana", "team-logo": "https://img.sofascore.com/api/v1/team/4764/image" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
-    "26": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "03:00 AM | 28-06-2026",
-      "end-in": "05:10 AM | 28-06-2026",
-      "team": [
-        { "team-name": "Panama", "team-logo": "https://img.sofascore.com/api/v1/team/5164/image" },
-        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
-    "27": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "05:30 AM | 28-06-2026",
-      "end-in": "07:40 AM | 28-06-2026",
-      "team": [
-        { "team-name": "Colombia", "team-logo": "https://img.sofascore.com/api/v1/team/4820/image" },
-        { "team-name": "Portugal", "team-logo": "https://img.sofascore.com/api/v1/team/4704/image" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
-    "28": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "05:30 AM | 28-06-2026",
-      "end-in": "07:40 AM | 28-06-2026",
-      "team": [
-        { "team-name": "DR Congo", "team-logo": "https://img.sofascore.com/api/v1/team/4823/image" },
-        { "team-name": "Uzbekistan", "team-logo": "https://img.sofascore.com/api/v1/team/4723/image" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
     "29": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -124,6 +29,26 @@ export const liveevent = [
         { "team-name": "Jordan", "team-logo": "https://img.sofascore.com/api/v1/team/4771/image" }
       ],
       "servers": [
+        {
+          "server-name": "S8 TV",
+          "stream-url": "https://hls.lauthaitv.cc/live/jor-arg-wc-nts/index.m3u8"
+        },
+        {
+          "server-name": "TSN 4",
+          "stream-url": "https://ff2srpr7.04334746.net:8443/hls/ulgk1vzsw8aqr.m3u8?s=QDr5q07BUBcCaUgYG9AZLQ&e=1782632875"
+        },
+        {
+          "server-name": "BBC Sport",
+          "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FJCCCC.m3u8&host=http%3A%2F%2F193.47.62.59&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
+        },
+        {
+          "server-name": "OK WIN TV",
+          "stream-url": "https://ivs-play.knozi.top/live/live_1782521674974_nav6zmb6.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://sltvbd.live/proxy.php?path=hls%2Fskkkk.m3u8&host=http%3A%2F%2F193.47.62.55&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
+        }
         
       ]
     }
