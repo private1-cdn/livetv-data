@@ -13,12 +13,12 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "CAZE TV",
-          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+          "server-name": "Tofee",
+          "stream-url": "https://proximitybd-mominrocks.lovable.app/api/proxy?u=https%3A%2F%2Fprod-cdn01-live.toffeelive.com%2Flive%2FFIFA-2026%2Fsst%2F0%2Fmaster_1750.m3u8%3Fhdntl%3DExpires%3D1782836406%7E_GO%3DGenerated%7EURLPrefix%3DaHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20%7ESignature%3DAeQsclB4bRTNzFG_TDhbZgaVQpFj8uu8TAM6-ljhmuPKJdvkfan-BpTwYzRttRsPyhs-A3GeFscfBnOl_WXGjlWyIHUA"
         },
         {
-          "server-name": "Ten 1",
-          "stream-url": "https://pub-85819be5176c4d29bb0ce67fa13e15ab.r2.dev/en/index.m3u8"
+          "server-name": "Bioscope",
+          "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8"
         },
         {
           "server-name": "Specila Server 1",
