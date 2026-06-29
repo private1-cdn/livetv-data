@@ -13,6 +13,10 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "CAZE TV",
+          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+        },
+        {
           "server-name": "Special Server",
           "stream-url": "https://backup.alarafatofficial.workers.dev/?url=https%3A%2F%2Ftc-sg.rockstreamer.com%2Fv1%2F019ed91616121ea540a8171c8e801f%2F019ed92ac80315fc600b1796d4ad8b%2Ftc_sg_1_720p.m3u8&ref=https%3A%2F%2Fiscreen.com.bd%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36&ekey=SPORTIX_SECURE_KEY_2026"
         },
@@ -39,6 +43,10 @@ export const liveevent = [
         {
           "server-name": "Sport TV 1",
           "stream-url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "http://84.17.50.102/fox/index.m3u8"
         }
         
       ]
