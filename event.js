@@ -1,47 +1,6 @@
 export const liveevent = [
 
   {
-    "35": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "01:00 AM | 29-06-2026",
-      "end-in": "03:10 AM | 29-06-2026",
-      "team": [
-        { "team-name": "South Africa", "team-logo": "https://img.sofascore.com/api/v1/team/4736/image" },
-        { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Sport TV 1",
-          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8"
-        },
-        {
-          "server-name": "TVP Sport",
-          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
-        },
-        {
-          "server-name": "FOX",
-          "stream-url": "http://84.17.50.102/fox/index.m3u8"
-        },
-        {
-          "server-name": "CCTV 5",
-          "stream-url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8"
-        },
-        {
-          "server-name": "CAZE TV",
-          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
     "36": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -53,6 +12,27 @@ export const liveevent = [
         { "team-name": "Japan", "team-logo": "https://img.sofascore.com/api/v1/team/4770/image" }
       ],
       "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "37": {
+      "category": "Cricket",
+      "title": "BAN in ZIM | Only Test | Day 2",
+      "status": "",
+      "start-in": "01:30 PM | 29-06-2026",
+      "end-in": "",
+      "team": [
+        { "team-name": "Zimbabwe", "team-logo": "https://img.sofascore.com/api/v1/team/187745/image" },
+        { "team-name": "Bangladesh", "team-logo": "https://img.sofascore.com/api/v1/team/187744/image" }
+      ],
+      "servers": [
+        {
+          "server-name": "Tapmad",
+          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8"
+        }
         
       ]
     }
