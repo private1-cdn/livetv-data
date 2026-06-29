@@ -49,10 +49,6 @@ export const liveevent = [
           "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
         },
         {
-          "server-name": "Special",
-          "stream-url": "https://tahmidx.cinemoja.workers.dev/"
-        },
-        {
           "server-name": "Servus TV",
           "stream-url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn3.m3u8"
         },
