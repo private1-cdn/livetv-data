@@ -12,26 +12,21 @@ export const liveevent = [
         { "team-name": "Japan", "team-logo": "https://img.sofascore.com/api/v1/team/4770/image" }
       ],
       "servers": [
-        
-      ]
-    }
-  },
-
-  {
-    "37": {
-      "category": "Cricket",
-      "title": "BAN in ZIM | Only Test | Day 2",
-      "status": "",
-      "start-in": "01:30 PM | 29-06-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "Zimbabwe", "team-logo": "https://img.sofascore.com/api/v1/team/187745/image" },
-        { "team-name": "Bangladesh", "team-logo": "https://img.sofascore.com/api/v1/team/187744/image" }
-      ],
-      "servers": [
         {
-          "server-name": "Tapmad",
-          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8"
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8?nocache=1782057214460"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
+        },
+        {
+          "server-name": "Special",
+          "stream-url": "https://tahmidx.cinemoja.workers.dev/"
+        },
+        {
+          "server-name": "Servus TV",
+          "stream-url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn3.m3u8"
         }
         
       ]
