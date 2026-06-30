@@ -17,6 +17,18 @@ export const liveevent = [
           "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8"
         },
         {
+          "server-name": "Koora City",
+          "stream-url": "https://cd.coorting.online/homee1_720/index.m3u8"
+        },
+        {
+          "server-name": "KooraX90",
+          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
+        },
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
+        },
+        {
           "server-name": "Somoy TV",
           "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
         },
