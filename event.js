@@ -13,12 +13,12 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "Bioscope",
-          "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8"
+          "server-name": "ITC",
+          "stream-url": "https://customer-2s5hvw3o3ubwoziv.cloudflarestream.com/a1164b0793a4e40e86563664132c26f7/manifest/stream_tcd0e5fc02ed91368445b31a395b2c568_r1774718292.m3u8?llhlsHBs=0.9"
         },
         {
-          "server-name": "Koora City",
-          "stream-url": "https://cd.coorting.online/homee1_720/index.m3u8"
+          "server-name": "Special Server",
+          "stream-url": "https://tahmidx.shusanta-project.workers.dev"
         },
         {
           "server-name": "KooraX90",
