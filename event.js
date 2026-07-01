@@ -1,141 +1,6 @@
 export const liveevent = [
 
   {
-    "36": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "11:00 PM | 30-06-2026",
-      "end-in": "02:00 AM | 01-07-2026",
-      "team": [
-        { "team-name": "Côte d'Ivoire", "team-logo": "https://img.sofascore.com/api/v1/team/4768/image" },
-        { "team-name": "Norway", "team-logo": "https://img.sofascore.com/api/v1/team/4475/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Bioscope",
-          "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8"
-        },
-        {
-          "server-name": "Koora City",
-          "stream-url": "https://cd.coorting.online/homee1_720/index.m3u8"
-        },
-        {
-          "server-name": "KooraX90",
-          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
-        },
-        {
-          "server-name": "Soco",
-          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
-        },
-        {
-          "server-name": "Somoy TV",
-          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
-    "37": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "03:00 AM | 01-07-2026",
-      "end-in": "06:00 AM | 01-07-2026",
-      "team": [
-        { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" },
-        { "team-name": "Sweden", "team-logo": "https://img.sofascore.com/api/v1/team/4688/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Bioscope",
-          "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8"
-        },
-        {
-          "server-name": "Koora City",
-          "stream-url": "https://cd.coorting.online/homee1_720/index.m3u8"
-        },
-        {
-          "server-name": "KooraX90",
-          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
-        },
-        {
-          "server-name": "Soco",
-          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
-        },
-        {
-          "server-name": "Somoy TV",
-          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
-    "38": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "08:00 AM | 01-07-2026",
-      "end-in": "11:00 AM | 01-07-2026",
-      "team": [
-        { "team-name": "Mexico", "team-logo": "https://img.sofascore.com/api/v1/team/4781/image" },
-        { "team-name": "Ecuador", "team-logo": "https://img.sofascore.com/api/v1/team/4757/image" }
-      ],
-      "servers": [
-        {
-          "server-name": "Bioscope",
-          "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8"
-        },
-        {
-          "server-name": "Koora City",
-          "stream-url": "https://cd.coorting.online/homee1_720/index.m3u8"
-        },
-        {
-          "server-name": "KooraX90",
-          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
-        },
-        {
-          "server-name": "Soco",
-          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
-        },
-        {
-          "server-name": "Somoy TV",
-          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8"
-        },
-        {
-          "server-name": "Bein Sports 1",
-          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
-        }
-        
-      ]
-    }
-  },
-
-  {
     "39": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -147,6 +12,34 @@ export const liveevent = [
         { "team-name": "DR Congo", "team-logo": "https://img.sofascore.com/api/v1/team/4823/image" }
       ],
       "servers": [
+        {
+          "server-name": "Bioscope",
+          "stream-url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8"
+        },
+        {
+          "server-name": "Koora City",
+          "stream-url": "https://cd.coorting.online/homee1_720/index.m3u8"
+        },
+        {
+          "server-name": "KooraX90",
+          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
+        },
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
+        },
+        {
+          "server-name": "Somoy TV",
+          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
+        }
         
       ]
     }
