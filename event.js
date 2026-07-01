@@ -13,12 +13,16 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "Tofee",
+          "stream-url": "https://toffee-proxy.shahriar-diu64.workers.dev/https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1782987569~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD"
+        },
+        {
           "server-name": "ITC",
           "stream-url": "https://customer-2s5hvw3o3ubwoziv.cloudflarestream.com/a1164b0793a4e40e86563664132c26f7/manifest/stream_tcd0e5fc02ed91368445b31a395b2c568_r1774718292.m3u8?llhlsHBs=0.9"
         },
         {
-          "server-name": "Special Server",
-          "stream-url": "https://tahmidx.shusanta-project.workers.dev"
+          "server-name": "T Sports",
+          "stream-url": "https://hd2.ctghub.com/T-Sports/index.m3u8"
         },
         {
           "server-name": "KooraX90",
@@ -57,6 +61,38 @@ export const liveevent = [
         { "team-name": "Senegal", "team-logo": "https://img.sofascore.com/api/v1/team/4739/image" }
       ],
       "servers": [
+        {
+          "server-name": "Tofee",
+          "stream-url": "https://toffee-proxy.shahriar-diu64.workers.dev/https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1782987569~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD"
+        },
+        {
+          "server-name": "ITC",
+          "stream-url": "https://customer-2s5hvw3o3ubwoziv.cloudflarestream.com/a1164b0793a4e40e86563664132c26f7/manifest/stream_tcd0e5fc02ed91368445b31a395b2c568_r1774718292.m3u8?llhlsHBs=0.9"
+        },
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://hd2.ctghub.com/T-Sports/index.m3u8"
+        },
+        {
+          "server-name": "KooraX90",
+          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
+        },
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
+        },
+        {
+          "server-name": "Somoy TV",
+          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
+        }
         
       ]
     }
@@ -74,6 +110,38 @@ export const liveevent = [
         { "team-name": "BiH", "team-logo": "https://img.sofascore.com/api/v1/team/4479/image" }
       ],
       "servers": [
+        {
+          "server-name": "Tofee",
+          "stream-url": "https://toffee-proxy.shahriar-diu64.workers.dev/https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1782987569~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD"
+        },
+        {
+          "server-name": "ITC",
+          "stream-url": "https://customer-2s5hvw3o3ubwoziv.cloudflarestream.com/a1164b0793a4e40e86563664132c26f7/manifest/stream_tcd0e5fc02ed91368445b31a395b2c568_r1774718292.m3u8?llhlsHBs=0.9"
+        },
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://hd2.ctghub.com/T-Sports/index.m3u8"
+        },
+        {
+          "server-name": "KooraX90",
+          "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
+        },
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
+        },
+        {
+          "server-name": "Somoy TV",
+          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://cp11.adabmedia.com/hls2/sport.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
+        }
         
       ]
     }
