@@ -13,12 +13,6 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "VIX Spanish",
-          "mpd-stream-url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
-          "keyid": "763ce1ebcaf23502c8cf357c6ef423e1",
-          "key": "0c5e6c0820a1ea28753721db00272411"
-        },
-        {
           "server-name": "GOL TV VIVO",
           "mpd-stream-url": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/session/ecb260d1-eb4b-4a93-8f14-32bb03b69853/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2",
           "keyid": "1c6bfd8d1cdd4df69ea5fc4dd2f025bb",
@@ -33,7 +27,7 @@ export const liveevent = [
           "stream-url": "https://rajutv.pages.dev/proxy?url=https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783102977~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclCnnN1PG78aLBVbamllNib5MA13mmD9YNe7jP0fPipq04qTkLzvdawumBgGHTn0ghGI36WibGA_kfLvSDo2Q38G"
         },
         {
-          "server-name": "Special SERVER",
+          "server-name": "FOX",
           "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FTHXCZzsssQ.m3u8&host=http%3A%2F%2F193.47.62.59&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
         },
         {
@@ -86,7 +80,7 @@ export const liveevent = [
           "stream-url": "https://rajutv.pages.dev/proxy?url=https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783102977~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclCnnN1PG78aLBVbamllNib5MA13mmD9YNe7jP0fPipq04qTkLzvdawumBgGHTn0ghGI36WibGA_kfLvSDo2Q38G"
         },
         {
-          "server-name": "Special SERVER",
+          "server-name": "FOX",
           "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FTHXCZzsssQ.m3u8&host=http%3A%2F%2F193.47.62.59&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
         },
         {
