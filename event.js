@@ -31,6 +31,18 @@ export const liveevent = [
           "key": "b6fd90027dac7a94a9461f8b2638cbb4"
         },
         {
+          "server-name": "i Screen",
+          "stream-url": "https://cricxtv.fun/isceen.php?file=https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/tc_sg_1_1080p.m3u8"
+        },
+        {
+          "server-name": "Tofee",
+          "stream-url": "https://rajutv.pages.dev/proxy?url=https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783102977~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclCnnN1PG78aLBVbamllNib5MA13mmD9YNe7jP0fPipq04qTkLzvdawumBgGHTn0ghGI36WibGA_kfLvSDo2Q38G"
+        },
+        {
+          "server-name": "Special SERVER",
+          "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FTHXCZzsssQ.m3u8&host=http%3A%2F%2F193.47.62.59&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
+        },
+        {
           "server-name": "KooraX90",
           "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
         },
