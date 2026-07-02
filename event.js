@@ -13,20 +13,8 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "ITC",
-          "stream-url": "https://customer-2s5hvw3o3ubwoziv.cloudflarestream.com/a1164b0793a4e40e86563664132c26f7/manifest/stream_tcd0e5fc02ed91368445b31a395b2c568_r1774718292.m3u8?llhlsHBs=0.9"
-        },
-        {
-          "server-name": "T Sports",
-          "stream-url": "https://hd2.ctghub.com/T-Sports/index.m3u8"
-        },
-        {
           "server-name": "KooraX90",
           "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
-        },
-        {
-          "server-name": "Soco",
-          "stream-url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198"
         },
         {
           "server-name": "Somoy TV",
