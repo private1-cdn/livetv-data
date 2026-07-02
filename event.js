@@ -17,7 +17,7 @@ export const liveevent = [
           "mpd-stream-url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
           "keyid": "11223344556677889900112233445566",
           "key": "4b80724d0ef86bcb2c21f7999d67739d"
-        }.
+        },
         {
           "server-name": "VIX Spanish",
           "mpd-stream-url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
@@ -41,6 +41,14 @@ export const liveevent = [
         {
           "server-name": "Special SERVER",
           "stream-url": "https://sltvbd.live/proxy.php?path=hls%2FTHXCZzsssQ.m3u8&host=http%3A%2F%2F193.47.62.59&ref=http%3A%2F%2Fwww.fawanews.sc%2F"
+        },
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niur.live/live/stream-327159_lhd.m3u8?txSecret=afdb1e8fd1de86dedc0f85b47e8a1ab1&txTime=6a470713"
+        },
+        {
+          "server-name": "Soco",
+          "stream-url": "https://pull.niur.live/live/stream-9912116_lsd.m3u8?txSecret=d245f1c0a73d61f04a7569de7c0c4a6a&txTime=6a470623"
         },
         {
           "server-name": "KooraX90",
