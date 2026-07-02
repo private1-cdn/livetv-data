@@ -13,6 +13,24 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "CT Sports",
+          "mpd-stream-url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+          "keyid": "11223344556677889900112233445566",
+          "key": "4b80724d0ef86bcb2c21f7999d67739d"
+        }.
+        {
+          "server-name": "VIX Spanish",
+          "mpd-stream-url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
+          "keyid": "763ce1ebcaf23502c8cf357c6ef423e1",
+          "key": "0c5e6c0820a1ea28753721db00272411"
+        },
+        {
+          "server-name": "GOL TV VIVO",
+          "mpd-stream-url": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/session/ecb260d1-eb4b-4a93-8f14-32bb03b69853/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2",
+          "keyid": "1c6bfd8d1cdd4df69ea5fc4dd2f025bb",
+          "key": "b6fd90027dac7a94a9461f8b2638cbb4"
+        },
+        {
           "server-name": "KooraX90",
           "stream-url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8"
         },
