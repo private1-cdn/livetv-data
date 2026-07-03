@@ -19,10 +19,28 @@ export const liveevent = [
           "key": "ff46a8a1031eb27ef22576a077c98ab7"
         },
         {
+          "server-name": "TSN 4",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "keyid": "abc5b2883121012850ebda05b528c5ec",
+          "key": "e5250924f4b738905f7163a0134587a7"
+        },
+        {
+          "server-name": "ITV 1",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+          "keyid": "30089c52924f037b225b82c616fee2a5",
+          "key": "f55dc8b66ed4fc6753d6035ae7e17144"
+        },
+        {
           "server-name": "WC TV",
           "mpd-stream-url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
           "keyid": "2c338a117d434ce4bbe3569231af90f1",
           "key": "a9633d901ee8a3f4f58ac314b5c5f4fb"
+        },
+        {
+          "server-name": "CT Sport",
+          "mpd-stream-url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+          "keyid": "11223344556677889900112233445566",
+          "key": "4b80724d0ef86bcb2c21f7999d67739d"
         },
         {
           "server-name": "GOL TV VIVO",
