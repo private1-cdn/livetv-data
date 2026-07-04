@@ -204,6 +204,10 @@ export const liveevent = [
         { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/187757/image" }
       ],
       "servers": [
+        {
+          "server-name": "Tapmad",
+          "stream-url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_0.m3u8"
+        }
         
       ]
     }
