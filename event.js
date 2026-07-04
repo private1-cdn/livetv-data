@@ -53,6 +53,142 @@ export const liveevent = [
         
       ]
     }
+  },
+
+  {
+    "48": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "11:00 PM | 04-07-2026",
+      "end-in": "02:00 AM | 05-07-2026",
+      "team": [
+        { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" },
+        { "team-name": "Morocco", "team-logo": "https://img.sofascore.com/api/v1/team/4778/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "49": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "03:00 AM | 05-07-2026",
+      "end-in": "06:00 AM | 05-07-2026",
+      "team": [
+        { "team-name": "Paraguay", "team-logo": "https://img.sofascore.com/api/v1/team/4789/image" },
+        { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "50": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "02:00 AM | 06-07-2026",
+      "end-in": "05:00 AM | 06-07-2026",
+      "team": [
+        { "team-name": "Brazil", "team-logo": "https://img.sofascore.com/api/v1/team/4748/image" },
+        { "team-name": "Norway", "team-logo": "https://img.sofascore.com/api/v1/team/4475/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "51": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "06:00 AM | 06-07-2026",
+      "end-in": "09:00 AM | 06-07-2026",
+      "team": [
+        { "team-name": "Mexico", "team-logo": "https://img.sofascore.com/api/v1/team/4781/image" },
+        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "52": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "01:00 AM | 07-07-2026",
+      "end-in": "04:00 AM | 07-07-2026",
+      "team": [
+        { "team-name": "Portugal", "team-logo": "https://img.sofascore.com/api/v1/team/4704/image" },
+        { "team-name": "Spain", "team-logo": "https://img.sofascore.com/api/v1/team/4698/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "53": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "06:00 AM | 07-07-2026",
+      "end-in": "09:00 AM | 07-07-2026",
+      "team": [
+        { "team-name": "USA", "team-logo": "https://img.sofascore.com/api/v1/team/4724/image" },
+        { "team-name": "Belgium", "team-logo": "https://img.sofascore.com/api/v1/team/4717/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "54": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "10:00 PM | 07-07-2026",
+      "end-in": "01:00 AM | 08-07-2026",
+      "team": [
+        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" },
+        { "team-name": "Egypt", "team-logo": "https://img.sofascore.com/api/v1/team/4758/image" }
+      ],
+      "servers": [
+        
+      ]
+    }
+  },
+
+  {
+    "55": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "02:00 AM | 08-07-2026",
+      "end-in": "05:00 AM | 08-07-2026",
+      "team": [
+        { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
+        { "team-name": "W87", "team-logo": "#" }
+      ],
+      "servers": [
+        
+      ]
+    }
   }
   
 ];
