@@ -1,15 +1,15 @@
 export const liveevent = [
 
   {
-    "47": {
+    "48": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
       "status": "",
-      "start-in": "07:30 AM | 04-07-2026",
-      "end-in": "09:30 AM | 04-07-2026",
+      "start-in": "11:00 PM | 04-07-2026",
+      "end-in": "02:00 AM | 05-07-2026",
       "team": [
-        { "team-name": "Colombia", "team-logo": "https://img.sofascore.com/api/v1/team/4820/image" },
-        { "team-name": "Ghana", "team-logo": "https://img.sofascore.com/api/v1/team/4764/image" }
+        { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" },
+        { "team-name": "Morocco", "team-logo": "https://img.sofascore.com/api/v1/team/4778/image" }
       ],
       "servers": [
         {
@@ -44,29 +44,12 @@ export const liveevent = [
         },
         {
           "server-name": "i Screen",
-          "stream-url": "https://cricxtv.fun/isceen.php?file=https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/tc_sg_1_1080p.m3u8"
+          "stream-url": "#"
         },
         {
           "server-name": "Somoy TV",
           "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
         }
-        
-      ]
-    }
-  },
-
-  {
-    "48": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "11:00 PM | 04-07-2026",
-      "end-in": "02:00 AM | 05-07-2026",
-      "team": [
-        { "team-name": "Canada", "team-logo": "https://img.sofascore.com/api/v1/team/4752/image" },
-        { "team-name": "Morocco", "team-logo": "https://img.sofascore.com/api/v1/team/4778/image" }
-      ],
-      "servers": [
         
       ]
     }
