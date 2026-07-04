@@ -183,7 +183,7 @@ export const liveevent = [
       "end-in": "05:00 AM | 08-07-2026",
       "team": [
         { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
-        { "team-name": "W87", "team-logo": "#" }
+        { "team-name": "Colombia", "team-logo": "https://img.sofascore.com/api/v1/team/4820/image" }
       ],
       "servers": [
         
