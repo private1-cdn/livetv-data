@@ -73,6 +73,10 @@ export const liveevent = [
         {
           "server-name": "FOX",
           "stream-url": "https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8"
+        },
+        {
+          "server-name": "Telemundo",
+          "stream-url": "https://tda-nnaa-drct-pa6dy.fast.nbcuni.com/live/master_2.m3u8"
         }
         
       ]
