@@ -19,10 +19,22 @@ export const liveevent = [
           "key": "ff46a8a1031eb27ef22576a077c98ab7"
         },
         {
+          "server-name": "TSN 1",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "keyid": "14eeabf30c14b7fbf3008c03099ce011",
+          "key": "17d2ac8dbc5429bd70af3433aa12158d"
+        },
+        {
           "server-name": "TSN 4",
           "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "keyid": "abc5b2883121012850ebda05b528c5ec",
           "key": "e5250924f4b738905f7163a0134587a7"
+        },
+        {
+          "server-name": "D Sports",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+          "keyid": "f8b207c10f3f76aeba32a360ec52b9e4",
+          "key": "afad49d20eb39670e93e371c1d669921"
         },
         {
           "server-name": "ITV 1",
@@ -49,6 +61,18 @@ export const liveevent = [
         {
           "server-name": "i Screen",
           "stream-url": "#"
+        },
+        {
+          "server-name": "T Sports",
+          "stream-url": "https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "server-name": "Bein Sports 5",
+          "stream-url": "https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index"
+        },
+        {
+          "server-name": "FOX",
+          "stream-url": "https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8"
         }
         
       ]
