@@ -43,6 +43,10 @@ export const liveevent = [
           "key": "b6fd90027dac7a94a9461f8b2638cbb4"
         },
         {
+          "server-name": "CAZE TV",
+          "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+        },
+        {
           "server-name": "i Screen",
           "stream-url": "#"
         }
