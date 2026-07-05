@@ -59,8 +59,8 @@ export const liveevent = [
           "stream-url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
         },
         {
-          "server-name": "i Screen",
-          "stream-url": "#"
+          "server-name": "Bioscope",
+          "stream-url": "https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_2.m3u8"
         },
         {
           "server-name": "T Sports",
