@@ -1,15 +1,15 @@
 export const liveevent = [
 
   {
-    "54": {
+    "55": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
       "status": "",
-      "start-in": "10:00 PM | 07-07-2026",
-      "end-in": "01:00 AM | 08-07-2026",
+      "start-in": "02:00 AM | 08-07-2026",
+      "end-in": "05:00 AM | 08-07-2026",
       "team": [
-        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" },
-        { "team-name": "Egypt", "team-logo": "https://img.sofascore.com/api/v1/team/4758/image" }
+        { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
+        { "team-name": "Colombia", "team-logo": "https://img.sofascore.com/api/v1/team/4820/image" }
       ],
       "servers": [
         {
@@ -78,23 +78,6 @@ export const liveevent = [
           "server-name": "Telemundo",
           "stream-url": "https://tda-nnaa-drct-pa6dy.fast.nbcuni.com/live/master_2.m3u8"
         }
-        
-      ]
-    }
-  },
-
-  {
-    "55": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "02:00 AM | 08-07-2026",
-      "end-in": "05:00 AM | 08-07-2026",
-      "team": [
-        { "team-name": "Switzerland", "team-logo": "https://img.sofascore.com/api/v1/team/4699/image" },
-        { "team-name": "Colombia", "team-logo": "https://img.sofascore.com/api/v1/team/4820/image" }
-      ],
-      "servers": [
         
       ]
     }
