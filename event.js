@@ -12,6 +12,7 @@ export const liveevent = [
         { "team-name": "Belgium", "team-logo": "https://img.sofascore.com/api/v1/team/4717/image" }
       ],
       "servers": [
+        {
           "server-name": "FOX - FHD",
           "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
           "keyid": "f6564ec2aee819046328a0e153be574d",
