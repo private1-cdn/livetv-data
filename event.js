@@ -4,7 +4,7 @@ export const liveevent = [
     "56": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
-      "status": "",
+      "status": "Finished",
       "start-in": "02:00 AM | 10-07-2026",
       "end-in": "",
       "team": [
