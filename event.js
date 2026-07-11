@@ -1,22 +1,6 @@
 export const liveevent = [
 
-  {
-    "1": {
-      "category": "Football",
-      "title": "Testing",
-      "status": "",
-      "match-type": "high-voltage",
-      "start-in": "01:00 AM | 01-07-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "#", "team-logo": "#" },
-        { "team-name": "#", "team-logo": "#" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
+  
 
   {
     "58": {
