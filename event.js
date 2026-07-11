@@ -1,24 +1,6 @@
 export const liveevent = [
 
   {
-    "65": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "match-type": "high-voltage",
-      "start-in": "01:00 AM | 01-07-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "#", "team-logo": "#" },
-        { "team-name": "#", "team-logo": "#" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
     "58": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
