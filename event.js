@@ -16,7 +16,7 @@ export const liveevent = [
         
       ]
     }
-  }
+  },
 
   {
     "58": {
