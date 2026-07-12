@@ -34,7 +34,7 @@ export const liveevent = [
       "end-in": "",
       "team": [
         { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" },
-        { "team-name": "W100", "team-logo": "#" }
+        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" }
       ],
       "servers": [
         
