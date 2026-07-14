@@ -5,8 +5,8 @@ export const liveevent = [
       "category": "Football",
       "title": "Fifa World Cup 2026",
       "status": "",
-      "start-in": "01:00 AM | 13-07-2026",
-      "end-in": "04:00 AM | 19-07-2026",
+      "start-in": "01:00 AM | 15-07-2026",
+      "end-in": "04:00 AM | 15-07-2026",
       "team": [
         { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" },
         { "team-name": "Spain", "team-logo": "https://img.sofascore.com/api/v1/team/4698/image" }
