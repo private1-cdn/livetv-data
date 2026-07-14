@@ -1,24 +1,6 @@
 export const liveevent = [
 
   {
-    "1": {
-      "category": "Football",
-      "title": "testing",
-      "status": "",
-      "match-type": "high-voltage",
-      "start-in": "01:00 AM | 01-07-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "#", "team-logo": "#" },
-        { "team-name": "#", "team-logo": "#" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
     "60": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -31,8 +13,12 @@ export const liveevent = [
       ],
       "servers": [
         {
-          "server-name": "Bioscope",
-          "stream-url": "#"
+          "server-name": "Unite8 Sports 2",
+          "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "server-name": "Fox",
+          "stream-url": "https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8"
         },
         {
           "server-name": "Bein Sports 5",
