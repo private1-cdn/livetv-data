@@ -13,6 +13,12 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "TSN 5",
+          "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+          "keyid": "385ceb9714b75e0cef61254f80b31002",
+          "key": "18dce92a2891fee68d21ede5173230f8"
+        },
+        {
           "server-name": "Unite8 Sports 2",
           "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
         },
