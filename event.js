@@ -17,6 +17,10 @@ export const liveevent = [
           "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
         },
         {
+          "server-name": "Sport",
+          "stream-url": "http://212.102.38.45/live/test_rtvs_sport_hevc/playlist.m3u8"
+        },
+        {
           "server-name": "Telemundo",
           "stream-url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8"
         },
