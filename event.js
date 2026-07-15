@@ -21,10 +21,6 @@ export const liveevent = [
           "stream-url": "https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8"
         },
         {
-          "server-name": "Bein Sports 5",
-          "stream-url": "https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index"
-        },
-        {
           "server-name": "FOX",
           "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
           "keyid": "f6564ec2aee819046328a0e153be574d",
