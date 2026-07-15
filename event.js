@@ -17,8 +17,16 @@ export const liveevent = [
           "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
         },
         {
+          "server-name": "Backup 1",
+          "stream-url": "https://tfxl1gwh1hcjigezdncb3fahdrmmcpf5gkce.100ycdn.com/live1.streambylivepulse.com/live/channel6/playlist.m3u8?wsSecret=3843feb764c2a2b81a5169383f8e26d4&wsABSTime=1784182501&wsSession=da91794d1c82a6518aab13e0-178413930348783&wsIPSercert=b7031d922ec6c56c5993cc6d76628bf5&wsBindIP=2&wsserid=1168262300818150876"
+        },
+        {
           "server-name": "Sport",
           "stream-url": "http://212.102.38.45/live/test_rtvs_sport_hevc/playlist.m3u8"
+        },
+        {
+          "server-name": "CCTV 5",
+          "stream-url": "https://live01-cn-ali.bvjicd.com/live/79361366.m3u8?nocache=1784052953102"
         },
         {
           "server-name": "Telemundo",
