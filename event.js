@@ -1,15 +1,15 @@
 export const liveevent = [
 
   {
-    "60": {
+    "61": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
       "status": "",
-      "start-in": "12:30 AM | 15-07-2026",
-      "end-in": "03:15 AM | 15-07-2026",
+      "start-in": "01:00 AM | 16-07-2026",
+      "end-in": "",
       "team": [
-        { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" },
-        { "team-name": "Spain", "team-logo": "https://img.sofascore.com/api/v1/team/4698/image" }
+        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" },
+        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" }
       ],
       "servers": [
         {
@@ -17,8 +17,8 @@ export const liveevent = [
           "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
         },
         {
-          "server-name": "Fox",
-          "stream-url": "https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8"
+          "server-name": "Telemundo",
+          "stream-url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8"
         },
         {
           "server-name": "FOX",
@@ -50,23 +50,6 @@ export const liveevent = [
           "keyid": "f836853d8eac19446ed9535f5fc568b1",
           "key": "b3bc5ef00602b29abac7e482d3d9fbf3"
         }
-        
-      ]
-    }
-  },
-
-  {
-    "61": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "01:00 AM | 16-07-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" },
-        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" }
-      ],
-      "servers": [
         
       ]
     }
