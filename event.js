@@ -13,6 +13,10 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "Mundial",
+          "stream-url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8"
+        },
+        {
           "server-name": "Unite8 Sports 2",
           "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
         },
