@@ -3,13 +3,13 @@ export const liveevent = [
   {
     "61": {
       "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "Finished",
+      "title": "Testing",
+      "status": "",
       "start-in": "01:00 AM | 16-07-2026",
       "end-in": "",
       "team": [
-        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" },
-        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" }
+        { "team-name": "#", "team-logo": "#" },
+        { "team-name": "#", "team-logo": "#" }
       ],
       "servers": [
         {
