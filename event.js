@@ -17,6 +17,27 @@ export const liveevent = [
         {
           "server-name": "Mundial",
           "stream-url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8"
+        }
+        
+      ]
+    }
+  },
+
+  {
+    "62": {
+      "category": "Football",
+      "title": "Fifa World Cup 2026",
+      "status": "",
+      "start-in": "03:00 AM | 19-07-2026",
+      "end-in": "",
+      "team": [
+        { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" },
+        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" }
+      ],
+      "servers": [
+        {
+          "server-name": "Mundial",
+          "stream-url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8"
         },
         {
           "server-name": "Unite8 Sports 2",
@@ -74,23 +95,6 @@ export const liveevent = [
   },
 
   {
-    "62": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "03:00 AM | 19-07-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "L101", "team-logo": "#" },
-        { "team-name": "L102", "team-logo": "#" }
-      ],
-      "servers": [
-        
-      ]
-    }
-  },
-
-  {
     "63": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
@@ -98,8 +102,8 @@ export const liveevent = [
       "start-in": "01:00 AM | 20-07-2026",
       "end-in": "",
       "team": [
-        { "team-name": "W101", "team-logo": "#" },
-        { "team-name": "W102", "team-logo": "#" }
+        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" },
+        { "team-name": "Spain", "team-logo": "https://img.sofascore.com/api/v1/team/4698/image" }
       ],
       "servers": [
         
