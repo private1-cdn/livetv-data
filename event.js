@@ -52,6 +52,10 @@ export const liveevent = [
           "stream-url": "http://212.102.38.45/live/test_rtvs_sport_hevc/playlist.m3u8"
         },
         {
+          "server-name": "Bein Sports 1",
+          "stream-url": "https://zaintv1.zaintvpro.workers.dev/live/z1.m3u8?src=aHR0cHM6Ly92c2QxMTUub2tjZG4ucnUvaGxzLzE2MDEyNTY1MzUxMDkxLm0zdTgvc2lnL2ZyMjByXzhjb1RNL2V4cGlyZXMvMTc4NDU2ODU0ODA5NC9zcmNJcC8xNzIuNjguMjM0LjExNS91cmxzLzk1LjE2My4zNS43My9jbGllbnRUeXBlLzAvc3JjQWcvQ0hST01FL21pZC8xNDUxOTk2Mjk2NzczMS8xNjAxMjU2NTM1MTA5MV9oaWdoL2luZGV4Lm0zdTg="
+        },
+        {
           "server-name": "CCTV 5",
           "stream-url": "https://live01-cn-ali.bvjicd.com/live/79361366.m3u8?nocache=1784052953102"
         },
