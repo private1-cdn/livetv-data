@@ -6,7 +6,7 @@ export const liveevent = [
       "title": "Testing",
       "match-icon": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
       "message": "আমার সোনার বাংলা, আমি তোমায় ভালোবাসি। আমার সোনার বাংলা, আমি তোমায় ভালোবাসি। আমার সোনার বাংলা, আমি তোমায় ভালোবাসি।",
-      "status": "",
+      "status": "Finished",
       "start-in": "01:00 AM | 16-07-2026",
       "end-in": "",
       "team": [
@@ -24,15 +24,15 @@ export const liveevent = [
   },
 
   {
-    "62": {
+    "63": {
       "category": "Football",
       "title": "Fifa World Cup 2026",
-      "status": "Finished",
-      "start-in": "03:00 AM | 19-07-2026",
+      "status": "",
+      "start-in": "01:00 AM | 20-07-2026",
       "end-in": "",
       "team": [
-        { "team-name": "France", "team-logo": "https://img.sofascore.com/api/v1/team/4481/image" },
-        { "team-name": "England", "team-logo": "https://img.sofascore.com/api/v1/team/4713/image" }
+        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" },
+        { "team-name": "Spain", "team-logo": "https://img.sofascore.com/api/v1/team/4698/image" }
       ],
       "servers": [
         {
@@ -89,23 +89,6 @@ export const liveevent = [
           "keyid": "f836853d8eac19446ed9535f5fc568b1",
           "key": "b3bc5ef00602b29abac7e482d3d9fbf3"
         }
-        
-      ]
-    }
-  },
-
-  {
-    "63": {
-      "category": "Football",
-      "title": "Fifa World Cup 2026",
-      "status": "",
-      "start-in": "01:00 AM | 20-07-2026",
-      "end-in": "",
-      "team": [
-        { "team-name": "Argentina", "team-logo": "https://img.sofascore.com/api/v1/team/4819/image" },
-        { "team-name": "Spain", "team-logo": "https://img.sofascore.com/api/v1/team/4698/image" }
-      ],
-      "servers": [
         
       ]
     }
