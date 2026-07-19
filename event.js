@@ -56,8 +56,8 @@ export const liveevent = [
           "stream-url": "https://live01-cn-ali.bvjicd.com/live/79361366.m3u8?nocache=1784052953102"
         },
         {
-          "server-name": "Telemundo",
-          "stream-url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8"
+          "server-name": "SOCO",
+          "stream-url": "https://pull.niues.live/live/stream-256080_lhd.m3u8?auth_key=1783820964-0-0-d412e1d13934e02fb2f310bf032242ef"
         },
         {
           "server-name": "FOX",
