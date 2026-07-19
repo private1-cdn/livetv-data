@@ -72,6 +72,10 @@ export const liveevent = [
           "stream-url": "https://pull.niues.live/live/stream-256080_lhd.m3u8?auth_key=1783820964-0-0-d412e1d13934e02fb2f310bf032242ef"
         },
         {
+          "server-name": "Somoy TV",
+          "stream-url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        },
+        {
           "server-name": "FOX",
           "mpd-stream-url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
           "keyid": "f6564ec2aee819046328a0e153be574d",
