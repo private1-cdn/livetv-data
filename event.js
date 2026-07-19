@@ -45,6 +45,10 @@ export const liveevent = [
         },
         {
           "server-name": "Unite8 Sports 2",
+          "stream-url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8"
+        },
+        {
+          "server-name": "Unite8 Sports 2",
           "stream-url": "https://media.amarnet.net/Unite8/tracks-v1a1/mono.m3u8"
         },
         {
