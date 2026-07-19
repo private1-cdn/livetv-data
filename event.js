@@ -36,6 +36,10 @@ export const liveevent = [
       ],
       "servers": [
         {
+          "server-name": "TUDN",
+          "stream-url": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8"
+        },
+        {
           "server-name": "Mundial",
           "stream-url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8"
         },
