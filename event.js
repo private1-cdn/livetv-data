@@ -6,7 +6,7 @@ export const liveevent = [
       "title": "Testing",
       "match-icon": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
       "message": "আমার সোনার বাংলা, আমি তোমায় ভালোবাসি। আমার সোনার বাংলা, আমি তোমায় ভালোবাসি। আমার সোনার বাংলা, আমি তোমায় ভালোবাসি।",
-      "status": "Finished",
+      "status": "",
       "start-in": "01:00 AM | 16-07-2026",
       "end-in": "",
       "team": [
